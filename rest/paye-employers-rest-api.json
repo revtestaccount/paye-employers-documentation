@@ -2,7 +2,7 @@
   "swagger" : "2.0",
   "info" : {
     "description" : "REST API to enable employers to request Revenue Payroll Notification (RPN) details and to submit details of payroll runs.",
-    "version" : "1.0 Milestone 1",
+    "version" : "1.0 Milestone 2",
     "title" : "PAYE Employers REST API",
     "termsOfService" : "",
     "contact" : {
@@ -1106,7 +1106,7 @@
         },
         "prsiExemptionReason" : {
           "type" : "string",
-          "description" : "Data Item Ref: 30. Reason for the PRSI Exemption in Ireland. This is Mandatory if PRSI exempt. Options include A1PortableDocument (A1 Portable Document from EU Member State), CertificateOfCoverage (Certificate of coverage under Social Security Bilateral Agreement), PostedWorkerOtherNotification (Other notification of exemption for posted workers), FamilyMember (Employment of certain family members), Under16 (Under 16 years of age), SocialWelfareScheme (Employment on certain social welfare schemes).",
+          "description" : "Data Item Ref: 30. Reason for the PRSI Exemption in Ireland. This is Mandatory if PRSI exempt. Options include A1PortableDocument (A1 Portable Document from EU Member State), CertificateOfCoverage (Certificate of coverage under Social Security Bilateral Agreement), PostedWorkerOtherNotification (Other notification of exemption for posted workers), FamilyMember (Employment of certain family members), Under16 (Under 16 years of age), SocialWelfareScheme (Employment on certain social welfare schemes), Other.",
           "enum" : [ "A_1_PORTABLE_DOCUMENT", "CERTIFICATE_OF_COVERAGE", "POSTED_WORKER_OTHER_NOTIFICATION", "FAMILY_MEMBER", "UNDER_16", "SOCIAL_WELFARE_SCHEME", "OTHER" ]
         },
         "prsiClassDetails" : {
