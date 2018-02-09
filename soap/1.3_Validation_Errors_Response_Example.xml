@@ -21,7 +21,7 @@ ii. Document updated on 09/02/2018:
 			<rat:EmployerRegistrationNumber>3980609P</rat:EmployerRegistrationNumber>
 			<rat:TaxYear>2019</rat:TaxYear>
 			<rat:TotalRPNCount>1</rat:TotalRPNCount>
-			<rat:DateTimeEffective>2019-01-29</rat:DateTimeEffective>
+			<rat:DateTimeEffective>2019-01-29T11:58:02.000+00:00</rat:DateTimeEffective>
 			<rat:RPN>
 				<rat:RPNNumber>5</rat:RPNNumber>
 				<rat:EmployeeID>
