@@ -112,6 +112,7 @@
                                         </div>
                                             <div class="card"
                                                 data-ng-repeat="document in data.cards track by $index" style="font-size: 1.2rem; margin-bottom: 1rem;">
+                                                <div class="col-sm-12" data-ng-if="cardText"></div>
                                                 <div class="col-sm-5 col-xs-5 col-xxs-5">
                                                     <a data-ng-href="{{document.link}}" target="_blank" data-ng-click="vm.sendData([document.category, document.description])">{{document.description}}</a>
                                                 </div>
