@@ -21,13 +21,15 @@
 <link href="web-resources/css/site.css" rel="stylesheet">
 <link href="web-resources/css/myDocs.css" rel="stylesheet">
 <link href="web-resources/css/angular-cookie-law.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
 <script
     src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
 <script
 	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
 <script src="web-resources/angular-cookie-law.min.js"></script>
+<script src="web-resources/ngclipboard.min.js"></script>
 <script>
-        angular.module('documentation', ['angular-cookie-law', 'ngSanitize']);
+        angular.module('documentation', ['angular-cookie-law', 'ngclipboard', 'ngSanitize']);
         angular.module('documentation').controller('DocumentationController', ['$http', '$sce', function($http, $sce) {
             var vm = this;
 			vm.success = false;
@@ -36,6 +38,23 @@
                 vm.data = data.data;
             })
             vm.sendData = sendData;
+			
+			vm.onSuccess = onSuccess;
+			vm.onError = onError;
+			vm.trustAsHtml = $sce.trustAsHtml
+			function onSuccess(e) {
+				vm.successText = "Copy succeeded :)"
+				vm.success = true;
+				vm.error = false;
+				e.clearSelection();
+			};
+
+			function onError (e) {
+				vm.errorText = "Copy failed :("
+				vm.success = false;
+				vm.error = true;
+			}
+				
         }]);
         
         function sendData(params) {
@@ -50,6 +69,9 @@
         , #eee);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+ul {
+  padding-left: 3em;
 }
 </style>
 
