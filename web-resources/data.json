@@ -55,6 +55,15 @@
 				"category": "LINK"
 			},
 			{
+				"link": "Screens/PITSelfServiceGuide.pdf",
+				"description": "PIT Self Service Application Guide",
+				"anchor": "PITSelfServiceGuide",
+				"type": "PDF",
+				"version": "1.0 Milestone 2",
+				"dateLastUpdated": "29/03/2018",
+				"category": "download"
+			},
+			{
 				"link": "Screens/ROS_Payroll_Reporting_Message_guide.pdf",
 				"description": "ROS Payroll Reporting Message guide",
 				"anchor": "ROS_Payroll_Reporting_Message_guide",
@@ -82,9 +91,9 @@
 				"category": "download"
 			},
 			{
-				"link": "Screens/RPN_Request_CSV_File_Return.pdf",
-				"description": "RPN Request CSV File Return",
-				"anchor": "RPN_Request_CSV_File_Return",
+				"link": "Screens/RPN_Request_CSV_File_Response.pdf",
+				"description": "RPN Request CSV File Response",
+				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
 				"version": "1.0 Milestone 2",
 				"dateLastUpdated": "29/03/2018",
@@ -94,6 +103,15 @@
 				"link": "Screens/CSV_RPNFormat.csv",
 				"description": "RPN CSV Format",
 				"anchor": "RPN_Format_CSV",
+				"type": "CSV",
+				"version": "1.0 Milestone 2",
+				"dateLastUpdated": "29/03/2018",
+				"category": "download"
+			},
+			{
+				"link": "Screens/RPN_CSV_Example.csv",
+				"description": "RPN CSV Example",
+				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
 				"version": "1.0 Milestone 2",
 				"dateLastUpdated": "29/03/2018",
