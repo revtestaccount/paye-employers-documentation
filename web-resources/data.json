@@ -98,15 +98,6 @@
 				"version": "1.0 Milestone 2",
 				"dateLastUpdated": "29/03/2018",
 				"category": "download"
-			},
-			{
-				"link": "Screens/RPN_CSV_Example.csv",
-				"description": "RPN CSV Example",
-				"anchor": "RPN_CSV_Example",
-				"type": "CSV",
-				"version": "1.0 Milestone 2",
-				"dateLastUpdated": "29/03/2018",
-				"category": "download"
 			}
 			]
 	},
