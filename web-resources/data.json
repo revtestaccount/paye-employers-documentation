@@ -64,6 +64,15 @@
 				"category": "download"
 			},
 			{
+				"link": "Screens/Overview_of_ROS_Payroll_Reporting.pdf",
+				"description": "Overview of ROS Payroll Reporting",
+				"anchor": "Overview_of_ROS_Payroll_Reporting",
+				"type": "PDF",
+				"version": "1.0 Milestone 2",
+				"dateLastUpdated": "05/04/2018",
+				"category": "download"
+			},
+			{
 				"link": "Screens/ROS_Payroll_Reporting_Message_guide.pdf",
 				"description": "ROS Payroll Reporting Message guide",
 				"anchor": "ROS_Payroll_Reporting_Message_guide",
