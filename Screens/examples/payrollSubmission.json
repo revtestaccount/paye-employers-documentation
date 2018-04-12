@@ -31,9 +31,7 @@
 			  "taxRates": [
 				{
 				  "index": 1,
-				  "taxRatePercent": 0.0,
-				  "rateCutOff": 2505.84,
-				  "yearlyRateCutOff": 0.0
+				  "rateCutOff": 2505.84
 				}
 			  ],
 			  "incomeTaxCalculationBasis": "CUMULATIVE",
