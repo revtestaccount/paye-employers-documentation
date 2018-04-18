@@ -1,12 +1,4 @@
 {
-	"requestType": "payrollSubmission",
-	"employerRegistrationNumber": "1234567T",
-	"taxYear": 2018,
-	"softwareUsed": "PayrollSoftware",
-	"softwareVersion": "1.234",
-	"payrollRunReference": "123456-1234567T-w5",
-	"submissionID": "12345-1234567T-01-w9",
-	"requestBody": {
 		  "payslips": [
             {
 			  "lineItemID": "lineItem1",
@@ -73,5 +65,5 @@
 			  "lineItem": ""
 			}
 		  ]
-  	}
+
 }

@@ -65,8 +65,8 @@
 			},
 			{
 				"link": "Screens/Overview_of_ROS_Payroll_Reporting.pdf",
-				"description": "Overview of ROS Payroll Reporting",
-				"anchor": "Overview_of_ROS_Payroll_Reporting",
+				"description": "ROS Payroll Reporting Application",
+				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
 				"version": "1.0 Milestone 2",
 				"dateLastUpdated": "05/04/2018",
