@@ -310,6 +310,15 @@
 			"category": "download"
 		},
 		{
+			"link": "examples/Scenarios/Scenarios.pdf",
+			"description": "Payroll Scenarios",
+			"anchor": "Scenarios_Document",
+			"type": "PDF",
+			"version": "1.0 Milestone 2",
+			"dateLastUpdated": "20/04/2018",
+			"category": "download"
+		},
+		{
 			"link": "examples/Example_1 Full_PAYE_Modernisation_Life_Cycle.zip",
 			"description": "Example 1: Full PAYE Modernisation Life Cycle",
 			"anchor": "Example_1",
@@ -388,6 +397,28 @@
 			"type": "ZIP File",
 			"version": "1.0 Milestone 2",
 			"dateLastUpdated": "26/02/2018",
+			"category": "download"
+		},
+		{
+			"link": "examples/Scenarios/XML.zip",
+			"description": "Additional Example Scenarios",
+			"explainer": "This ZIP file contains 30 diverse XML examples of payroll scenarios",
+			"explainerIndex": "2",
+			"anchor": "Scenarios",
+			"type": "ZIP File",
+			"version": "1.0 Milestone 2",
+			"dateLastUpdated": "20/04/2018",
+			"category": "download"
+		},
+		{
+			"link": "examples/Scenarios/JSON.zip",
+			"description": "Additional Example Scenarios",
+			"explainer": "This ZIP file contains 30 diverse JSON examples of payroll scenarios",
+			"explainerIndex": "3",
+			"anchor": "Scenarios",
+			"type": "ZIP File",
+			"version": "1.0 Milestone 2",
+			"dateLastUpdated": "20/04/2018",
 			"category": "download"
 		}]
 	},
