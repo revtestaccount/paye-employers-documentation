@@ -401,7 +401,7 @@
 		},
 		{
 			"link": "Scenarios/XML.zip",
-			"description": "Additional Example Scenarios",
+			"description": "Additional Example Scenarios - XML",
 			"explainer": "This ZIP file contains 30 diverse XML examples of payroll scenarios",
 			"explainerIndex": "2",
 			"anchor": "Scenarios",
@@ -412,7 +412,7 @@
 		},
 		{
 			"link": "Scenarios/JSON.zip",
-			"description": "Additional Example Scenarios",
+			"description": "Additional Example Scenarios - JSON",
 			"explainer": "This ZIP file contains 30 diverse JSON examples of payroll scenarios",
 			"explainerIndex": "3",
 			"anchor": "Scenarios",

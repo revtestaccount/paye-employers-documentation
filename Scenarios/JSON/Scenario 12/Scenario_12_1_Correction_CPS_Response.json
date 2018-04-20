@@ -1,0 +1,24 @@
+{
+    "submissionID": "Submission_00002",
+    "status": "COMPLETED",
+    "submissionSummary": {
+        "taxOnIncome": 0,
+        "prsi": 0,
+        "usc": 0,
+        "lpt": 0,
+        "payslipCount": 1,
+        "payslipToDeleteCount": 1
+    },
+    "payslipWarnings": [
+        {
+            "lineItemID": "LineItem-XYZ-Correction",
+            "warnings": [
+                {
+                    "code": "2044",
+                    "path": "rpnNumber",
+                    "description": "Warning: Out-of-date RPN used."
+                }
+            ]
+        }
+    ]
+}
