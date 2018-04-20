@@ -310,7 +310,7 @@
 			"category": "download"
 		},
 		{
-			"link": "examples/Scenarios/Scenarios.pdf",
+			"link": "Scenarios/Scenarios.pdf",
 			"description": "Payroll Scenarios",
 			"anchor": "Scenarios_Document",
 			"type": "PDF",
@@ -400,7 +400,7 @@
 			"category": "download"
 		},
 		{
-			"link": "examples/Scenarios/XML.zip",
+			"link": "Scenarios/XML.zip",
 			"description": "Additional Example Scenarios",
 			"explainer": "This ZIP file contains 30 diverse XML examples of payroll scenarios",
 			"explainerIndex": "2",
@@ -411,7 +411,7 @@
 			"category": "download"
 		},
 		{
-			"link": "examples/Scenarios/JSON.zip",
+			"link": "Scenarios/JSON.zip",
 			"description": "Additional Example Scenarios",
 			"explainer": "This ZIP file contains 30 diverse JSON examples of payroll scenarios",
 			"explainerIndex": "3",
