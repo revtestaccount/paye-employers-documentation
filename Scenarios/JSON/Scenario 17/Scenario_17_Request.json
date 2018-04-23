@@ -24,7 +24,7 @@
 		"prsiExempt": false,
 		"prsiClassDetails": [{
 			"prsiClass": "A1",
-			"insurableWeeks": 45
+			"insurableWeeks": 0
 		}],
 		"employeePRSIPaid": 0.00,
 		"employerPRSIPaid": 0.00,
