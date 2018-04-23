@@ -16,11 +16,11 @@
       "rpnNumber": "3",
       "exclusionOrder": false,
       "payDate": "2018-02-15",
-      "grossPay": 2000.00,
-      "payForIncomeTax": 2000.00,
-      "incomeTaxPaid": 200.00,
-      "payForEmployeePRSI": 2000.00,
-      "payForEmployerPRSI": 2000.00,
+      "grossPay": 400.00,
+      "payForIncomeTax": 400.00,
+      "incomeTaxPaid": 20.00,
+      "payForEmployeePRSI": 400.00,
+      "payForEmployerPRSI": 400.00,
       "prsiExempt": false,
       "prsiClassDetails": [
         {
@@ -28,11 +28,11 @@
           "insurableWeeks": 1
         }
       ],
-      "employeePRSIPaid": 200.00,
-      "employerPRSIPaid": 200.00,
-      "payForUSC": 2000.00,
+      "employeePRSIPaid": 20.00,
+      "employerPRSIPaid": 20.00,
+      "payForUSC": 400.00,
       "uscStatus": "ORDINARY",
-      "uscPaid": 160.00,
+      "uscPaid": 16.00,
       "lptDeducted": 0.00,
       "grossMedicalInsurance": 0.00,
       "shareBasedRemuneration": 0.00,

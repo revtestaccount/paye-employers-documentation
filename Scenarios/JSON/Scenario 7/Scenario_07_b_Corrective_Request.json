@@ -25,11 +25,11 @@
       "prsiClassDetails": [
         {
           "prsiClass": "A1",
-          "insurableWeeks": -4
+          "insurableWeeks": -3
         },
         {
           "prsiClass": "J1",
-          "insurableWeeks": 8
+          "insurableWeeks": 3
         }
       ],
       "employeePRSIPaid": -200.00,
