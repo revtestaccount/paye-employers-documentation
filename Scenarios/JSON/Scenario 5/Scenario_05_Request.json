@@ -16,6 +16,7 @@
       "rpnNumber": "3",
       "exclusionOrder": false,
       "payDate": "2018-01-16",
+	  "leaveDate": "2018-01-02"
       "grossPay": -100.00,
       "payForIncomeTax": -100.00,
       "incomeTaxPaid": -20.00,
@@ -25,7 +26,7 @@
       "prsiClassDetails": [
         {
           "prsiClass": "A1",
-          "insurableWeeks": 53
+          "insurableWeeks": 0.00
         }
       ],
       "employeePRSIPaid": -20.00,

@@ -20,8 +20,8 @@
       "grossPay": 3000.00,
       "payForIncomeTax": 3000.00,
       "incomeTaxPaid": 400.00,
-      "payForEmployeePRSI": 0.00,
-      "payForEmployerPRSI": 0.00,
+      "payForEmployeePRSI": 3000.00,
+      "payForEmployerPRSI": 3000.00,
       "prsiExempt": false,
       "prsiClassDetails": [
         {

@@ -310,15 +310,6 @@
 			"category": "download"
 		},
 		{
-			"link": "Scenarios/Scenarios.pdf",
-			"description": "Payroll Scenarios",
-			"anchor": "Scenarios_Document",
-			"type": "PDF",
-			"version": "1.0 Milestone 2",
-			"dateLastUpdated": "20/04/2018",
-			"category": "download"
-		},
-		{
 			"link": "examples/Example_1 Full_PAYE_Modernisation_Life_Cycle.zip",
 			"description": "Example 1: Full PAYE Modernisation Life Cycle",
 			"anchor": "Example_1",
@@ -397,6 +388,16 @@
 			"type": "ZIP File",
 			"version": "1.0 Milestone 2",
 			"dateLastUpdated": "26/02/2018",
+			"sub_heading" : "Additional Payroll Scenarios",
+			"category": "download"
+		},
+		{
+			"link": "Scenarios/Scenarios.pdf",
+			"description": "Payroll Scenarios",
+			"anchor": "Scenarios_Document",
+			"type": "PDF",
+			"version": "1.0 Milestone 2",
+			"dateLastUpdated": "20/04/2018",
 			"category": "download"
 		},
 		{

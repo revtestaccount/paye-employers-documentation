@@ -30,6 +30,7 @@
 		<RPNNumber>9</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
 		<PayDate>2018-04-01</PayDate>
+		<LeaveDate>2018-03-22</LeaveDate>
 		<GrossPay>-100.00</GrossPay>
 		<PayForIncomeTax>-100.00</PayForIncomeTax>
 		<IncomeTaxPaid>-20.00</IncomeTaxPaid>
@@ -38,7 +39,7 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>0</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>-20.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>-20.00</EmployerPRSIPaid>

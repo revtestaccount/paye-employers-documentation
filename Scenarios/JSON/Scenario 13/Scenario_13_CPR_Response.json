@@ -1,17 +1,17 @@
 {
     "status": "PROCESSED",
-    "taxOnIncome": 0,
-    "prsi": 0,
-    "usc": 0,
+    "taxOnIncome": 300.00,
+    "prsi": 150.00,
+    "usc": 200.00,
     "lpt": 0,
     "submissions": [
         {
             "submissionID": "Submission_00001",
             "status": "COMPLETED",
             "submissionSummary": {
-                "taxOnIncome": 0,
-                "prsi": 0,
-                "usc": 0,
+                "taxOnIncome": 300.00,
+                "prsi": 150.00,
+                "usc": 200.00,
                 "lpt": 0,
                 "payslipCount": 1,
                 "payslipToDeleteCount": 0
@@ -25,9 +25,9 @@
                 "employeePpsn": "01070390T",
                 "employmentID": "1"
             },
-            "taxOnIncome": 0,
-            "prsi": 0,
-            "usc": 0,
+            "taxOnIncome": 300.00,
+            "prsi": 150.00,
+            "usc": 200.00,
             "lpt": 0
         }
     ]

@@ -32,8 +32,8 @@
           "insurableWeeks": 8
         }
       ],
-      "employeePRSIPaid": 200.00,
-      "employerPRSIPaid": 200.00,
+      "employeePRSIPaid": -200.00,
+      "employerPRSIPaid": -200.00,
       "payForUSC": 3000.00,
       "uscStatus": "ORDINARY",
       "uscPaid": 240.00,
