@@ -11,7 +11,7 @@
         "familyName": "Tester"
       },
       "shadowPayroll": false,
-      "payFrequency": "MONTHLY",
+      "payFrequency": "WEEKLY",
       "numberOfPayPeriods": 52,
       "rpnNumber": "3",
       "exclusionOrder": false,

@@ -10,8 +10,8 @@
         "firstName": "Sara",
         "familyName": "Tester"
       },
-      "startDate": "2020-01-01",
-      "leaveDate": "2020-01-02",
+      "startDate": "2020-01-15",
+      "leaveDate": "2020-01-15",
       "shadowPayroll": false,
       "payFrequency": "MONTHLY",
       "numberOfPayPeriods": 13,
