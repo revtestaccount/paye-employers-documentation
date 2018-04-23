@@ -26,8 +26,8 @@
 			<FirstName>Sara</FirstName>
 			<FamilyName>Tester</FamilyName>
 		</Name>
-		<StartDate>2020-01-01</StartDate>
-		<LeaveDate>2020-01-02</LeaveDate>
+		<StartDate>2020-01-15</StartDate>
+		<LeaveDate>2020-01-15</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
 		<PayFrequency>Monthly</PayFrequency>
 		<NumberOfPayPeriods>13</NumberOfPayPeriods>
