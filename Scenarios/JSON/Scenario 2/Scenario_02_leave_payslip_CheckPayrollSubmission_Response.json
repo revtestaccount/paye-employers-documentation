@@ -2,7 +2,7 @@
     "submissionID": "Submission_00001",
     "status": "COMPLETED",
     "submissionSummary": {
-        "taxOnIncome": 500,
+        "taxOnIncome": 200,
         "prsi": 640,
         "usc": 320,
         "lpt": 10,

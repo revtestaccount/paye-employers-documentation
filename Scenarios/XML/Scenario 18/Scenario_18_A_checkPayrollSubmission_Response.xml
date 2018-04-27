@@ -6,7 +6,7 @@
          <ns2:Status>Completed</ns2:Status>
          <ns2:SubmissionHeader>
             <ns2:EmployerRegistrationNumber>8000074DH</ns2:EmployerRegistrationNumber>
-            <ns2:PayrollRunReference>Payroll-Run-Reference-1</ns2:PayrollRunReference>
+            <ns2:PayrollRunReference>Payroll-Run-Reference-18</ns2:PayrollRunReference>
             <ns2:TaxYear>2018</ns2:TaxYear>
             <ns2:SoftwareUsed>
                <ns2:Name>SOAP UI</ns2:Name>
@@ -16,7 +16,7 @@
          <ns2:SubmissionSummary>
             <ns2:TaxOnIncome>-250.00</ns2:TaxOnIncome>
             <ns2:PRSI>-320.00</ns2:PRSI>
-            <ns2:USC>-100.00</ns2:USC>
+            <ns2:USC>-160.00</ns2:USC>
             <ns2:LPT>0.00</ns2:LPT>
             <ns2:PayslipCount>1</ns2:PayslipCount>
             <ns2:PayslipToDeleteCount>0</ns2:PayslipToDeleteCount>

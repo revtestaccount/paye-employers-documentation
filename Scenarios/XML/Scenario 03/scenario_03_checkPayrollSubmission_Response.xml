@@ -15,7 +15,7 @@
          </ns2:SubmissionHeader>
          <ns2:SubmissionSummary>
             <ns2:TaxOnIncome>0.00</ns2:TaxOnIncome>
-            <ns2:PRSI>120.00</ns2:PRSI>
+            <ns2:PRSI>240.00</ns2:PRSI>
             <ns2:USC>0.00</ns2:USC>
             <ns2:LPT>0.00</ns2:LPT>
             <ns2:PayslipCount>1</ns2:PayslipCount>

@@ -26,10 +26,10 @@
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
 		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-19</PayDate>
+		<PayDate>2018-02-15</PayDate>
 		<GrossPay>400.00</GrossPay>
 		<PayForIncomeTax>400.00</PayForIncomeTax>
 		<IncomeTaxPaid>20.00</IncomeTaxPaid>

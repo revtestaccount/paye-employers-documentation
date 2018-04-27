@@ -3,7 +3,7 @@
     "status": "COMPLETED",
     "submissionSummary": {
         "taxOnIncome": 189,
-        "prsi": 0,
+        "prsi": -40,
         "usc": 240,
         "lpt": 100,
         "payslipCount": 1,

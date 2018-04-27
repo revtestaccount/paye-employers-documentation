@@ -15,7 +15,7 @@
 		</SoftwareUsed>
 	</Header>
 	<Payslip>
-		<LineItemID>LineItem-XYZ-Correction</LineItemID>
+		<LineItemID>Correction</LineItemID>
 		<PreviousLineItemID>LineItem-XYZ</PreviousLineItemID>
 		<EmployeeID>
 			<EmployeePPSN>01234567T</EmployeePPSN>
@@ -30,12 +30,12 @@
 		<NumberOfPayPeriods>13</NumberOfPayPeriods>
 		<RPNNumber>9</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-06-20</PayDate>
+		<PayDate>2018-07-20</PayDate>
 		<GrossPay>3000.00</GrossPay>
 		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<IncomeTaxPaid>400.00</IncomeTaxPaid>
+		<PayForEmployeePRSI>0.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>0.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
@@ -45,11 +45,11 @@
 			<PRSIClass>J1</PRSIClass>
 			<InsurableWeeks>3</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
+		<EmployeePRSIPaid>-200.00</EmployeePRSIPaid>
+		<EmployerPRSIPaid>-200.00</EmployerPRSIPaid>
+		<PayForUSC>3000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>100.00</USCPaid>
+		<USCPaid>240.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
 		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>

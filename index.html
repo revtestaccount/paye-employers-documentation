@@ -141,6 +141,7 @@ ul {
                                             </div>
 											<div
                                                 data-ng-repeat="document in data.cards track by $index">
+                                                <div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="document.sub_hedaing" ng-bind-html="vm.generateHTML(document)"></div>
 												<i>
 													<div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="document.explainer" ng-bind-html="vm.generateHTML(document)"></div>
 												</i>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PayrollSubmissionRequest xmlns="http://www.ros.ie/schemas/paye-employers/v1/payroll/">
-	<SubmissionID>Submission-1</SubmissionID>
+	<SubmissionID>Submission-22</SubmissionID>
 	<BatchReference>
 		<Index>1</Index>
 		<Count>1</Count>
 	</BatchReference>
 	<Header>
-		<EmployerRegistrationNumber>09876543E</EmployerRegistrationNumber>
-		<PayrollRunReference>Payroll-Run-Reference-1</PayrollRunReference>
+		<EmployerRegistrationNumber>8000075FH</EmployerRegistrationNumber>
+		<PayrollRunReference>Payroll-Run-Reference-22</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
 			<Name>SOAP UI</Name>
@@ -25,11 +25,11 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>WEEKLY</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>1</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
+		<PayDate>2018-04-29</PayDate>
 		<GrossPay>600.00</GrossPay>
 		<PayForIncomeTax>600.00</PayForIncomeTax>
 		<IncomeTaxPaid>150.00</IncomeTaxPaid>
@@ -38,12 +38,12 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>12</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>24.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>48.00</EmployerPRSIPaid>
+		<EmployerPRSIPaid>24.00</EmployerPRSIPaid>
 		<PayForUSC>600.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
+		<USCStatus>ORDINARY</USCStatus>
 		<USCPaid>48.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>

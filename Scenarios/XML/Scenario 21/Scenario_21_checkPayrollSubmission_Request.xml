@@ -9,7 +9,7 @@
             <pay:Name>SOAP UI</pay:Name>
             <pay:Version>5.4.0</pay:Version>
          </pay:SoftwareUsed>
-         <pay:PayrollRunReference>Payroll-Run-Reference-1</pay:PayrollRunReference>
+         <pay:PayrollRunReference>Payroll-Run-Reference-21</pay:PayrollRunReference>
          <pay:SubmissionID>Submission-21</pay:SubmissionID>
       </pay:CheckPayrollSubmissionRequest>
    </soap:Body>

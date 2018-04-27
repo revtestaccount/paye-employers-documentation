@@ -25,39 +25,39 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-01-15</PayDate>
+		<PayDate>2018-04-11</PayDate>
 		<GrossPay>5000.00</GrossPay>
 		<PayForIncomeTax>5000.00</PayForIncomeTax>
-		<IncomeTaxPaid>1500.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>5000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>5000.00</PayForEmployerPRSI>
+		<IncomeTaxPaid>400.65</IncomeTaxPaid>
+		<PayForEmployeePRSI>0.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>0.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>4</InsurableWeeks>
+			<InsurableWeeks>1</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>200.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>400.00</EmployerPRSIPaid>
+		<EmployeePRSIPaid>240.33</EmployeePRSIPaid>
+		<EmployerPRSIPaid>240.11</EmployerPRSIPaid>
 		<PayForUSC>5000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>400.00</USCPaid>
-		<LPTDeducted>0.00</LPTDeducted>
-		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
-		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>
-		<TaxableBenefits>0.00</TaxableBenefits>
-		<TaxableLumpSum>0.00</TaxableLumpSum>
-		<NonTaxableLumpSum>0.00</NonTaxableLumpSum>
+		<USCPaid>240.00</USCPaid>
+		<LPTDeducted>100.00</LPTDeducted>
+		<GrossMedicalInsurance>100.00</GrossMedicalInsurance>
+		<ShareBasedRemuneration>100.00</ShareBasedRemuneration>
+		<TaxableBenefits>100.00</TaxableBenefits>
+		<TaxableLumpSum>100.00</TaxableLumpSum>
+		<NonTaxableLumpSum>100.00</NonTaxableLumpSum>
 		<PensionTracingNumber>PB123456</PensionTracingNumber>
-		<EmployerRBS>0.00</EmployerRBS>
-		<EmployeeRBS>0.00</EmployeeRBS>
-		<EmployerPRSA>0.00</EmployerPRSA>
-		<EmployeePRSA>0.00</EmployeePRSA>
-		<EmployeeRAC>0.00</EmployeeRAC>
-		<EmployeeAVC>0.00</EmployeeAVC>
+		<EmployerRBS>500.00</EmployerRBS>
+		<EmployeeRBS>500.00</EmployeeRBS>
+		<EmployerPRSA>500.00</EmployerPRSA>
+		<EmployeePRSA>500.00</EmployeePRSA>
+		<EmployeeRAC>500.00</EmployeeRAC>
+		<EmployeeAVC>500.00</EmployeeAVC>
 	</Payslip>
 </PayrollSubmissionRequest>
 

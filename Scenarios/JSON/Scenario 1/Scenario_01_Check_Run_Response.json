@@ -1,7 +1,7 @@
 {
     "status": "PROCESSED",
-    "taxOnIncome": 200,
-    "prsi": 200,
+    "taxOnIncome": 400,
+    "prsi": 480,
     "usc": 240,
     "lpt": 0,
     "submissions": [
@@ -10,7 +10,7 @@
             "status": "COMPLETED",
             "submissionSummary": {
                 "taxOnIncome": 200,
-                "prsi": 200,
+                "prsi": 480,
                 "usc": 240,
                 "lpt": 0,
                 "payslipCount": 1,
@@ -26,7 +26,7 @@
                 "employmentID": "1"
             },
             "taxOnIncome": 200,
-            "prsi": 200,
+            "prsi": 480,
             "usc": 240
         }
     ]

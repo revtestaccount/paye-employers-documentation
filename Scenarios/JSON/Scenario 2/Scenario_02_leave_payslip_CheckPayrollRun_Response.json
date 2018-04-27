@@ -1,6 +1,6 @@
 {
     "status": "PROCESSED",
-    "taxOnIncome": 500,
+    "taxOnIncome": 200,
     "prsi": 640,
     "usc": 320,
     "lpt": 10,
@@ -9,7 +9,7 @@
             "submissionID": "Submission_00001",
             "status": "COMPLETED",
             "submissionSummary": {
-                "taxOnIncome": 500,
+                "taxOnIncome": 200,
                 "prsi": 640,
                 "usc": 320,
                 "lpt": 10,
@@ -36,7 +36,7 @@
                 "employeePpsn": "01074096Q",
                 "employmentID": "1"
             },
-            "taxOnIncome": 400,
+            "taxOnIncome": 100,
             "prsi": 480,
             "usc": 240,
             "lpt": 10

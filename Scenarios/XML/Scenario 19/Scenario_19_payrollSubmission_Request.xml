@@ -7,7 +7,7 @@
 	</BatchReference>
 	<Header>
 		<EmployerRegistrationNumber>8000074DH</EmployerRegistrationNumber>
-		<PayrollRunReference>Payroll-Run-Reference-1</PayrollRunReference>
+		<PayrollRunReference>Payroll-Run-Reference-19</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
 			<Name>SOAP UI</Name>
@@ -25,25 +25,25 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>MONTHLY</PayFrequency>
+		<NumberOfPayPeriods>12</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
-		<GrossPay>3000.00</GrossPay>
-		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<PayDate>2018-04-15</PayDate>
+		<GrossPay>2400.00</GrossPay>
+		<PayForIncomeTax>2400.00</PayForIncomeTax>
+		<IncomeTaxPaid>500.00</IncomeTaxPaid>
+		<PayForEmployeePRSI>2400.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>2400.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>12</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
+		<EmployeePRSIPaid>240.00</EmployeePRSIPaid>
+		<EmployerPRSIPaid>240.00</EmployerPRSIPaid>
+		<PayForUSC>2400.00</PayForUSC>
+		<USCStatus>ORDINARY</USCStatus>
 		<USCPaid>100.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
@@ -69,24 +69,68 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>MONTHLY</PayFrequency>
+		<NumberOfPayPeriods>12</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-15</PayDate>
-		<GrossPay>3000.00</GrossPay>
-		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<PayDate>2018-04-30</PayDate>
+		<GrossPay>2400.00</GrossPay>
+		<PayForIncomeTax>2400.00</PayForIncomeTax>
+		<IncomeTaxPaid>240.00</IncomeTaxPaid>
+		<PayForEmployeePRSI>240.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>240.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>12</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
+		<EmployerPRSIPaid>100.00</EmployerPRSIPaid>
+		<PayForUSC>2400.00</PayForUSC>
+		<USCStatus>Ordinary</USCStatus>
+		<USCPaid>100.00</USCPaid>
+		<LPTDeducted>0.00</LPTDeducted>
+		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
+		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>
+		<TaxableBenefits>0.00</TaxableBenefits>
+		<TaxableLumpSum>0.00</TaxableLumpSum>
+		<NonTaxableLumpSum>0.00</NonTaxableLumpSum>
+		<EmployerRBS>0.00</EmployerRBS>
+		<EmployeeRBS>0.00</EmployeeRBS>
+		<EmployerPRSA>0.00</EmployerPRSA>
+		<EmployeePRSA>0.00</EmployeePRSA>
+		<EmployeeRAC>0.00</EmployeeRAC>
+		<EmployeeAVC>0.00</EmployeeAVC>
+	</Payslip>
+	<Payslip>
+		<LineItemID>LineItem-XYZ-3</LineItemID>
+		<EmployeeID>
+			<EmployeePPSN>3333333VA</EmployeePPSN>
+			<EmploymentID>1</EmploymentID>
+		</EmployeeID>
+		<Name>
+			<FirstName>Other</FirstName>
+			<FamilyName>Tester</FamilyName>
+		</Name>
+		<ShadowPayroll>false</ShadowPayroll>
+		<PayFrequency>MONTHLY</PayFrequency>
+		<NumberOfPayPeriods>12</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
+		<ExclusionOrder>false</ExclusionOrder>
+		<PayDate>2018-04-01</PayDate>
+		<GrossPay>2400.00</GrossPay>
+		<PayForIncomeTax>2400.00</PayForIncomeTax>
+		<IncomeTaxPaid>240.00</IncomeTaxPaid>
+		<PayForEmployeePRSI>240.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>240.00</PayForEmployerPRSI>
+		<PRSIExempt>false</PRSIExempt>
+		<PRSIClassDetail>
+			<PRSIClass>A1</PRSIClass>
+			<InsurableWeeks>12</InsurableWeeks>
+		</PRSIClassDetail>
+		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
+		<EmployerPRSIPaid>100.00</EmployerPRSIPaid>
+		<PayForUSC>2400.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
 		<USCPaid>100.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>

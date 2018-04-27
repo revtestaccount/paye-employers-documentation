@@ -14,10 +14,10 @@
             </ns2:SoftwareUsed>
          </ns2:SubmissionHeader>
          <ns2:SubmissionSummary>
-            <ns2:TaxOnIncome>700.00</ns2:TaxOnIncome>
-            <ns2:PRSI>300.00</ns2:PRSI>
-            <ns2:USC>100.00</ns2:USC>
-            <ns2:LPT>0.00</ns2:LPT>
+            <ns2:TaxOnIncome>189.00</ns2:TaxOnIncome>
+            <ns2:PRSI>40.00</ns2:PRSI>
+            <ns2:USC>1000.00</ns2:USC>
+            <ns2:LPT>100.00</ns2:LPT>
             <ns2:PayslipCount>1</ns2:PayslipCount>
             <ns2:PayslipToDeleteCount>0</ns2:PayslipToDeleteCount>
          </ns2:SubmissionSummary>

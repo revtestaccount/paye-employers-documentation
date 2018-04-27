@@ -16,8 +16,8 @@
          <ns2:SubmissionSummary>
             <ns2:TaxOnIncome>189.00</ns2:TaxOnIncome>
             <ns2:PRSI>-40.00</ns2:PRSI>
-            <ns2:USC>80.00</ns2:USC>
-            <ns2:LPT>0.00</ns2:LPT>
+            <ns2:USC>240.00</ns2:USC>
+            <ns2:LPT>100.00</ns2:LPT>
             <ns2:PayslipCount>1</ns2:PayslipCount>
             <ns2:PayslipToDeleteCount>0</ns2:PayslipToDeleteCount>
          </ns2:SubmissionSummary>

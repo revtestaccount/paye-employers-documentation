@@ -24,13 +24,13 @@
 			<FirstName>Sara</FirstName>
 			<FamilyName>Tester</FamilyName>
 		</Name>
-		<StartDate>2018-04-01</StartDate>
+		<StartDate>2018-01-01</StartDate>
 		<ShadowPayroll>true</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>53</NumberOfPayPeriods>
+		<RPNNumber>1</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-20</PayDate>
+		<PayDate>2018-01-31</PayDate>
 		<GrossPay>0.00</GrossPay>
 		<PayForIncomeTax>0.00</PayForIncomeTax>
 		<IncomeTaxPaid>0.00</IncomeTaxPaid>
@@ -39,12 +39,12 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>4</InsurableWeeks>
+			<InsurableWeeks>1</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>120.00</EmployeePRSIPaid>
+		<EmployeePRSIPaid>240.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>0.00</EmployerPRSIPaid>
 		<PayForUSC>0.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
+		<USCStatus>Exempt</USCStatus>
 		<USCPaid>0.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>

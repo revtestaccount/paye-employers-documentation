@@ -26,32 +26,32 @@
 		</Name>
 		<LeaveDate>2017-12-31</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
 		<PayDate>2018-01-29</PayDate>
-		<GrossPay>3000.00</GrossPay>
-		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<GrossPay>1600.00</GrossPay>
+		<PayForIncomeTax>1600.00</PayForIncomeTax>
+		<IncomeTaxPaid>400.65</IncomeTaxPaid>
+		<PayForEmployeePRSI>1600.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>1600.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>53</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
+		<EmployeePRSIPaid>240.33</EmployeePRSIPaid>
+		<EmployerPRSIPaid>200.11</EmployerPRSIPaid>
+		<PayForUSC>1600.00/PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>100.00</USCPaid>
-		<LPTDeducted>0.00</LPTDeducted>
-		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
-		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>
-		<TaxableBenefits>0.00</TaxableBenefits>
-		<TaxableLumpSum>0.00</TaxableLumpSum>
-		<NonTaxableLumpSum>0.00</NonTaxableLumpSum>
+		<USCPaid>240.00</USCPaid>
+		<LPTDeducted>10.00</LPTDeducted>
+		<GrossMedicalInsurance>10.00</GrossMedicalInsurance>
+		<ShareBasedRemuneration>10.00</ShareBasedRemuneration>
+		<TaxableBenefits>10.00</TaxableBenefits>
+		<TaxableLumpSum>10.00</TaxableLumpSum>
+		<NonTaxableLumpSum>10.00</NonTaxableLumpSum>
 		<PensionTracingNumber>PB123456</PensionTracingNumber>
 		<EmployerRBS>0.00</EmployerRBS>
 		<EmployeeRBS>0.00</EmployeeRBS>
@@ -72,32 +72,32 @@
 		</Name>
 		<LeaveDate>2017-12-31</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-01-31</PayDate>
-		<GrossPay>3000.00</GrossPay>
-		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<PayDate>2018-01-29</PayDate>
+		<GrossPay>30000.00</GrossPay>
+		<PayForIncomeTax>30000.00</PayForIncomeTax>
+		<IncomeTaxPaid>4000.65</IncomeTaxPaid>
+		<PayForEmployeePRSI>30000.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>30000.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>M</PRSIClass>
-			<InsurableWeeks>1</InsurableWeeks>
+			<InsurableWeeks>53</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
+		<EmployeePRSIPaid>240.33</EmployeePRSIPaid>
+		<EmployerPRSIPaid>240.11</EmployerPRSIPaid>
+		<PayForUSC>3000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>100.00</USCPaid>
-		<LPTDeducted>0.00</LPTDeducted>
-		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
-		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>
-		<TaxableBenefits>0.00</TaxableBenefits>
-		<TaxableLumpSum>0.00</TaxableLumpSum>
-		<NonTaxableLumpSum>0.00</NonTaxableLumpSum>
+		<USCPaid>240.00</USCPaid>
+		<LPTDeducted>100.00</LPTDeducted>
+		<GrossMedicalInsurance>100.00</GrossMedicalInsurance>
+		<ShareBasedRemuneration>100.00</ShareBasedRemuneration>
+		<TaxableBenefits>100.00</TaxableBenefits>
+		<TaxableLumpSum>100.00</TaxableLumpSum>
+		<NonTaxableLumpSum>100.00</NonTaxableLumpSum>
 		<PensionTracingNumber>PB123456</PensionTracingNumber>
 		<EmployerRBS>0.00</EmployerRBS>
 		<EmployeeRBS>0.00</EmployeeRBS>

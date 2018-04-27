@@ -7,7 +7,7 @@
 	</BatchReference>
 	<Header>
 		<EmployerRegistrationNumber>8000074DH</EmployerRegistrationNumber>
-		<PayrollRunReference>Payroll-Run-Reference-1</PayrollRunReference>
+		<PayrollRunReference>Payroll-Run-Reference-17</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
 			<Name>SOAP UI</Name>
@@ -24,13 +24,13 @@
 			<FirstName>Sara</FirstName>
 			<FamilyName>Tester</FamilyName>
 		</Name>
-		<LeaveDate>2017-11-11</LeaveDate>
+		<LeaveDate>2017-12-11</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
+		<PayDate>2018-01-12</PayDate>
 		<GrossPay>0.00</GrossPay>
 		<PayForIncomeTax>0.00</PayForIncomeTax>
 		<IncomeTaxPaid>0.00</IncomeTaxPaid>
@@ -71,11 +71,11 @@
 		</Name>
 		<LeaveDate>2017-12-11</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
+		<PayDate>2018-01-12</PayDate>
 		<GrossPay>0.00</GrossPay>
 		<PayForIncomeTax>0.00</PayForIncomeTax>
 		<IncomeTaxPaid>0.00</IncomeTaxPaid>
@@ -84,12 +84,12 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>0</InsurableWeeks>
+			<InsurableWeeks>45</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>0.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>0.00</EmployerPRSIPaid>
 		<PayForUSC>0.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
+		<USCStatus>EXEMPT</USCStatus>
 		<USCPaid>0.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>

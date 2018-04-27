@@ -7,7 +7,7 @@
 	</BatchReference>
 	<Header>
 		<EmployerRegistrationNumber>8000074DH</EmployerRegistrationNumber>
-		<PayrollRunReference>Payroll-Run-Reference-1</PayrollRunReference>
+		<PayrollRunReference>Payroll-Run-Reference-16</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
 			<Name>SOAP UI</Name>
@@ -28,9 +28,9 @@
 		<ShadowPayroll>false</ShadowPayroll>
 		<PayFrequency>Monthly</PayFrequency>
 		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-01-15</PayDate>
+		<PayDate>2018-04-15</PayDate>
 		<GrossPay>0.00</GrossPay>
 		<PayForIncomeTax>0.00</PayForIncomeTax>
 		<IncomeTaxPaid>0.00</IncomeTaxPaid>
@@ -39,7 +39,7 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>0</InsurableWeeks>
+			<InsurableWeeks>30</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>0.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>0.00</EmployerPRSIPaid>

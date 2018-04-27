@@ -7,7 +7,7 @@
 	</BatchReference>
 	<Header>
 		<EmployerRegistrationNumber>8000074DH</EmployerRegistrationNumber>
-		<PayrollRunReference>Payroll-Run-Reference-1</PayrollRunReference>
+		<PayrollRunReference>Payroll-Run-Reference-18</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
 			<Name>SOAP UI</Name>
@@ -26,26 +26,26 @@
 		</Name>
 		<LeaveDate>2018-03-15</LeaveDate>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
+		<PayFrequency>MONTHLY</PayFrequency>
 		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
 		<PayDate>2018-04-15</PayDate>
 		<GrossPay>-1000.00</GrossPay>
 		<PayForIncomeTax>-1000.00</PayForIncomeTax>
 		<IncomeTaxPaid>-250.00</IncomeTaxPaid>
 		<PayForEmployeePRSI>-1000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<PayForEmployerPRSI>-1000.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>-4</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>-160.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>-160.00</EmployerPRSIPaid>
 		<PayForUSC>-1000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>-100.00</USCPaid>
+		<USCPaid>-160.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
 		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>

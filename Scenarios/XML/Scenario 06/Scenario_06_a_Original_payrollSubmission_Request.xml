@@ -17,8 +17,7 @@
 		</SoftwareUsed>
 	</Header>
 	<Payslip>
-		<LineItemID>LineItem-TTT-Correction</LineItemID>
-		<PreviousLineItemID>LineItem-TTT</PreviousLineItemID>
+		<LineItemID>LineItem-TTT</LineItemID>
 		<EmployeeID>
 			<EmployeePPSN>01234567T</EmployeePPSN>
 			<EmploymentID>1</EmploymentID>
@@ -28,16 +27,16 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-06-20</PayDate>
-		<GrossPay>3000.00</GrossPay>
-		<PayForIncomeTax>3000.00</PayForIncomeTax>
-		<IncomeTaxPaid>700.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>3000.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>3000.00</PayForEmployerPRSI>
+		<PayDate>2018-03-20</PayDate>
+		<GrossPay>1000.00</GrossPay>
+		<PayForIncomeTax>1000.00</PayForIncomeTax>
+		<IncomeTaxPaid>189.00</IncomeTaxPaid>
+		<PayForEmployeePRSI>1000.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>1000.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
@@ -47,17 +46,17 @@
 			<PRSIClass>J1</PRSIClass>
 			<InsurableWeeks>3</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>300.00</PayForUSC>
+		<EmployeePRSIPaid>40.00</EmployeePRSIPaid>
+		<EmployerPRSIPaid>0.00</EmployerPRSIPaid>
+		<PayForUSC>1000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>100.00</USCPaid>
-		<LPTDeducted>0.00</LPTDeducted>
-		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
-		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>
-		<TaxableBenefits>0.00</TaxableBenefits>
-		<TaxableLumpSum>0.00</TaxableLumpSum>
-		<NonTaxableLumpSum>0.00</NonTaxableLumpSum>
+		<USCPaid>1000.00</USCPaid>
+		<LPTDeducted>100.00</LPTDeducted>
+		<GrossMedicalInsurance>100.00</GrossMedicalInsurance>
+		<ShareBasedRemuneration>100.00</ShareBasedRemuneration>
+		<TaxableBenefits>100.00</TaxableBenefits>
+		<TaxableLumpSum>100.00</TaxableLumpSum>
+		<NonTaxableLumpSum>100.00</NonTaxableLumpSum>
 		<EmployerRBS>0.00</EmployerRBS>
 		<EmployeeRBS>0.00</EmployeeRBS>
 		<EmployerPRSA>0.00</EmployerPRSA>

@@ -6,7 +6,7 @@
 		<Count>1</Count>
 	</BatchReference>
 	<Header>
-		<EmployerRegistrationNumber>09876543E</EmployerRegistrationNumber>
+		<EmployerRegistrationNumber>8000075FH</EmployerRegistrationNumber>
 		<PayrollRunReference>Payroll-Run-Reference-Bonus-Run</PayrollRunReference>
 		<TaxYear>2018</TaxYear>
 		<SoftwareUsed>
@@ -27,9 +27,9 @@
 		<ShadowPayroll>false</ShadowPayroll>
 		<PayFrequency>Monthly</PayFrequency>
 		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-15</PayDate>
+		<PayDate>2018-04-21</PayDate>
 		<GrossPay>200.00</GrossPay>
 		<PayForIncomeTax>200.00</PayForIncomeTax>
 		<IncomeTaxPaid>50.00</IncomeTaxPaid>
@@ -38,12 +38,12 @@
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>16</InsurableWeeks>
+			<InsurableWeeks>4</InsurableWeeks>
 		</PRSIClassDetail>
 		<EmployeePRSIPaid>20.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>20.00</EmployerPRSIPaid>
 		<PayForUSC>200.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
+		<USCStatus>ORDINARY</USCStatus>
 		<USCPaid>20.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>

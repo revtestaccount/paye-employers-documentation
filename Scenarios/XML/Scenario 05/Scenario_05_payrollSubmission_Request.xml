@@ -25,12 +25,12 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
-		<LeaveDate>2018-03-22</LeaveDate>
+		<PayDate>2018-01-16</PayDate>
+		<LeaveDate>2018-01-02</LeaveDate>
 		<GrossPay>-100.00</GrossPay>
 		<PayForIncomeTax>-100.00</PayForIncomeTax>
 		<IncomeTaxPaid>-20.00</IncomeTaxPaid>

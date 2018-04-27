@@ -2,7 +2,7 @@
     "status": "PROCESSED",
     "taxOnIncome": 200,
     "prsi": 400,
-    "usc": 160,
+    "usc": 16,
     "lpt": 0,
     "submissions": [
         {
@@ -11,7 +11,7 @@
             "submissionSummary": {
                 "taxOnIncome": 200,
                 "prsi": 400,
-                "usc": 160,
+                "usc": 16,
                 "lpt": 0,
                 "payslipCount": 1,
                 "payslipToDeleteCount": 0
@@ -27,7 +27,7 @@
             },
             "taxOnIncome": 200,
             "prsi": 400,
-            "usc": 160,
+            "usc": 16,
             "lpt": 0
         }
     ]

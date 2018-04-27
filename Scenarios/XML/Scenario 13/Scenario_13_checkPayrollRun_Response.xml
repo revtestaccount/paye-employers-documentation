@@ -8,12 +8,12 @@
          <ns2:USC>0.00</ns2:USC>
          <ns2:LPT>0.00</ns2:LPT>
          <ns2:Submission>
-            <ns2:SubmissionID>Submission-113</ns2:SubmissionID>
+            <ns2:SubmissionID>Submission-13</ns2:SubmissionID>
             <ns2:Status>Completed</ns2:Status>
             <ns2:SubmissionSummary>
-               <ns2:TaxOnIncome>100.00</ns2:TaxOnIncome>
-               <ns2:PRSI>200.00</ns2:PRSI>
-               <ns2:USC>16.00</ns2:USC>
+               <ns2:TaxOnIncome>300.00</ns2:TaxOnIncome>
+               <ns2:PRSI>150.00</ns2:PRSI>
+               <ns2:USC>200.00</ns2:USC>
                <ns2:LPT>0.00</ns2:LPT>
                <ns2:PayslipCount>1</ns2:PayslipCount>
                <ns2:PayslipToDeleteCount>0</ns2:PayslipToDeleteCount>
@@ -25,9 +25,9 @@
                <ns2:EmployeePPSN>01234567T</ns2:EmployeePPSN>
                <ns2:EmploymentID>1</ns2:EmploymentID>
             </ns2:EmployeeID>
-            <ns2:TaxOnIncome>100.00</ns2:TaxOnIncome>
-            <ns2:PRSI>200.00</ns2:PRSI>
-            <ns2:USC>16.00</ns2:USC>
+            <ns2:TaxOnIncome>300.00</ns2:TaxOnIncome>
+            <ns2:PRSI>150.00</ns2:PRSI>
+            <ns2:USC>200.00</ns2:USC>
             <ns2:LPT>0.00</ns2:LPT>
          </ns2:PayslipSummary>
       </ns2:CheckPayrollRunResponse>

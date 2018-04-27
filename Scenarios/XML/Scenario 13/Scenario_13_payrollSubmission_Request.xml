@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <PayrollSubmissionRequest xmlns="http://www.ros.ie/schemas/paye-employers/v1/payroll/">
-	<SubmissionID>Submission-1</SubmissionID>
+	<SubmissionID>Submission-13</SubmissionID>
 	<BatchReference>
 		<Index>1</Index>
 		<Count>1</Count>
@@ -35,8 +35,8 @@
 		</TaxRate>
 		<IncomeTaxCalculationBasis>Cumulative</IncomeTaxCalculationBasis>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-04-01</PayDate>
-		<GrossPay>200.00</GrossPay>
+		<PayDate>2018-01-18</PayDate>
+		<GrossPay>2000.00</GrossPay>
 		<PayForIncomeTax>200.00</PayForIncomeTax>
 		<IncomeTaxPaid>100.00</IncomeTaxPaid>
 		<PayForEmployeePRSI>200.00</PayForEmployeePRSI>
@@ -46,11 +46,11 @@
 			<PRSIClass>A1</PRSIClass>
 			<InsurableWeeks>0</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>100.00</EmployeePRSIPaid>
-		<EmployerPRSIPaid>200.00</EmployerPRSIPaid>
-		<PayForUSC>200.00</PayForUSC>
-		<USCStatus>Ordinary</USCStatus>
-		<USCPaid>16.00</USCPaid>
+		<EmployeePRSIPaid>150.00</EmployeePRSIPaid>
+		<EmployerPRSIPaid>150.00</EmployerPRSIPaid>
+		<PayForUSC>2000.00</PayForUSC>
+		<USCStatus>Exempt</USCStatus>
+		<USCPaid>200.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
 		<GrossMedicalInsurance>0.00</GrossMedicalInsurance>
 		<ShareBasedRemuneration>0.00</ShareBasedRemuneration>

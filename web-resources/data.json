@@ -392,8 +392,8 @@
 			"category": "download"
 		},
 		{
-			"link": "Scenarios/Scenarios.pdf",
-			"description": "Additional Example Scenarios",
+			"link": "Scenarios/PSDA_Scenarios.pdf",
+			"description": "Payroll Scenarios",
 			"anchor": "Scenarios_Document",
 			"type": "PDF",
 			"version": "1.0 Milestone 2",

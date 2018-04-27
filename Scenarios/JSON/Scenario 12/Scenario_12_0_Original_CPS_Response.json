@@ -8,17 +8,5 @@
         "lpt": 100,
         "payslipCount": 1,
         "payslipToDeleteCount": 0
-    },
-    "payslipWarnings": [
-        {
-            "lineItemID": "LineItem-XYZ",
-            "warnings": [
-                {
-                    "code": "2044",
-                    "path": "rpnNumber",
-                    "description": "Warning: Out-of-date RPN used."
-                }
-            ]
-        }
-    ]
+    }
 }

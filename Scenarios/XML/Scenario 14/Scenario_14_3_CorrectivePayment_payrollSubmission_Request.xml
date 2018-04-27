@@ -25,24 +25,24 @@
 			<FamilyName>Tester</FamilyName>
 		</Name>
 		<ShadowPayroll>false</ShadowPayroll>
-		<PayFrequency>Monthly</PayFrequency>
-		<NumberOfPayPeriods>13</NumberOfPayPeriods>
-		<RPNNumber>9</RPNNumber>
+		<PayFrequency>Weekly</PayFrequency>
+		<NumberOfPayPeriods>52</NumberOfPayPeriods>
+		<RPNNumber>3</RPNNumber>
 		<ExclusionOrder>false</ExclusionOrder>
-		<PayDate>2018-03-15</PayDate>
-		<GrossPay>2500.00</GrossPay>
-		<PayForIncomeTax>2500.00</PayForIncomeTax>
+		<PayDate>2018-06-15</PayDate>
+		<GrossPay>2000.00</GrossPay>
+		<PayForIncomeTax>2000.00</PayForIncomeTax>
 		<IncomeTaxPaid>600.00</IncomeTaxPaid>
-		<PayForEmployeePRSI>2500.00</PayForEmployeePRSI>
-		<PayForEmployerPRSI>2500.00</PayForEmployerPRSI>
+		<PayForEmployeePRSI>2000.00</PayForEmployeePRSI>
+		<PayForEmployerPRSI>2000.00</PayForEmployerPRSI>
 		<PRSIExempt>false</PRSIExempt>
 		<PRSIClassDetail>
 			<PRSIClass>A1</PRSIClass>
-			<InsurableWeeks>12</InsurableWeeks>
+			<InsurableWeeks>8</InsurableWeeks>
 		</PRSIClassDetail>
-		<EmployeePRSIPaid>150.00</EmployeePRSIPaid>
+		<EmployeePRSIPaid>300.00</EmployeePRSIPaid>
 		<EmployerPRSIPaid>300.00</EmployerPRSIPaid>
-		<PayForUSC>2500.00</PayForUSC>
+		<PayForUSC>2000.00</PayForUSC>
 		<USCStatus>Ordinary</USCStatus>
 		<USCPaid>300.00</USCPaid>
 		<LPTDeducted>0.00</LPTDeducted>
