@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+Document History:
+======== Version 0.1 ====================================
+i. Document Created 28/03/2018
+======== Version 0.2 ====================================
+
+-->
+<wsdl:definitions name="GetReturn" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.ros.ie/schemas/paye-employers/v1/payroll_return/" targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/payroll_return/">
+
+	
+	<wsdl:types>
+		<xs:schema>
+			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/payroll_return/" schemaLocation="../v1/returns/returns.xsd"/>
+		</xs:schema>
+	</wsdl:types>
+	
+	<wsdl:message name="LookUpPayrollReturnByPeriodRequest">
+		<wsdl:part element="tns:LookUpPayrollReturnByPeriodRequest" name="parameters"/>
+	</wsdl:message>
+	<wsdl:message name="LookUpPayrollReturnByPeriodResponse">
+		<wsdl:part element="tns:LookUpPayrollReturnByPeriodResponse" name="parameters"/>
+	</wsdl:message>
+	<wsdl:portType name="PayrollReturnByPeriodPortType">
+		<wsdl:operation name="LookUpPayrollReturnByPeriodOperation">
+			<wsdl:input message="tns:LookUpPayrollReturnByPeriodRequest"/>
+			<wsdl:output message="tns:LookUpPayrollReturnByPeriodResponse"/>
+		</wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="PayrollReturnByPeriodBindingSOAP" type="tns:PayrollReturnByPeriodPortType">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="LookUpPayrollReturnByPeriodOperation">
+			<soap:operation soapAction="http://www.ros.ie/schemas/paye-employers/v1/payroll_return/LookUpPayrollReturnByPeriodOperation" soapActionRequired="true"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="PayrollReturnByPeriodOnlineService">
+		<wsdl:port name="PayrollReturnByPeriodBindingSOAP" binding="tns:PayrollReturnByPeriodBindingSOAP">
+			<soap:address location="http://www.ros.ie/schemas/paye-employers/v1/payroll_return/"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>

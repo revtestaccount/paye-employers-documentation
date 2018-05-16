@@ -44,7 +44,7 @@
         }, {
           "name" : "payrollRunReference",
           "in" : "path",
-          "description" : "Used to identify the Payroll event that the submission refers to e.g. â€˜Site 1 Week 1â€™.",
+          "description" : "Used to identify the Payroll event that the submission refers to e.g. ‘Site 1 Week 1’.",
           "required" : true,
           "type" : "string"
         }, {
@@ -113,7 +113,7 @@
         }, {
           "name" : "payrollRunReference",
           "in" : "path",
-          "description" : "Used to identify the Payroll event that the submission refers to e.g. â€˜Site 1 Week 1â€™.",
+          "description" : "Used to identify the Payroll event that the submission refers to e.g. ‘Site 1 Week 1’.",
           "required" : true,
           "type" : "string"
         }, {
@@ -188,7 +188,7 @@
         }, {
           "name" : "payrollRunReference",
           "in" : "path",
-          "description" : "Data Item Ref: 4. Payroll Run Reference. Used to identify the Payroll event that the submission refers to e.g. â€˜Site 1 Week 1â€™.",
+          "description" : "Data Item Ref: 4. Payroll Run Reference. Used to identify the Payroll event that the submission refers to e.g. ‘Site 1 Week 1’.",
           "required" : true,
           "type" : "string"
         }, {
@@ -475,7 +475,7 @@
       "properties" : {
         "addressLines" : {
           "type" : "array",
-          "description" : "Data Item Ref: 11(a)-(c). The address will be Mandatory if the PPSN isnâ€™t available. Line 1 of the employee's address is required.",
+          "description" : "Data Item Ref: 11(a)-(c). The address will be Mandatory if the PPSN isn’t available. Line 1 of the employee's address is required.",
           "items" : {
             "$ref" : "#/definitions/AddressLine"
           },
@@ -501,7 +501,7 @@
         }
       },
       "description" : "Elements required when Employee PPSN is not known."
-   
+
     },
     "AddressLine" : {
       "type" : "object",
@@ -512,7 +512,7 @@
           "maxLength" : 100
         }
       }
-      
+
     },
     "BatchStatus" : {
       "type" : "object",
@@ -578,7 +578,7 @@
         }
       },
       "description" : "Return the current status of an Employer's PAYE Payroll Run. Includes list of submissions that make up the payroll run and includes summary details of processed submissions."
-      
+
     },
     "CheckPayrollSubmissionResponse" : {
       "type" : "object",
@@ -635,7 +635,7 @@
         }
       },
       "description" : "Return the current status of an Employer's PAYE Payroll Run. Includes list of submissions that make up the payroll run and includes summary details of processed submissions."
-      
+
     },
     "InvalidPayslip" : {
       "type" : "object",
@@ -657,7 +657,7 @@
         }
       },
       "description" : "List of Invalid Payslips (if any). Any payslips in this list will not have been saved so the payslips will not feed into the employer liability for the statuatory return for the period. Included when the submission has completed processing (if required)."
-   
+
     },
     "LineItemID" : {
       "type" : "object",
@@ -679,7 +679,7 @@
           "description" : "Data Item Ref: N/A. The Official Name of the employer.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "employerRegistrationNumber" : {
           "type" : "string",
@@ -749,7 +749,7 @@
         "employmentStartDate" : {
           "description" : "The date the employee commences. ",
           "type" : "string",
-          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}[+-][0-9]{4}"
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         }
       },
       "description" : "Details of employees who require a new RPN."
@@ -784,7 +784,7 @@
           "description" : "Data Item Ref: N/A. Employer's PAYE Registration Number.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "employerRegistrationNumber" : {
           "type" : "string",
@@ -883,14 +883,14 @@
           "description" : "Path to error in schema, if available.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "description" : {
           "type" : "string",
           "description" : "Technical description of error.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
       "description" : "Details of validation check failure."
@@ -904,14 +904,14 @@
           "description" : "Data Item Ref: 9. The first name of the employee.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "familyName" : {
           "type" : "string",
           "description" : "Data Item Ref: 10. The surname/family name of the employee.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
       "description" : "Employee Name."
@@ -984,10 +984,10 @@
         },
         "employerReference" : {
           "type" : "string",
-          "description" : "Data Item Ref: 13. Employee's internal staff identifier/reference. This will be Mandatory if the PPSN isnâ€™t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
+          "description" : "Data Item Ref: 13. Employee's internal staff identifier/reference. This will be Mandatory if the PPSN isn’t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
           "minLength" : 0,
           "maxLength" : 50,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "name" : {
           "$ref" : "#/definitions/PayrollName"
@@ -997,7 +997,7 @@
         },
         "dateOfBirth" : {
           "type" : "string",
-          "description" : "Data Item Ref: 12. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isnâ€™t available.",
+          "description" : "Data Item Ref: 12. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isn’t available.",
           "minLength" : 10,
           "maxLength" : 10,
           "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
@@ -1062,7 +1062,7 @@
         },
         "exclusionOrder" : {
           "type" : "boolean",
-          "description" : "Data Item Ref: 23. This indicates that the Employer does not have to deduct Income Tax for the Employee. This will be either â€˜Trueâ€™ or â€˜Falseâ€™. Set to â€œtrueâ€� if an exclusion order is on file for the employee.",
+          "description" : "Data Item Ref: 23. This indicates that the Employer does not have to deduct Income Tax for the Employee. This will be either ‘True’ or ‘False’. Set to “true” if an exclusion order is on file for the employee.",
           "default" : false
         },
         "payDate" : {
@@ -1074,7 +1074,7 @@
         },
         "grossPay" : {
           "type" : "number",
-          "description" : "Data Item Ref: 24. Employee Gross Pay. Gross pay is the employeeâ€™s pay of any kind, including notional pay and share based remuneration and, before any pension contributions or salary sacrifice deductions are made.",
+          "description" : "Data Item Ref: 24. Employee Gross Pay. Gross pay is the employee’s pay of any kind, including notional pay and share based remuneration and, before any pension contributions or salary sacrifice deductions are made.",
           "minimum" : -999999999,
           "maximum" : 999999999.99
         },
@@ -1104,7 +1104,7 @@
         },
         "prsiExempt" : {
           "type" : "boolean",
-          "description" : "Data Item Ref: 29. This field allows for the filing of returns for employees who are exempt from paying PRSI in Ireland. This will be either â€˜trueâ€™ or â€˜falseâ€™. 'True' if employee is exempt from paying PRSI in Ireland.",
+          "description" : "Data Item Ref: 29. This field allows for the filing of returns for employees who are exempt from paying PRSI in Ireland. This will be either ‘true’ or ‘false’. 'True' if employee is exempt from paying PRSI in Ireland.",
           "default" : false
         },
         "prsiExemptionReason" : {
@@ -1161,31 +1161,31 @@
         },
         "shareBasedRemuneration" : {
           "type" : "number",
-          "description" : "Data Item Ref: 46. This is share-based remuneration consisting of shares in the employer company or a company that controls the employer company that is included in â€˜Gross Payâ€™.",
+          "description" : "Data Item Ref: 46. This is share-based remuneration consisting of shares in the employer company or a company that controls the employer company that is included in ‘Gross Pay’.",
           "minimum" : -999999999,
           "maximum" : 999999999.99
         },
         "taxableBenefits" : {
           "type" : "number",
-          "description" : "Data Item Ref: 47. Taxable value of benefits provided to the employee. This is the amount of non-cash benefits (for example, private use of a company car, free or subsidised accommodation, preferential loans), other than company Share-based Remuneration (but including shares in companies that are not the employer company or a company that controls the employer company), that is included in â€˜Gross Payâ€™. This is mandatory if applicable.",
+          "description" : "Data Item Ref: 47. Taxable value of benefits provided to the employee. This is the amount of non-cash benefits (for example, private use of a company car, free or subsidised accommodation, preferential loans), other than company Share-based Remuneration (but including shares in companies that are not the employer company or a company that controls the employer company), that is included in ‘Gross Pay’. This is mandatory if applicable.",
           "minimum" : -999999999,
           "maximum" : 999999999.99
         },
         "taxableLumpSum" : {
           "type" : "number",
-          "description" : "Data Item Ref: 48. Amount of taxable lump sum payment included in â€˜Pay for Income Taxâ€™. This is mandatory if applicable.",
+          "description" : "Data Item Ref: 48. Amount of taxable lump sum payment included in ‘Pay for Income Tax’. This is mandatory if applicable.",
           "minimum" : -999999999,
           "maximum" : 999999999.99
         },
         "nonTaxableLumpSum" : {
           "type" : "number",
-          "description" : "Data Item Ref: 49. Amount of lump sum payment not included in â€˜Pay for Income Taxâ€™, excluding statutory redundancy payments. This is mandatory if applicable.",
+          "description" : "Data Item Ref: 49. Amount of lump sum payment not included in ‘Pay for Income Tax’, excluding statutory redundancy payments. This is mandatory if applicable.",
           "minimum" : -999999999,
           "maximum" : 999999999.99
         },
         "pensionTracingNumbers" : {
           "type" : "array",
-          "description" : "Data Item Ref: 38. Pension Tracing Number. The format of the pension tracing number is â€œPBXXXXXXâ€�, where XXXXXX is a number with up to 6 digits. E.g. PB123456. This is mandatory if applicable. Should only be provided when the Employee joins a pension or changes pension.",
+          "description" : "Data Item Ref: 38. Pension Tracing Number. The format of the pension tracing number is “PBXXXXXX”, where XXXXXX is a number with up to 6 digits. E.g. PB123456. This is mandatory if applicable. Should only be provided when the Employee joins a pension or changes pension.",
           "items" : {
             "$ref" : "#/definitions/PensionTracingNumber"
           }
@@ -1228,7 +1228,7 @@
         }
       },
       "description" : "List of payslips that make up the employer payroll submission. for Original submissions this should include at least one new payslip. For Correction submissions this should include any new or corrected payslips."
-      
+
     },
     "PayslipSummary" : {
       "type" : "object",
@@ -1246,10 +1246,10 @@
         },
         "employerReference" : {
           "type" : "string",
-          "description" : "Data Item Ref: 13. Employee's internal staff identifier/reference. This will be Mandatory if the PPSN isnâ€™t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
+          "description" : "Data Item Ref: 13. Employee's internal staff identifier/reference. This will be Mandatory if the PPSN isn’t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
           "minLength" : 0,
           "maxLength" : 50,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "taxOnIncome" : {
           "type" : "number",
@@ -1317,7 +1317,7 @@
           "maxLength" : 8
         }
       }
-     
+
     },
     "RPN" : {
       "type" : "object",
@@ -1345,7 +1345,7 @@
           "description" : "Data Item Ref: 111. Employee's internal staff identifier/reference.",
           "minLength" : 0,
           "maxLength" : 50,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "name" : {
           "$ref" : "#/definitions/RPNName"
@@ -1483,14 +1483,14 @@
           "description" : "Path to error in schema, if available.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "description" : {
           "type" : "string",
           "description" : "Description of error - to be used for support.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
       "description" : "Standard Validation error."
@@ -1504,14 +1504,14 @@
           "description" : "Data Item Ref: 106.The first name of the employee.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "familyName" : {
           "type" : "string",
           "description" : "Data Item Ref: 107 The surname/family name of the employee.",
           "minLength" : 0,
           "maxLength" : 100,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
       "description" : "Employee Name."
@@ -1635,14 +1635,14 @@
           "description" : "Path to warning in schema, if available.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         },
         "description" : {
           "type" : "string",
           "description" : "Technical description of warning.",
           "minLength" : 0,
           "maxLength" : 500,
-          "pattern" : "[A-Za-z0-9Ã¡Ã©Ã­Ã³ÃºÃ�Ã‰Ã�Ã“Ãš =_^,~!/'@:;Â£â‚¬$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
       "description" : "List of validation warnings related to the payslip."
