@@ -24,7 +24,7 @@
   "paths" : {
     "/payroll/{employerRegistrationNumber}/{taxYear}/{payrollRunReference}" : {
       "get" : {
-        "tags" : [ "PAYE Employers Payroll REST API" ],
+        "tags" : [ "Payroll" ],
         "summary" : "Check PayrollRun Request",
         "description" : "Request to check the current status of an Employer's PAYE Payroll Run, based on the RunReference.",
         "operationId" : "checkPayrollRunComplete",
@@ -93,7 +93,7 @@
     },
     "/payroll/{employerRegistrationNumber}/{taxYear}/{payrollRunReference}/{submissionID}" : {
       "get" : {
-        "tags" : [ "PAYE Employers Payroll REST API" ],
+        "tags" : [ "Payroll" ],
         "summary" : "Check Payroll Submission Request",
         "description" : "Request to check the current status of an Employer's PAYE Payroll Submission, based on the Submission ID.",
         "operationId" : "checkPayrollSubmissionComplete",
@@ -166,7 +166,7 @@
         }
       },
       "post" : {
-        "tags" : [ "PAYE Employers Payroll REST API" ],
+        "tags" : [ "Payroll" ],
         "summary" : "Payroll Submission Request",
         "description" : "Employer's PAYE Payroll Submission Request.",
         "operationId" : "createPayrollSubmission",
@@ -250,7 +250,7 @@
     },
     "/payroll_return/{employerRegistrationNumber}" : {
       "get" : {
-        "tags" : [ "Period Return REST API" ],
+        "tags" : [ "Period Return" ],
         "summary" : "Look Up Payroll Return by Period",
         "description" : "Look up by payroll returns based on a range of dates.",
         "operationId" : "lookUpPayrollReturnByPeriod",
@@ -323,7 +323,7 @@
     },
     "/rpn/{employerRegistrationNumber}/{taxYear}" : {
       "get" : {
-        "tags" : [ "PAYE Employers RPN REST API" ],
+        "tags" : [ "RPN" ],
         "summary" : "Look Up RPN ByEmployer and optionally filter by date last updated and/or employee id's",
         "description" : "Request to get an RPN by Employer Registration Number. Additionally",
         "operationId" : "lookUpRPNByEmployer",
@@ -402,10 +402,10 @@
         }
       },
       "post" : {
-        "tags" : [ "PAYE Employers RPN REST API" ],
-        "summary" : "Create temporary RPN.",
+        "tags" : [ "RPN" ],
+        "summary" : "Create New RPN",
         "description" : "Create new RPN.",
-        "operationId" : "createTemporaryRpn",
+        "operationId" : "createNewRPN",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
         "parameters" : [ {
@@ -430,7 +430,7 @@
         }, {
           "name" : "softwareUsed",
           "in" : "query",
-          "description" : "Name of third party software product.",
+          "description" : "Third party software product identifier.",
           "required" : true,
           "type" : "string"
         }, {
@@ -474,7 +474,7 @@
     },
     "/rpn/{employerRegistrationNumber}/{taxYear}/{employeeId}" : {
       "get" : {
-        "tags" : [ "PAYE Employers RPN REST API" ],
+        "tags" : [ "RPN" ],
         "summary" : "Look Up RPN By Employee",
         "description" : "Request to get an RPN by Employee ID(employee Ppsn and employment ID).",
         "operationId" : "lookUpRPNByEmployee",
@@ -495,7 +495,7 @@
         }, {
           "name" : "employeeId",
           "in" : "path",
-          "description" : "Required to lookup RPN for an employee. Concatenation of Employee's PPS Number(Used to identify the employee to which the RPN relates) and Employee's Employment ID e.g. {PPS_Number}-{Employment_ID}(Unique identifier for each distinct employment for an employee. If the RPN is being triggered as a result of the employee setting up the employment via Jobs and Pension or contacting Revenue, this field will not be populated e.g. {PPS_Number}-)",
+          "description" : "Required to lookup RPN for an employee. Concatenation of Employee's PPS Number(Used to identify the employee to which the RPN relates) and Employee's Employment ID(Unique identifier for each distinct employment for an employee. If the RPN is being triggered as a result of the employee setting up the employment via Jobs and Pension or contacting Revenue, this field will not be populated)",
           "required" : true,
           "type" : "string"
         }, {
@@ -705,7 +705,7 @@
           }
         }
       },
-      "description" : "Return the current status of an Employer's PAYE Payroll Submission. If processed, includes summary totals of valid payslips and validation errors for invalid payslips."
+      "description" : "Return the current status of an Employer's PAYE Payroll Run. Includes list of submissions that make up the payroll run and includes summary details of processed submissions."
     },
     "InvalidPayslip" : {
       "type" : "object",
@@ -821,8 +821,10 @@
         },
         "dateTimeEffective" : {
           "type" : "string",
-          "format" : "date-time",
-          "description" : "Data Item Ref: N/A. The date and time the RPN was requested"
+          "description" : "Data Item Ref: N/A. The date and time the RPN was requested",
+          "minLength" : 28,
+          "maxLength" : 28,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}[+-][0-9]{4}"
         },
         "rpns" : {
           "type" : "array",
@@ -859,9 +861,10 @@
           "$ref" : "#/definitions/RPNName"
         },
         "employmentStartDate" : {
+          "description" : "The date the employee commences. ",
           "type" : "string",
-          "format" : "date",
-          "description" : "The date the employee commences."
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
+
         }
       },
       "description" : "Details of employees who require a new RPN."
@@ -912,8 +915,10 @@
         },
         "dateTimeEffective" : {
           "type" : "string",
-          "format" : "date-time",
-          "description" : "Data Item Ref: N/A. The date and time at which the RPN's returned are correct/were issued."
+          "description" : "Data Item Ref: N/A. The date and time at which the RPN's returned are correct/were issued.",
+          "minLength" : 28,
+          "maxLength" : 28,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}.[0-9]{3}[+-][0-9]{4}"
         },
         "rpns" : {
           "type" : "array",
@@ -1146,18 +1151,24 @@
         },
         "dateOfBirth" : {
           "type" : "string",
-          "format" : "date",
-          "description" : "Data Item Ref: 12. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isn’t available."
+          "description" : "Data Item Ref: 12. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isnâ€™t available.",
+          "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "startDate" : {
           "type" : "string",
-          "format" : "date",
-          "description" : "Data Item Ref: 15. Employment Start Date. Only include this forthe first time you pay a new employee or if there is a correction being made to the StartDate."
+          "description" : "Data Item Ref: 15. Employment Start Date. Only include this forthe first time you pay a new employee or if there is a correction being made to the StartDate.",
+          "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "leaveDate" : {
           "type" : "string",
-          "format" : "date",
-          "description" : "Data Item Ref: 16. Report this date when an employee is leaving (date contract terminates) or if employer ceases trading."
+          "description" : "Data Item Ref: 16. Report this date when an employee is leaving (date contract terminates) or if employer ceases trading.",
+          "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "director" : {
           "type" : "string",
@@ -1189,8 +1200,8 @@
         "taxCredits" : {
           "type" : "number",
           "description" : "Data Item Ref: 21. Amount of tax credits available for use in the PAYE calculation. Where the employee is taxed on a cumulative basis, this will be the cumulative amount of tax credits for the pay period. This is mandatory when the RPN is not used.",
-          "minimum" : -9.99999999E8,
-          "maximum" : 9.9999999999E8
+          "minimum" : -999999999,
+          "maximum" : 999999999.99
         },
         "taxRates" : {
           "type" : "array",
@@ -1210,8 +1221,10 @@
         },
         "payDate" : {
           "type" : "string",
-          "format" : "date",
-          "description" : "Data Item Ref: 17. Date Employee is being paid (DD/MM/YYYY)."
+          "description" : "Data Item Ref: 17. Date Employee is being paid (YYYY-MM-DD).",
+          "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "grossPay" : {
           "type" : "number",
@@ -1250,7 +1263,7 @@
         },
         "prsiExemptionReason" : {
           "type" : "string",
-          "description" : "Data Item Ref: 30. Reason for the PRSI Exemption in Ireland. This is Mandatory if PRSI exempt. Options include A1PortableDocument (A1 Portable Document from EU Member State), CertificateOfCoverage (Certificate of coverage under Social Security Bilateral Agreement), PostedWorkerOtherNotification (Other notification of exemption for posted workers), FamilyMember (Employment of certain family members), Under16 (Under 16 years of age), SocialWelfareScheme (Employment on certain social welfare schemes).",
+          "description" : "Data Item Ref: 30. Reason for the PRSI Exemption in Ireland. This is Mandatory if PRSI exempt. Options include A1PortableDocument (A1 Portable Document from EU Member State), CertificateOfCoverage (Certificate of coverage under Social Security Bilateral Agreement), PostedWorkerOtherNotification (Other notification of exemption for posted workers), FamilyMember (Employment of certain family members), Under16 (Under 16 years of age), SocialWelfareScheme (Employment on certain social welfare schemes), Other.",
           "enum" : [ "A_1_PORTABLE_DOCUMENT", "CERTIFICATE_OF_COVERAGE", "POSTED_WORKER_OTHER_NOTIFICATION", "FAMILY_MEMBER", "UNDER_16", "SOCIAL_WELFARE_SCHEME", "OTHER" ]
         },
         "prsiClassDetails" : {
@@ -1483,7 +1496,7 @@
     },
     "RPN" : {
       "type" : "object",
-      "required" : [ "effectiveDate", "employeeID", "endDate", "incomeTaxCalculationBasis", "incomeTaxDeductedToDate", "name", "payForIncomeTaxToDate", "previousEmployeePPSN", "rpnIssueDate", "rpnNumber", "taxRates", "uscStatus", "yearlyTaxCredits" ],
+      "required" : [ "incomeTaxCalculationBasis", "rpnIssueDate", "effectiveDate", "employeeID", "endDate", "name", "payForIncomeTaxToDate", "rpnNumber", "taxRates", "incomeTaxDeductedToDate", "uscStatus", "yearlyTaxCredits" ],
       "properties" : {
         "rpnNumber" : {
           "type" : "string",
@@ -1498,7 +1511,10 @@
         "rpnIssueDate" : {
           "type" : "string",
           "format" : "date",
-          "description" : "Data Item Ref: 105. The date the RPN was issued."
+          "description" : "Data Item Ref: 105. The date the RPN was issued.",
+		  "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "employerReference" : {
           "type" : "string",
@@ -1520,12 +1536,17 @@
         "effectiveDate" : {
           "type" : "string",
           "format" : "date",
-          "description" : "Data Item Ref: 114. January 1st if cumulative basis applies. Date the RPN issued if Week 1 basis applies. The date can be in the future."
+          "description" : "Data Item Ref: 114. January 1st if cumulative basis applies. Date the RPN issued if Week 1 basis applies. The date can be in the future.",
+		  "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "endDate" : {
           "type" : "string",
-          "format" : "date",
-          "description" : "Data Item Ref: 115. Last date on which the RPN specified will apply. After this date a new RPN should be requested."
+          "description" : "Data Item Ref: 115. Last date on which the RPN specified will apply. After this date a new RPN should be requested.",
+          "minLength" : 10,
+          "maxLength" : 10,
+          "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
         },
         "incomeTaxCalculationBasis" : {
           "type" : "string",
