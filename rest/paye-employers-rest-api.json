@@ -761,7 +761,7 @@
         },
         "dateLastUpdated" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "The date the Return was either accepted / Deemed / amended."
         },
         "version" : {
@@ -973,7 +973,7 @@
         },
         "runDate" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "The date the payroll run was submitted. If there are multiple submissions in a payroll run then this will be the date of the last submission."
         },
         "multiPeriod" : {
@@ -1151,7 +1151,7 @@
         },
         "dateOfBirth" : {
           "type" : "string",
-          "description" : "Data Item Ref: 12. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isnâ€™t available.",
+          "description" : "Data Item Ref: 12. Employee's Date of Birth - format YYYY-MM-DD. This will be Mandatory if the PPSN isn't available.",
           "minLength" : 10,
           "maxLength" : 10,
           "pattern" : "[0-9]{4}-[0-9]{2}-[0-9]{2}"
@@ -1724,13 +1724,13 @@
       "properties" : {
         "periodStartDate" : {
           "type" : "string",
-          "format" : "date-time",
-          "description" : "Period start date e.g. 01/01/2019."
+          "format" : "date",
+          "description" : "Period start date e.g. 2019-01-01."
         },
         "periodEndDate" : {
           "type" : "string",
-          "format" : "date-time",
-          "description" : "Period end date e.g.31/01/2019."
+          "format" : "date",
+          "description" : "Period end date e.g.2019-01-31."
         }
       },
       "description" : "The period the return relates to."
