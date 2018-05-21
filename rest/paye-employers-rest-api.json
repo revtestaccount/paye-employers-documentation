@@ -1,18 +1,18 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "REST API from enable employers from request Revenue Payroll Notification (RPN) details and from submit details of payroll runs.",
-    "version" : "0.10",
+    "description" : "REST API to enable employers request Revenue Payroll Notification (RPN) details, submit payroll details and lookup payrolls by return period.",
+    "version" : "1.0 Release Candidate 2.0",
     "title" : "PAYE Employers REST API",
     "termsOfService" : "",
     "contact" : {
       "name" : "PAYE Modernisation Schema Support",
-      "url" : "https://roswebcss-int173/devsupport/paye-modernisation-overview.html?l=2",
+      "url" : "revenue-ie.github.io/paye-employers-documentation/",
       "email" : "payemodschemas_support@revenue.ie"
     }
   },
-  "host" : "rospublictestnextversion.ros.ie",
-  "basePath" : "/paye/employers/v1/rest",
+  "host" : "softwaretest.ros.ie",
+  "basePath" : "/paye-employers/v1/rest",
   "tags" : [ {
     "name" : "PAYE Employers Payroll REST API"
   }, {
@@ -257,24 +257,22 @@
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
         "parameters" : [ {
-          "in" : "body",
-          "name" : "body",
-          "description" : "Employer's PAYE Registration Number.",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
+          "name": "employerRegistrationNumber",
+          "in": "path",
+          "description": "Employer's PAYE Registration Number.",
+          "required": true,
+          "type": "string"
         }, {
           "name" : "periodStartDate",
           "in" : "query",
-          "description" : "Period start date e.g. 01/01/2019.",
+          "description" : "Period start date e.g. 2019-01-01.",
           "required" : true,
           "type" : "string",
           "format" : "date"
         }, {
           "name" : "periodEndDate",
           "in" : "query",
-          "description" : "Period end date e.g.31/01/2019.",
+          "description" : "Period end date e.g. 2019-01-01.",
           "required" : true,
           "type" : "string",
           "format" : "date"
@@ -1705,12 +1703,12 @@
         "periodStartDate" : {
           "type" : "string",
           "format" : "date-time",
-          "description" : "Period start date e.g. 01/01/2019."
+          "description" : "Period start date e.g. 2019-01-01."
         },
         "periodEndDate" : {
           "type" : "string",
           "format" : "date-time",
-          "description" : "Period end date e.g.31/01/2019."
+          "description" : "Period end date e.g. 2019-01-01."
         }
       },
       "description" : "The period the return relates to."
