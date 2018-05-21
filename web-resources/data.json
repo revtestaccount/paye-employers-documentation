@@ -173,8 +173,8 @@
 		},
 		{
 			"link": "soap/v1/returns.wsdl",
-			"description": "Returns Web Service Definition",
-			"anchor": "Returns_WSDL",
+			"description": "Returns Reconciliation Web Service Definition",
+			"anchor": "Returns_Reconciliation_WSDL",
 			"type": "WSDL File",
 			"version": "1.0 Release Candidate 2",
 			"dateLastUpdated": "17/05/2018",
