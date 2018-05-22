@@ -14,7 +14,7 @@ ii. Document updated 18/05/2018
 
 	<wsdl:types>
 		<xs:schema>
-			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" schemaLocation="returns/returns_reconciliation-schema.xsd"/>
+			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" schemaLocation="returns_reconciliation/v1/returns_reconciliation-schema.xsd"/>
 		</xs:schema>
 	</wsdl:types>
 

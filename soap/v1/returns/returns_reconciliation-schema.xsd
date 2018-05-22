@@ -69,17 +69,17 @@ ii. Document updated 18/05/2018
 					<xs:documentation>Data Item Ref: N/A. The period the return relates to.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="DateLastUpdated" type="xs:date">
+			<xs:element name="DateLastUpdated" minOccurs="0" type="xs:date">
 				<xs:annotation>
 					<xs:documentation>Data Item Ref: 208. This date indicates when the return was last updated.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="Version" type="rr:version">
+			<xs:element name="Version" minOccurs="0" type="rr:version">
 				<xs:annotation>
 					<xs:documentation>Data Item Ref: 207. Indicates the version of the return that is being requested.  </xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="PeriodSummary" type="rr:PeriodSummary">
+			<xs:element name="PeriodSummary" minOccurs="0" type="rr:PeriodSummary">
 				<xs:annotation>
 					<xs:documentation>Data Item Ref: N/A. The overall totals for PAYE, PRSI (employer and employee), USC and LPT in the selected period.</xs:documentation>
 				</xs:annotation>
@@ -87,6 +87,11 @@ ii. Document updated 18/05/2018
 			<xs:element name="PayrollRunDetails" type="rr:PayrollRunDetails" minOccurs="0" maxOccurs="unbounded">
 				<xs:annotation>
 					<xs:documentation>Data Item Ref: N/A. List of individual payroll runs with pay dates in the selected period.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ValidationError" type="rr:Error" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>List of Submission Validation Errors (if any).</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 		</xs:sequence>
@@ -191,6 +196,28 @@ ii. Document updated 18/05/2018
 			<xs:element name="LPT" type="xs:decimal">
 				<xs:annotation>
 					<xs:documentation>Data Item Ref: 219. The total amount of LPT in the payroll run for this period.  (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Error">
+		<xs:annotation>
+			<xs:documentation>Details of validation check failure.</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Code" type="pc:errorCode">
+				<xs:annotation>
+					<xs:documentation>Technical Error Code - to be used for mapping to error messages.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Path" type="pc:errorPath" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Path to error in schema, if available.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="Description" type="pc:errorDescription">
+				<xs:annotation>
+					<xs:documentation>Technical description of error.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 		</xs:sequence>

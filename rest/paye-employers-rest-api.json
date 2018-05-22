@@ -12,7 +12,7 @@
     }
   },
   "host" : "softwaretest.ros.ie",
-  "basePath" : "/paye-employers/v1/rest",
+  "basePath" : "/paye/employers/v1/rest",
   "tags" : [ {
     "name" : "PAYE Employers Payroll REST API"
   }, {
@@ -257,22 +257,24 @@
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
         "parameters" : [ {
-          "name": "employerRegistrationNumber",
-          "in": "path",
-          "description": "Employer's PAYE Registration Number.",
-          "required": true,
-          "type": "string"
+          "in" : "body",
+          "name" : "body",
+          "description" : "Employer's PAYE Registration Number.",
+          "required" : false,
+          "schema" : {
+            "type" : "string"
+          }
         }, {
           "name" : "periodStartDate",
           "in" : "query",
-          "description" : "Period start date e.g. 2019-01-01.",
+          "description" : "Period start date e.g. 01/01/2019.",
           "required" : true,
           "type" : "string",
           "format" : "date"
         }, {
           "name" : "periodEndDate",
           "in" : "query",
-          "description" : "Period end date e.g. 2019-01-01.",
+          "description" : "Period end date e.g.31/01/2019.",
           "required" : true,
           "type" : "string",
           "format" : "date"
@@ -706,6 +708,32 @@
       },
       "description" : "Return the current status of an Employer's PAYE Payroll Submission. If processed, includes summary totals of valid payslips and validation errors for invalid payslips."
     },
+    "Error" : {
+      "type" : "object",
+      "properties" : {
+        "cause" : {
+          "$ref" : "#/definitions/Throwable"
+        },
+        "stackTrace" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/StackTraceElement"
+          }
+        },
+        "localizedMessage" : {
+          "type" : "string"
+        },
+        "message" : {
+          "type" : "string"
+        },
+        "suppressed" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Throwable"
+          }
+        }
+      }
+    },
     "InvalidPayslip" : {
       "type" : "object",
       "required" : [ "errors", "lineItemID" ],
@@ -740,7 +768,7 @@
     },
     "LookupPayrollDetailsByReturnPeriodResponse" : {
       "type" : "object",
-      "required" : [ "dateLastUpdated", "employerReg", "periodSummary", "returnPeriod", "version" ],
+      "required" : [ "employerReg", "returnPeriod" ],
       "properties" : {
         "employerReg" : {
           "type" : "string",
@@ -756,7 +784,7 @@
         },
         "returnPeriod" : {
           "description" : "The period the return relates to.",
-          "$ref" : "#/definitions/Return Period"
+          "$ref" : "#/definitions/Return%20Period"
         },
         "dateLastUpdated" : {
           "type" : "string",
@@ -771,13 +799,20 @@
         },
         "periodSummary" : {
           "description" : "The overall PREM Return totals for PAYE, PRSI, USC and LPT.",
-          "$ref" : "#/definitions/Period Summary"
+          "$ref" : "#/definitions/Period%20Summary"
         },
         "payrollRunDetails" : {
           "type" : "array",
           "description" : "List of individual payroll runs with pay dates in the selected period.",
           "items" : {
-            "$ref" : "#/definitions/Payroll Run Details"
+            "$ref" : "#/definitions/Payroll%20Run%20Details"
+          }
+        },
+        "validationErrors" : {
+          "type" : "array",
+          "description" : "List of Validation errors (if any) on the LookupPayrollDetailsByPeriodReturn.",
+          "items" : {
+            "$ref" : "#/definitions/Error"
           }
         }
       },
@@ -1703,15 +1738,37 @@
         "periodStartDate" : {
           "type" : "string",
           "format" : "date-time",
-          "description" : "Period start date e.g. 2019-01-01."
+          "description" : "Period start date e.g. 01/01/2019."
         },
         "periodEndDate" : {
           "type" : "string",
           "format" : "date-time",
-          "description" : "Period end date e.g. 2019-01-01."
+          "description" : "Period end date e.g.31/01/2019."
         }
       },
       "description" : "The period the return relates to."
+    },
+    "StackTraceElement" : {
+      "type" : "object",
+      "properties" : {
+        "methodName" : {
+          "type" : "string"
+        },
+        "fileName" : {
+          "type" : "string"
+        },
+        "lineNumber" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "className" : {
+          "type" : "string"
+        },
+        "nativeMethod" : {
+          "type" : "boolean",
+          "default" : false
+        }
+      }
     },
     "SubmissionStatus" : {
       "type" : "object",
@@ -1767,6 +1824,32 @@
         }
       },
       "description" : "Summary totals for submission. Included when submission has completed processing."
+    },
+    "Throwable" : {
+      "type" : "object",
+      "properties" : {
+        "cause" : {
+          "$ref" : "#/definitions/Throwable"
+        },
+        "stackTrace" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/StackTraceElement"
+          }
+        },
+        "localizedMessage" : {
+          "type" : "string"
+        },
+        "message" : {
+          "type" : "string"
+        },
+        "suppressed" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Throwable"
+          }
+        }
+      }
     },
     "USCRate" : {
       "type" : "object",
