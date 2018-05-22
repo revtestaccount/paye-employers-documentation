@@ -200,7 +200,7 @@
 		},
 		{
 			"link": "soap/v1/returns/returns.xsd",
-			"description": "Returns Schema",
+			"description": "Returns Reconciliation Schema",
 			"anchor": "Returns_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
@@ -316,7 +316,7 @@
 		},
 		{
 			"link": "data-items/Employer_Submission_RPN_Validation_Rules.xlsx",
-			"description": "Validation Rules: Employer Submission, RPN, and Returns",
+			"description": "Validation Rules: Employer Submission, RPN, and Returns Reconciliation",
 			"anchor": "Validation_Rules",
 			"type": "Excel File",
 			"version": "1.0 Release Candidate 2",

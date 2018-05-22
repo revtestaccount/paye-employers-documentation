@@ -7,8 +7,8 @@
     "termsOfService" : "",
     "contact" : {
       "name" : "PAYE Modernisation Schema Support",
-      "url" : "revenue-ie.github.io/paye-employers-documentation/",
-      "email" : "payemodschemas_support@revenue.ie"
+      "url" : "https://revenue-ie.github.io/paye-employers-documentation/",
+      "email" : null
     }
   },
   "host" : "softwaretest.ros.ie",
