@@ -786,7 +786,7 @@
           "type" : "array",
           "description" : "List of Validation errors (if any) on the LookupPayrollDetailsByPeriodReturn.",
           "items" : {
-            "$ref" : "#/definitions/Error"
+            "$ref" : "#/definitions/PayrollReturnError"
           }
         }
       },
