@@ -1,8 +1,8 @@
 {
   "swagger" : "2.0",
   "info" : {
-    "description" : "REST API to enable employers request Revenue Payroll Notification (RPN) details, submit payroll details and lookup payrolls by return period.",
-    "version" : "1.0 Release Candidate 2.0",
+    "description" : "REST API to enable employers to request Revenue Payroll Notification (RPN) details and to submit details of payroll runs.",
+    "version" : "1.0 Milestone 2",
     "title" : "PAYE Employers REST API",
     "termsOfService" : "",
     "contact" : {
@@ -12,7 +12,7 @@
     }
   },
   "host" : "softwaretest.ros.ie",
-  "basePath" : "/paye/employers/v1/rest",
+  "basePath" : "/paye-employers/v1/rest",
   "tags" : [ {
     "name" : "PAYE Employers Payroll REST API"
   }, {
@@ -708,32 +708,6 @@
       },
       "description" : "Return the current status of an Employer's PAYE Payroll Submission. If processed, includes summary totals of valid payslips and validation errors for invalid payslips."
     },
-    "Error" : {
-      "type" : "object",
-      "properties" : {
-        "cause" : {
-          "$ref" : "#/definitions/Throwable"
-        },
-        "stackTrace" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/StackTraceElement"
-          }
-        },
-        "localizedMessage" : {
-          "type" : "string"
-        },
-        "message" : {
-          "type" : "string"
-        },
-        "suppressed" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/Throwable"
-          }
-        }
-      }
-    },
     "InvalidPayslip" : {
       "type" : "object",
       "required" : [ "errors", "lineItemID" ],
@@ -784,7 +758,7 @@
         },
         "returnPeriod" : {
           "description" : "The period the return relates to.",
-          "$ref" : "#/definitions/Return%20Period"
+          "$ref" : "#/definitions/Return Period"
         },
         "dateLastUpdated" : {
           "type" : "string",
@@ -799,13 +773,13 @@
         },
         "periodSummary" : {
           "description" : "The overall PREM Return totals for PAYE, PRSI, USC and LPT.",
-          "$ref" : "#/definitions/Period%20Summary"
+          "$ref" : "#/definitions/Period Summary"
         },
         "payrollRunDetails" : {
           "type" : "array",
           "description" : "List of individual payroll runs with pay dates in the selected period.",
           "items" : {
-            "$ref" : "#/definitions/Payroll%20Run%20Details"
+            "$ref" : "#/definitions/Payroll Run Details"
           }
         },
         "validationErrors" : {
@@ -1098,6 +1072,34 @@
         }
       },
       "description" : "Employee Name."
+    },
+    "PayrollReturnError" : {
+      "type" : "object",
+      "required" : [ "code", "description" ],
+      "properties" : {
+        "code" : {
+          "type" : "string",
+          "description" : "Technical Error Code - to be used for mapping to error messages.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "path" : {
+          "type" : "string",
+          "description" : "Path to error in schema, if available.",
+          "minLength" : 0,
+          "maxLength" : 500,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        },
+        "description" : {
+          "type" : "string",
+          "description" : "Description of error - to be used for support.",
+          "minLength" : 0,
+          "maxLength" : 500,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        }
+      },
+      "description" : "Standard Validation error."
     },
     "PayrollSubmission" : {
       "type" : "object",
@@ -1748,28 +1750,6 @@
       },
       "description" : "The period the return relates to."
     },
-    "StackTraceElement" : {
-      "type" : "object",
-      "properties" : {
-        "methodName" : {
-          "type" : "string"
-        },
-        "fileName" : {
-          "type" : "string"
-        },
-        "lineNumber" : {
-          "type" : "integer",
-          "format" : "int32"
-        },
-        "className" : {
-          "type" : "string"
-        },
-        "nativeMethod" : {
-          "type" : "boolean",
-          "default" : false
-        }
-      }
-    },
     "SubmissionStatus" : {
       "type" : "object",
       "required" : [ "status", "submissionID" ],
@@ -1824,32 +1804,6 @@
         }
       },
       "description" : "Summary totals for submission. Included when submission has completed processing."
-    },
-    "Throwable" : {
-      "type" : "object",
-      "properties" : {
-        "cause" : {
-          "$ref" : "#/definitions/Throwable"
-        },
-        "stackTrace" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/StackTraceElement"
-          }
-        },
-        "localizedMessage" : {
-          "type" : "string"
-        },
-        "message" : {
-          "type" : "string"
-        },
-        "suppressed" : {
-          "type" : "array",
-          "items" : {
-            "$ref" : "#/definitions/Throwable"
-          }
-        }
-      }
     },
     "USCRate" : {
       "type" : "object",
