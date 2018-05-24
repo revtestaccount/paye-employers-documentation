@@ -9,7 +9,7 @@
 			"anchor": "Conformance_Test_Scenarios",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -18,7 +18,7 @@
 			"anchor": "Help_Desk_User_Guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -27,7 +27,7 @@
 			"anchor": "Help_Desk_Registration",
 			"type": "LINK",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "LINK"
 		},
 		{
@@ -36,7 +36,7 @@
 			"anchor": "Help_Desk_Login",
 			"type": "LINK",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "LINK"
 		}]
 	},
@@ -51,7 +51,7 @@
 				"anchor": "Portal_Link",
 				"type": "LINK",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "LINK"
 			},
 			{
@@ -60,7 +60,7 @@
 				"anchor": "PITSelfServiceGuide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -69,7 +69,7 @@
 				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -78,7 +78,7 @@
 				"anchor": "ROS_Payroll_Reporting_Message_guide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -87,7 +87,7 @@
 				"anchor": "OPA_Upload_Examples",
 				"type": "ZIP File",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -96,7 +96,7 @@
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -105,7 +105,7 @@
 				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -114,7 +114,7 @@
 				"anchor": "RPN_Format_CSV",
 				"type": "CSV",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -123,7 +123,7 @@
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			}
 			]
@@ -137,7 +137,7 @@
 			"anchor": "Documentation_Guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -146,7 +146,7 @@
 			"anchor": "Schema_Publication_Changelog",
 			"type": "XLSX",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	},
@@ -159,7 +159,7 @@
 			"anchor": "Payroll_WSDL",
 			"type": "WSDL File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -168,7 +168,7 @@
 			"anchor": "RPN_WSDL",
 			"type": "WSDL File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -177,7 +177,7 @@
 			"anchor": "Returns_Reconciliation_WSDL",
 			"type": "WSDL File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -186,7 +186,7 @@
 			"anchor": "Payroll_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -195,7 +195,7 @@
 			"anchor": "RPN_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -204,7 +204,7 @@
 			"anchor": "Returns_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -213,7 +213,7 @@
 			"anchor": "PAYE_Types_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -222,7 +222,7 @@
 			"anchor": "SOAP_Schema_Reference",
 			"type": "Link",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "navigation"
 		},
 		{
@@ -231,7 +231,7 @@
 			"anchor": "SOAP_integration_guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -240,7 +240,7 @@
 			"anchor": "SOAP_integration_guide_Examples",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	},
@@ -253,7 +253,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -262,7 +262,7 @@
 			"anchor": "REST_API_Ref",
 			"type": "Link",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "navigation"
 		},
 		{
@@ -271,7 +271,7 @@
 			"anchor": "REST_Integration_Guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -280,7 +280,7 @@
 			"anchor": "REST_Integration_Guide_Sample_Messages",
 			"type": "ZIP",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	},
@@ -293,7 +293,7 @@
 			"anchor": "Payroll_Submission_Data_Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -302,7 +302,7 @@
 			"anchor": "RPN_Data_Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -311,7 +311,7 @@
 			"anchor": "Returns_Data_Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -320,7 +320,7 @@
 			"anchor": "Validation_Rules",
 			"type": "Excel File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	},
@@ -333,7 +333,7 @@
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -342,7 +342,7 @@
 			"anchor": "Example_1",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -351,7 +351,7 @@
 			"anchor": "Example_2",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -360,7 +360,7 @@
 			"anchor": "Example_3",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -369,7 +369,7 @@
 			"anchor": "Example_4",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -378,7 +378,7 @@
 			"anchor": "Example_5",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -387,7 +387,7 @@
 			"anchor": "Example_6",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -396,7 +396,7 @@
 			"anchor": "Example_7",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -405,7 +405,7 @@
 			"anchor": "Example_8",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -414,7 +414,7 @@
 			"anchor": "Example_9",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"sub_heading" : "Additional Payroll Scenarios",
 			"category": "download"
 		},
@@ -424,7 +424,7 @@
 			"anchor": "Example_10",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"sub_heading" : "Additional Payroll Scenarios",
 			"category": "download"
 		},
@@ -434,7 +434,7 @@
 			"anchor": "Scenarios_Document",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -445,7 +445,7 @@
 			"anchor": "Scenarios",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -456,7 +456,7 @@
 			"anchor": "Scenarios",
 			"type": "ZIP File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	},
@@ -468,7 +468,7 @@
 			"description": "Employer Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -476,7 +476,7 @@
 			"description": "Employee Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -484,7 +484,7 @@
 			"description": "List Of Employees CSV format",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -492,7 +492,7 @@
 			"description": "List Of Employees: Data Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -500,7 +500,7 @@
 			"description": "List Of Employees sample XML file",
 			"type": "XML",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
 		{
@@ -508,7 +508,7 @@
 			"description": "List Of Employees sample CSV file",
 			"type": "CSV",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "17/05/2018",
+			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		}]
 	}
