@@ -762,7 +762,7 @@
         },
         "dateLastUpdated" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "The date the Return was either accepted / Deemed / amended."
         },
         "version" : {
@@ -976,7 +976,7 @@
         },
         "runDate" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "The date the payroll run was submitted. If there are multiple submissions in a payroll run then this will be the date of the last submission."
         },
         "multiPeriod" : {
@@ -1739,12 +1739,12 @@
       "properties" : {
         "periodStartDate" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "Period start date e.g. 2019-01-01."
         },
         "periodEndDate" : {
           "type" : "string",
-          "format" : "date-time",
+          "format" : "date",
           "description" : "Period end date e.g.2019-01-31."
         }
       },
