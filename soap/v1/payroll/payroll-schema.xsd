@@ -571,6 +571,11 @@ iv. Document updated on 17/05/2018:
 					<xs:documentation>Data Item Ref: 45. Amount contributed by employee to Additional Voluntary Contributions (AVC) scheme.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
+			<xs:element name="EmployeeASC" type="pc:defaultDecimal" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Data Item Ref: 54. Amount contributed by employee to Additional Superannuation Contribution (ASC) scheme.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="BatchReference">

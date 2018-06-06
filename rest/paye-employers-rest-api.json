@@ -1402,6 +1402,12 @@
           "description" : "Data Item Ref: 45. Amount contributed by employee to Additional Voluntary Contributions (AVC) scheme.",
           "minimum" : -9.99999999E8,
           "maximum" : 9.9999999999E8
+        },
+        "employeeASC" : {
+          "type" : "number",
+          "description" : "Data Item Ref: 54. Amount contributed by employee to Additional Superannuation Contribution (ASC) scheme.",
+          "minimum" : -9.99999999E8,
+          "maximum" : 9.9999999999E8
         }
       },
       "description" : "List of payslips that make up the employer payroll submission. for Original submissions this should include at least one new payslip. For Correction submissions this should include any new or corrected payslips."
