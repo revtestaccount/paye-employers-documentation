@@ -9,7 +9,7 @@
 			"anchor": "Conformance_Test_Scenarios",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -186,7 +186,7 @@
 			"anchor": "Payroll_Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -231,7 +231,7 @@
 			"anchor": "SOAP_integration_guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -253,7 +253,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -262,7 +262,7 @@
 			"anchor": "REST_API_Ref",
 			"type": "Link",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "navigation"
 		},
 		{
@@ -271,7 +271,7 @@
 			"anchor": "REST_Integration_Guide",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -293,7 +293,7 @@
 			"anchor": "Payroll_Submission_Data_Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -333,7 +333,7 @@
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -434,7 +434,7 @@
 			"anchor": "Scenarios_Document",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
 		{
@@ -468,7 +468,7 @@
 			"description": "Employer Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "08/06/2018",
 			"category": "download"
 		},
 		{
@@ -476,7 +476,7 @@
 			"description": "Employee Schema",
 			"type": "Schema",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "08/06/2018",
 			"category": "download"
 		},
 		{
@@ -484,7 +484,7 @@
 			"description": "List Of Employees CSV format",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "08/06/2018",
 			"category": "download"
 		},
 		{
@@ -492,7 +492,7 @@
 			"description": "List Of Employees: Data Items",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "24/05/2018",
+			"dateLastUpdated": "08/06/2018",
 			"category": "download"
 		},
 		{
