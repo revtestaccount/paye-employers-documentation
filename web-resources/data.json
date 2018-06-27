@@ -150,7 +150,7 @@
 			"category": "download"
 		},
 		{
-			"link": "ReleaseSchedule.xlsx",
+			"link": "Screens/ReleaseSchedule.xlsx",
 			"description": "Release Schedule",
 			"anchor": "ReleaseSchedule",
 			"type": "XLSX",
