@@ -60,7 +60,7 @@
 				"anchor": "PITSelfServiceGuide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "19/07/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			},
 			{
@@ -249,7 +249,7 @@
 				"anchor": "SOAP_Lookup_RPNs_by_Range",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "19/07/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			},
 			{
@@ -289,7 +289,7 @@
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "19/06/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			},
 			{
@@ -298,7 +298,7 @@
 				"anchor": "REST_Integration_Guide_Sample_Messages",
 				"type": "ZIP",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "19/07/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			}]
 	},
@@ -338,7 +338,7 @@
 				"anchor": "Validation_Rules",
 				"type": "Excel File",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "19/07/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			},
 			{
@@ -360,7 +360,7 @@
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "19/07/2018",
+			"dateLastUpdated": "20/07/2018",
 			"category": "download"
 		},
 			{
@@ -553,7 +553,7 @@
 				"description": "List Of Employees sample CSV file",
 				"type": "CSV",
 				"version": "1.0 Final",
-				"dateLastUpdated": "19/07/2018",
+				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			}]
 	}
