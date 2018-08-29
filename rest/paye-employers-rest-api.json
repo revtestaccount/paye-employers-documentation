@@ -256,15 +256,7 @@
         "operationId" : "lookUpPayrollReturnByPeriod",
         "consumes" : [ "application/json" ],
         "produces" : [ "application/json" ],
-        "parameters" : [ {
-          "in" : "body",
-          "name" : "body",
-          "description" : "Employer's PAYE Registration Number.",
-          "required" : false,
-          "schema" : {
-            "type" : "string"
-          }
-        }, {
+        "parameters" : [  {
           "name" : "periodStartDate",
           "in" : "query",
           "description" : "Period start date e.g. 2019-01-01.",
