@@ -146,7 +146,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "31/07/2018",
+				"dateLastUpdated": "07/09/2018",
 				"category": "download"
 			},
 			{
@@ -240,7 +240,7 @@
 				"anchor": "SOAP_integration_guide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "09/08/2018",
+				"dateLastUpdated": "07/09/2018",
 				"category": "download"
 			},
 			{
@@ -258,7 +258,7 @@
 				"anchor": "SOAP_integration_guide_Examples",
 				"type": "ZIP File",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "17/05/2018",
+				"dateLastUpdated": "07/09/2018",
 				"category": "download"
 			}]
 	},
@@ -271,7 +271,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "31/07/2018",
+			"dateLastUpdated": "07/09/2018",
 			"category": "download"
 		},
 			{
@@ -280,7 +280,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "31/07/2018",
+				"dateLastUpdated": "07/09/2018",
 				"category": "navigation"
 			},
 			{
@@ -338,7 +338,7 @@
 				"anchor": "Validation_Rules",
 				"type": "Excel File",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "09/08/2018",
+				"dateLastUpdated": "07/09/2018",
 				"category": "download"
 			},
 			{
