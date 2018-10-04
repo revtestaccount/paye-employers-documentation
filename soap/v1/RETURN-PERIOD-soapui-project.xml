@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="355e8cb5-9878-4e57-bf83-66a2e557c2fb" activeEnvironment="Default" name="RETURN_PERIOD" resourceRoot="" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="5be3ad64-a5d3-4383-9c85-001f37903b05" wsaVersion="NONE" name="LookupPayrollDetailsByReturnPeriodBindingSOAP" type="wsdl" bindingName="{http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/}LookupPayrollDetailsByReturnPeriodBindingSOAP" soapVersion="1_2" anonymous="optional" definition="file:/C:/Users/owalsh01/IdeaProjects/paye-employers-documentation/src/main/resources/soap/v1/returns_reconciliation.wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="file:\C:\Users\owalsh01\IdeaProjects\paye-employers-documentation\src\main\resources\soap\v1\returns_reconciliation.wsdl"><con:part><con:url>file:\C:\Users\owalsh01\IdeaProjects\paye-employers-documentation\src\main\resources\soap\v1\returns_reconciliation.wsdl</con:url><con:content><![CDATA[<!--Document History:
+======== Version 0.1 ====================================
+i. Document Created 28/03/2018
+======== Version 0.2 ====================================
+ii. Document updated 18/05/2018
+		Changed definition name from "GetReturn" to "LookupPayrollDetailsByReturnPeriod".
+		Changed response message "LookUpPayrollReturnByPeriodRequest" to "LookupPayrollDetailsByReturnPeriodRequest".
+		Changed response message "LookUpPayrollReturnByPeriodResponse" to "LookupPayrollDetailsByReturnPeriodResponse".
+======== Version 1.0 Milestone 2 ====================================
+iv. Document updated on 24/05/2017: 
+v.  'schemaLocation' updated to 'returns_reconciliation/returns_reconciliation-schema.xsd'-->
+<wsdl:definitions name="LookupPayrollDetailsByReturnPeriod" targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/">
+  <wsdl:types>
+    <xs:schema>
+      <xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" schemaLocation="returns_reconciliation/returns_reconciliation-schema.xsd"/>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="LookupPayrollDetailsByReturnPeriodRequest">
+    <wsdl:part element="tns:LookupPayrollDetailsByReturnPeriodRequest" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="LookupPayrollDetailsByReturnPeriodResponse">
+    <wsdl:part element="tns:LookupPayrollDetailsByReturnPeriodResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="LookupPayrollDetailsByReturnPeriodPortType">
+    <wsdl:operation name="LookupPayrollDetailsByReturnPeriod">
+      <wsdl:input message="tns:LookupPayrollDetailsByReturnPeriodRequest"/>
+      <wsdl:output message="tns:LookupPayrollDetailsByReturnPeriodResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="LookupPayrollDetailsByReturnPeriodBindingSOAP" type="tns:LookupPayrollDetailsByReturnPeriodPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="LookUpPayrollReturnByPeriodOperation">
+      <soap:operation soapAction="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/LookUpPayrollReturnByPeriodOperation" soapActionRequired="true"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LookupPayrollDetailsByReturnPeriodService">
+    <wsdl:port name="LookupPayrollDetailsByReturnPeriodBindingSOAP" binding="tns:LookupPayrollDetailsByReturnPeriodBindingSOAP">
+      <soap:address location="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>file:\C:\Users\owalsh01\IdeaProjects\paye-employers-documentation\src\main\resources\soap\v1\returns_reconciliation\returns_reconciliation-schema.xsd</con:url><con:content><![CDATA[<!--Document History:
+======== Version 1.0 Release Candidate 2 ====================================
+i. Document Created 17/05/2018
+ii. Document updated 18/05/2018
+		Element name changed from "LookUpPayrollReturnByPeriodRequest" to "LookupPayrollDetailsByReturnPeriodRequest".
+		Element name changed from "LookUpPayrollReturnByPeriodResponse" to "LookupPayrollDetailsByReturnPeriodResponse".-->
+<xs:schema targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="0.9" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rr="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+  <xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types.xsd"/>
+  <!--Payroll Return by Period Request and Response Operations-->
+  <xs:element name="LookupPayrollDetailsByReturnPeriodRequest" type="rr:LookupPayrollDetailsByReturnPeriodRequest">
+    <xs:annotation>
+      <xs:documentation>Employer/Agent requests to view a return for a specific period.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:element name="LookupPayrollDetailsByReturnPeriodResponse" type="rr:LookupPayrollDetailsByReturnPeriodResponse">
+    <xs:annotation>
+      <xs:documentation>Response that lets the employer/agent view a return for a specific period.</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <!--Payroll Return by Period Request Schema Elements-->
+  <xs:complexType name="LookupPayrollDetailsByReturnPeriodRequest">
+    <xs:annotation>
+      <xs:documentation>Data Items required for an employer/agent to request to view a Return for a specific period.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="EmployerRegistrationNumber" type="pc:employerReg">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 201. Employer's PAYE-EMP Registration Number.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AgentTain" type="pc:agentTAIN" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 202. Tax Advisor Identification Number. Required if the Payroll Return by Period request is filed by an agent on behalf of an employer.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="SoftwareUsed" type="rr:SoftwareUsed">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: N/A. Third party software product identifier.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ReturnPeriod" type="rr:ReturnPeriod">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: N/A. The period the Return relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <!--Payroll Return by Period Response Schema Elements-->
+  <xs:complexType name="LookupPayrollDetailsByReturnPeriodResponse">
+    <xs:annotation>
+      <xs:documentation>Data Items sent to an employer/agent in response to a Payroll Return by Period request to view a Return for a specific period.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="EmployerRegistrationNumber" type="pc:employerReg">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 201. Employer's PAYE-EMP Registration Number.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="AgentTain" type="pc:agentTAIN" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 202. Tax Advisor Identification Number. Returned if the Payroll Return by Period request was filed by an agent on behalf of an employer.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ReturnPeriod" type="rr:ReturnPeriod">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: N/A. The period the return relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="DateLastUpdated" minOccurs="0" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 208. This date indicates when the return was last updated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Version" minOccurs="0" type="rr:version">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 207. Indicates the version of the return that is being requested.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PeriodSummary" minOccurs="0" type="rr:PeriodSummary">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: N/A. The overall totals for PAYE, PRSI (employer and employee), USC and LPT in the selected period.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PayrollRunDetails" type="rr:PayrollRunDetails" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: N/A. List of individual payroll runs with pay dates in the selected period.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="ValidationError" type="rr:Error" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>List of Submission Validation Errors (if any).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <!--Payroll Return by Period Data Types-->
+  <xs:complexType name="SoftwareUsed">
+    <xs:annotation>
+      <xs:documentation>Data Item Ref: N/A. References to third party software used.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Name" type="pc:defaultString">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 205. Name of the third party software used.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Version" type="pc:defaultString">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 206. Version of the third party software used.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ReturnPeriod">
+    <xs:annotation>
+      <xs:documentation>Data Item Ref: N/A. The period the return relates to.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="PeriodStartDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 203. Period start date e.g. 2019-01-01. Used to identify the period the request relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PeriodEndDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 204. Period end date e.g.2019-01-31. Used to identify the period the request relates to.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PeriodSummary">
+    <xs:annotation>
+      <xs:documentation>Data Item Ref: N/A. Summary totals across valid line items for a specific period.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="TaxOnIncome" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 209. The overall total income tax for the period. (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PRSI" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 210. The overall total PRSI (employer and employee) for the period. (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="USC" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 211. The overall total USC for the period. (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="LPT" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 212. The overall total LPT for the period. (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PayrollRunDetails">
+    <xs:annotation>
+      <xs:documentation>Data Item Ref: N/A. Details of individual payroll runs that have finished processing and that apply to this period.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="PayrollRunReference" type="pc:PayrollRunReference">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 213. The reference number identifies a specific payroll run.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="RunDate" type="xs:date">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 214. The date the payroll run was submitted or last updated.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="multiPeriod" type="xs:boolean">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 215. Indicates if the Payroll Run includes pay dates in other periods. (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="TaxOnIncome" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 216. The total amount of Income Tax in the payroll run for this period.  (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="PRSI" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 217. The total amount of PRSI (employer and employee) in the payroll run for this period.  (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="USC" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 218. The total amount of USC in the payroll run for this period.  (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="LPT" type="xs:decimal">
+        <xs:annotation>
+          <xs:documentation>Data Item Ref: 219. The total amount of LPT in the payroll run for this period.  (Only payroll figures with pay dates in the selected period are included in this period's totals).</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="Error">
+    <xs:annotation>
+      <xs:documentation>Details of validation check failure.</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Code" type="pc:errorCode">
+        <xs:annotation>
+          <xs:documentation>Technical Error Code - to be used for mapping to error messages.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Path" type="pc:errorPath" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>Path to error in schema, if available.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Description" type="pc:errorDescription">
+        <xs:annotation>
+          <xs:documentation>Technical description of error.</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="version">
+    <xs:restriction base="pc:defaultString">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>file:\C:\Users\owalsh01\IdeaProjects\paye-employers-documentation\src\main\resources\soap\v1\common\paye-types.xsd</con:url><con:content><![CDATA[<!--Document History:
+======== Version 0.9 ====================================
+i. Document Created 30/06/2017
+======== Version 0.10 ====================================
+ii. Document updated on 07/09/2017: 
+		Revenue Payroll Instruction changed to Revenue Payroll Notification and RPI changed to RPN
+======== Version 1.0 Milestone 1 ====================================
+iii. Document updated on 17/11/2017: 
+		Renamed the “Class" (type="pc:calculationBasis") to "IncomeTaxCalculatonBasis"
+		Renamed the element: "employeePPSN" to "EmployeePPSN"
+		Renamed the element: "RunReference" to "PayrollRunReference"
+======== Version 1.0 Milestone 2 ====================================
+iv. Document updated on 09/02/2018:
+		dateString pattern and minLength changed
+======== Version 1.0 Release Candidate 2 ====================================
+v. Document updatd on 24/05/2018:
+		Enum values changed from CamelCase to standard Java enum format (e.g. Week1 to WEEK_1) for following fields
+			prsiExemptionReason
+			IncomeTaxCalculationBasis
+			uscStatus
+			processingStatus
+			acknowledgementStatus
+			county
+		Six new Northern Irish Counties added in "County" field-->
+<xs:schema targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/common/" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="0.9" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning">
+  <!--PAYE-specific Simple Types-->
+  <xs:simpleType name="submissionID">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="requestID">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="payrollRunLineItemID">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="acknowledgementID">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="PayrollRunReference">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="rpnNumber">
+    <xs:restriction base="pc:IDString">
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="employmentID">
+    <xs:restriction base="pc:IDString">
+      <xs:maxLength value="20"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="employerReference">
+    <xs:restriction base="pc:defaultString">
+      <xs:maxLength value="50"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="employerReg">
+    <xs:restriction base="pc:defaultString">
+      <xs:pattern value="[0-9]{7,8}[A-Wa-w][A-ITWXZa-itwxz ]?"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="agentTAIN">
+    <xs:restriction base="pc:defaultString">
+      <xs:pattern value="[0-9]{5}[A-Wa-w]"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="EmployeePPSN">
+    <xs:restriction base="pc:defaultString">
+      <xs:minLength value="8"/>
+      <xs:maxLength value="10"/>
+      <xs:pattern value="[0-9A-Za-z]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="pensionTracingNumber">
+    <xs:restriction base="pc:defaultString">
+      <xs:minLength value="8"/>
+      <xs:maxLength value="8"/>
+      <xs:pattern value="[0-9A-Za-z]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="dateYear">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="2000"/>
+      <xs:maxInclusive value="2100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="eircode">
+    <xs:restriction base="xs:string">
+      <xs:minLength value="7"/>
+      <xs:maxLength value="8"/>
+      <xs:pattern value="[A-Za-z0-9 ]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="countryCode">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z]{3}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="prsiClass">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[A-Za-z][0-9A-Za-z ]?"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="prsiExemptionReason">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="A_1_PORTABLE_DOCUMENT"/>
+      <xs:enumeration value="CERTIFICATE_OF_COVERAGE"/>
+      <xs:enumeration value="POSTED_WORKER_OTHER_NOTIFICATION"/>
+      <xs:enumeration value="FAMILY_MEMBER"/>
+      <xs:enumeration value="UNDER_16"/>
+      <xs:enumeration value="SOCIAL_WELFARE_SCHEME"/>
+      <xs:enumeration value="OTHER"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="IncomeTaxCalculationBasis">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="CUMULATIVE"/>
+      <xs:enumeration value="WEEK_1"/>
+      <xs:enumeration value="EMERGENCY"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="uscStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ORDINARY"/>
+      <xs:enumeration value="EXEMPT"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="processingStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="NOT_ACKNOWLEDGED"/>
+      <xs:enumeration value="PENDING"/>
+      <xs:enumeration value="COMPLETED"/>
+      <xs:enumeration value="PROCESSED"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="acknowledgementStatus">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ACKNOWLEDGED"/>
+      <xs:enumeration value="REJECTED"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="county">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ANTRIM"/>
+      <xs:enumeration value="ARMAGH"/>
+      <xs:enumeration value="CARLOW"/>
+      <xs:enumeration value="CAVAN"/>
+      <xs:enumeration value="CLARE"/>
+      <xs:enumeration value="CORK"/>
+      <xs:enumeration value="DERRY"/>
+      <xs:enumeration value="DONEGAL"/>
+      <xs:enumeration value="DOWN"/>
+      <xs:enumeration value="DUBLIN"/>
+      <xs:enumeration value="FERMANAGH"/>
+      <xs:enumeration value="GALWAY"/>
+      <xs:enumeration value="KERRY"/>
+      <xs:enumeration value="KILDARE"/>
+      <xs:enumeration value="KILKENNY"/>
+      <xs:enumeration value="LAOIS"/>
+      <xs:enumeration value="LEITRIM"/>
+      <xs:enumeration value="LIMERICK"/>
+      <xs:enumeration value="LONGFORD"/>
+      <xs:enumeration value="LOUTH"/>
+      <xs:enumeration value="MAYO"/>
+      <xs:enumeration value="MEATH"/>
+      <xs:enumeration value="MONAGHAN"/>
+      <xs:enumeration value="OFFALY"/>
+      <xs:enumeration value="ROSCOMMON"/>
+      <xs:enumeration value="SLIGO"/>
+      <xs:enumeration value="TIPPERARY"/>
+      <xs:enumeration value="TYRONE"/>
+      <xs:enumeration value="WATERFORD"/>
+      <xs:enumeration value="WEXFORD"/>
+      <xs:enumeration value="WESTMEATH"/>
+      <xs:enumeration value="WICKLOW"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <!--Validation - Simple Types-->
+  <xs:simpleType name="errorCode">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="errorPath">
+    <xs:restriction base="pc:longString"/>
+  </xs:simpleType>
+  <xs:simpleType name="errorDescription">
+    <xs:restriction base="pc:longString"/>
+  </xs:simpleType>
+  <xs:simpleType name="warningCode">
+    <xs:restriction base="pc:IDString"/>
+  </xs:simpleType>
+  <xs:simpleType name="warningPath">
+    <xs:restriction base="pc:longString"/>
+  </xs:simpleType>
+  <xs:simpleType name="warningDescription">
+    <xs:restriction base="pc:longString"/>
+  </xs:simpleType>
+  <!--Common Default Simple Types-->
+  <xs:simpleType name="dateString">
+    <xs:restriction base="pc:defaultString">
+      <xs:minLength value="10"/>
+      <xs:maxLength value="10"/>
+      <xs:pattern value="[0-9]{4}-[0-9]{2}-[0-9]{2}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="IDString">
+    <xs:restriction base="pc:defaultString">
+      <xs:maxLength value="50"/>
+      <xs:pattern value="[A-Za-z0-9_\-]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="defaultString">
+    <xs:restriction base="pc:longString">
+      <xs:maxLength value="100"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="longString">
+    <xs:restriction base="xs:normalizedString">
+      <xs:maxLength value="500"/>
+      <xs:pattern value="[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&amp;&quot;'&lt;>\\\.\*\(\)\[\]\{\}\+\-\?\|]*"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:simpleType name="defaultDecimal">
+    <xs:restriction base="xs:decimal">
+      <xs:minInclusive value="-999999999.00"/>
+      <xs:maxInclusive value="999999999.99"/>
+      <xs:fractionDigits value="2"/>
+      <xs:totalDigits value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/</con:endpoint></con:endpoints></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
