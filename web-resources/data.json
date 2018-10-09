@@ -276,7 +276,7 @@
 			},
 			{
 				"link": "soap/SOAP_Request_Authentication_V1.pdf",
-				"description": "SOAP Request Authentication",
+				"description": "SOAP Workshop Presentation",
 				"anchor": "SOAP_Request_Authentication_V1",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
@@ -311,7 +311,7 @@
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "04/10/2018",
+				"dateLastUpdated": "09/10/2018",
 				"category": "download"
 			},
 			{
