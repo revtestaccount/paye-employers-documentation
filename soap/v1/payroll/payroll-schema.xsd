@@ -355,7 +355,7 @@ vi. Document updated on 19/06/2018:
 			</xs:element>
 			<xs:element name="PreviousLineItemID" type="pc:payrollRunLineItemID" minOccurs="0">
 				<xs:annotation>
-					<xs:documentation>Data Item Ref: N/A. Used to identify a previous version of this line item when corrections are made.</xs:documentation>
+					<xs:documentation>Data Item Ref: N/A. Used to identify a previous version of this line item when corrections are made. Can only reference line items within the same payroll run.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="EmployeeID" type="pp:EmployeeID" minOccurs="0">
