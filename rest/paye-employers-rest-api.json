@@ -1418,7 +1418,7 @@
         },
         "previousLineItemID": {
           "type": "string",
-          "description": "Data Item Ref: N/A. Used to identify a previous version of this line item when corrections are made.",
+          "description": "Data Item Ref: N/A. Used to identify a previous version of this line item when corrections are made. Can only reference line items within the same payroll run.",
           "minLength": 0,
           "maxLength": 50,
           "pattern": "[A-Za-z0-9_\\-]*"
@@ -1838,7 +1838,6 @@
         "incomeTaxDeductedToDate",
         "name",
         "payForIncomeTaxToDate",
-        "previousEmployeePPSN",
         "rpnIssueDate",
         "rpnNumber",
         "taxRates",
@@ -1873,7 +1872,7 @@
         },
         "previousEmployeePPSN": {
           "type": "string",
-          "description": "Data Item Ref: 109. Used to identify employee's previous PPS number if applicable e.g. PPS number with 'W' suffix.",
+          "description": "Data Item Ref: 109. Conditionally Returned. Used to identify employee's previous PPS number if available e.g. PPS number with 'W' suffix.",
           "minLength": 8,
           "maxLength": 10,
           "pattern": "[0-9A-Za-z]*"
