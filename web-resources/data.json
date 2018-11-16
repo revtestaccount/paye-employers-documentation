@@ -203,6 +203,15 @@
 				"category": "download"
 			},
 			{
+				"link": "soap/v1/handshake.wsdl",
+				"description": "Handshake Web Service Definition",
+				"anchor": "Handshake_WSDL",
+				"type": "WSDL File",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "16/11/2018",
+				"category": "download"
+			},
+			{
 				"link": "soap/v1/payroll/payroll-schema.xsd",
 				"description": "Payroll Schema",
 				"anchor": "Payroll_Schema",
@@ -227,6 +236,15 @@
 				"type": "Schema",
 				"version": "1.0 Release Candidate 2",
 				"dateLastUpdated": "24/05/2018",
+				"category": "download"
+			},
+			{
+				"link": "soap/v1/handshake/v1/handshake-schema.xsd",
+				"description": "Handshake Schema",
+				"anchor": "Handshake_Schema",
+				"type": "Schema",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "16/11/2018",
 				"category": "download"
 			},
 			{
