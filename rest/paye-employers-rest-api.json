@@ -766,7 +766,7 @@
       "properties": {
         "submissionID": {
           "type": "string",
-          "description": "Unique submission identifier. Must be unique for submissions under a given employer's PAYE registration number. For batch submissions, all submissions should have the same SubmissionID and should have the BatchID and BatchCount populated.",
+          "description": "Unique submission identifier. Must be unique for submissions under a given employer's PAYE registration number.",
           "minLength": 0,
           "maxLength": 50,
           "pattern": "[A-Za-z0-9_\\-]*"
@@ -778,18 +778,6 @@
             "PENDING",
             "COMPLETED",
             "PROCESSED"]
-        },
-        "batchCount": {
-          "type": "integer",
-          "format": "int32",
-          "description": "Total number of batches for a submission recieved in multiple batches."
-        },
-        "batchStatuses": {
-          "type": "array",
-          "description": "Status of each batch for a submission recieved in multiple batches.",
-          "items": {
-            "$ref": "#/definitions/BatchStatus"
-          }
         },
         "submissionSummary": {
           "description": "Summary totals for submission. Included when submission has completed processing.",
