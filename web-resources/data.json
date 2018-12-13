@@ -1,17 +1,4 @@
 {
-	"Parallel": {
-		"title": "Parallel Test Documents",
-		"anchor": "parallel",
-		"cards": [{
-			"link": "Parallel/ROS Payroll Application Reporting.pdf",
-			"description": "Parallel ROS Payroll Reporting Application Guide",
-			"anchor": "parallel_guide",
-			"type": "PDF",
-			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "21/09/2018",
-			"category": "download"
-		}]
-	},
 	"PIT": {
 		"title": "Public Interface Testing – Guides and useful info",
 		"anchor": "PIT",
@@ -115,6 +102,8 @@
 			{
 				"link": "Screens/RPN_Request_CSV_File_Response.pdf",
 				"description": "RPN Request CSV File Response",
+				"explainer": "Format of CSV files are not guaranteed and should not be used to feed in data to the webservices.",
+				"explainerIndex": "2",
 				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
@@ -124,6 +113,7 @@
 			{
 				"link": "Screens/CSV_RPNFormat.csv",
 				"description": "RPN CSV Format",
+				"explainerIndex": "2",
 				"anchor": "RPN_Format_CSV",
 				"type": "CSV",
 				"version": "1.0 Release Candidate 2",
@@ -133,6 +123,7 @@
 			{
 				"link": "Screens/RPN_CSV_Example.csv",
 				"description": "RPN CSV Example",
+				"explainerIndex": "2",
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
 				"version": "1.0 Release Candidate 2",
