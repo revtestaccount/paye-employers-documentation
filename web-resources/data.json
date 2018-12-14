@@ -120,7 +120,7 @@
 			{
 				"link": "Screens/RPN_CSV_Example.csv",
 				"description": "RPN CSV Example",
-				"explainer": "CSV is not versioned. The samples and test responses are provided for illustration purposes only. They are not intended for software use as the format is not guaranteed and could change without prior notice. RPNs in a CSV file are intended for those who calculate payroll manually and for humans to read them.",
+				"explainer": "CSV is not versioned. The samples and test responses are provided for illustration purposes only. They are not intended for software use as the format is not guaranteed and could change without prior notice. RPNs in a CSV file are not intended for software but rather for those who calculate payroll manually and need a  more human readable format than JSON or XML.",
 				"explainerIndex": "2",
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
