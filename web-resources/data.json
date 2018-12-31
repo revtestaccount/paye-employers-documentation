@@ -251,7 +251,7 @@
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "13/11/2018",
+				"dateLastUpdated": "31/11/2018",
 				"category": "navigation"
 			},
 			{
@@ -318,7 +318,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "22/11/2018",
+				"dateLastUpdated": "31/12/2018",
 				"category": "navigation"
 			},
 			{
@@ -367,7 +367,7 @@
 				"anchor": "Payroll_Submission_Data_Items",
 				"type": "PDF",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "14/12/2018",
+				"dateLastUpdated": "31/12/2018",
 				"category": "download"
 			},
 			{
