@@ -587,34 +587,5 @@
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			}]
-	},
-	"employee": {
-		"title": "List of Employees",
-		"anchor": "List_Employees",
-		"cards": [{
-			"link": "list-of-employees/employer-schema.xsd",
-			"description": "Employer Schema",
-			"type": "Schema",
-			"version": "1.0 Final",
-			"dateLastUpdated": "24/05/2018",
-			"category": "download"
-		},
-			{
-				"link": "list-of-employees/employee-schema.xsd",
-				"description": "Employee Schema",
-				"type": "Schema",
-				"version": "1.0 Final",
-				"dateLastUpdated": "08/06/2018",
-				"category": "download"
-			},
-            {
-              "link": "https://rospublictestnextversion.ros.ie/devsupport/file-format-test-facility.html",
-              "description": "File Format Test Facility",
-              "anchor": "Test_Facility",
-              "type": "LINK",
-              "version": "1.0 Final",
-              "dateLastUpdated": "21/09/2018",
-              "category": "LINK"
-            }]
 	}
 }
