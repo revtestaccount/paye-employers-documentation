@@ -987,8 +987,5 @@ a:hover{
     .col-xxs-0{
         width: 0 !important;
     }
-    .card{
-        font-size: 0.8rem !important;
-    }
     /*  end custom breakpoints */
 }
