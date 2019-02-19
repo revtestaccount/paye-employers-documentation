@@ -607,47 +607,6 @@
 				"dateLastUpdated": "08/06/2018",
 				"category": "download"
 			},
-			{
-				"link": "list-of-employees/CSV_list-of-employee.pdf",
-				"description": "List Of Employees CSV format",
-				"type": "PDF",
-				"version": "1.0 Final",
-				"dateLastUpdated": "08/06/2018",
-				"category": "download"
-			},
-			{
-				"link": "list-of-employees/List_of_Employees_Data_Items.pdf",
-				"description": "List Of Employees: Data Items",
-				"type": "PDF",
-				"version": "1.0 Final",
-				"dateLastUpdated": "08/06/2018",
-				"category": "download"
-			},
-			{
-				"link": "list-of-employees/listOfEmployeesSample.xml",
-				"description": "List Of Employees sample XML file",
-				"type": "XML",
-				"version": "1.0 Final",
-				"dateLastUpdated": "24/05/2018",
-				"category": "download"
-			},
-			{
-				"link": "list-of-employees/listOfEmployeesSampleCSV.csv",
-				"description": "List Of Employees sample CSV file",
-				"type": "CSV",
-				"version": "1.0 Final",
-				"dateLastUpdated": "20/07/2018",
-				"category": "download"
-			},
-            {
-              "link": "https://rospublictestnextversion.ros.ie/employee-list-web/validation",
-              "description": "List of Employees Validation",
-              "anchor": "List_of_Employees_Validation",
-              "type": "LINK",
-              "version": "1.0 Final",
-              "dateLastUpdated": "21/09/2018",
-              "category": "LINK"
-            },
             {
               "link": "https://rospublictestnextversion.ros.ie/devsupport/file-format-test-facility.html",
               "description": "File Format Test Facility",
