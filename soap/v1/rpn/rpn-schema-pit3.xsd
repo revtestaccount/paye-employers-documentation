@@ -231,12 +231,12 @@ vi.  Document updated on 12/11/2018:
 			<xs:documentation>References to third party software used.</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:element name="Name" type="pc:defaultString">
+			<xs:element name="Name" type="pc:NonEmptyString">
 				<xs:annotation>
 					<xs:documentation>Name of the software used.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="Version" type="pc:defaultString">
+			<xs:element name="Version" type="pc:NonEmptyString">
 				<xs:annotation>
 					<xs:documentation>Version of the software used.</xs:documentation>
 				</xs:annotation>

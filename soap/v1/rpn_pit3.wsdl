@@ -17,7 +17,7 @@ iv. Document updated on 24/05/2017:
 
 	<wsdl:types>
 		<xs:schema>
-			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/rpn/" schemaLocation="rpn/rpn-schema.xsd" />
+			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/rpn/" schemaLocation="rpn/rpn-schema-pit3.xsd" />
 		</xs:schema>
 	</wsdl:types>
 	

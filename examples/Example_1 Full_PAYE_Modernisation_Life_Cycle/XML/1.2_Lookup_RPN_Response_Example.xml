@@ -22,7 +22,7 @@ iv. Document updated on 09/02/2018:
 v. Document updated on 24/05/2018
 	 Updated ENUM Values to reflect schematic changes
 -->
-<rat:LookupRPNResponse xmlns:rat="http://www.ros.ie/schemas/paye-employers/v1/rpn/" xmlns="http://www.ros.ie/schemas/paye-employers/v1/rpn/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ros.ie/schemas/paye-employers/v1/rpn/rpn-schema.xsd">
+<rat:LookupRPNResponse xmlns:rat="http://www.ros.ie/schemas/paye-employers/v1/rpn/" xmlns="http://www.ros.ie/schemas/paye-employers/v1/rpn/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ros.ie/schemas/paye-employers/v1/rpn/rpn-schema-pit3.xsd">
 	<rat:EmployerName>Employer1</rat:EmployerName>
 	<rat:EmployerRegistrationNumber>3980609P</rat:EmployerRegistrationNumber>
 	<rat:TaxYear>2019</rat:TaxYear>
