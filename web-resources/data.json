@@ -116,7 +116,7 @@
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
 			{
@@ -203,16 +203,16 @@
 			"category": "download"
 		},
 			{
-				"link": "soap/v1/rpn-pit3.wsdl",
+				"link": "soap/v1/rpn_pit3.wsdl",
 				"description": "RPN Web Service Definition PIT Current Version",
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
 			{
-				"link": "soap/v1/rpn-pit4.wsdl",
+				"link": "soap/v1/rpn_pit4.wsdl",
 				"description": "RPN Web Service Definition PIT Next Version",
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
@@ -253,7 +253,7 @@
 				"anchor": "RPN_Schema",
 				"type": "Schema",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
 			{
@@ -294,11 +294,20 @@
 			},
 			{
 				"link": "soap/soap-schema-reference/webframe.html",
-				"description": "SOAP Schema Reference",
+				"description": "SOAP Schema Reference PIT Current Version",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "08/01/2019",
+				"dateLastUpdated": "26/08/2019",
+				"category": "navigation"
+			},
+			{
+				"link": "soap/soap-schema-reference/webframe.html",
+				"description": "SOAP Schema Reference PIT Next Version",
+				"anchor": "SOAP_Schema_Reference",
+				"type": "Link",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
 			{
@@ -356,7 +365,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "14/11/2018",
+			"dateLastUpdated": "26/08/2019",
 			"category": "download"
 		},
 			{
@@ -374,7 +383,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "08/01/2019",
+				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
 			{
