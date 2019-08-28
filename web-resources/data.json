@@ -293,7 +293,7 @@
 				"category": "download"
 			},
 			{
-				"link": "soap/soap-schema-reference/webframe.html",
+				"link": "soap/soap-schema-reference-pit3/webframe.html",
 				"description": "SOAP Schema Reference PIT Current Version",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
@@ -302,7 +302,7 @@
 				"category": "navigation"
 			},
 			{
-				"link": "soap/soap-schema-reference/webframe.html",
+				"link": "soap/soap-schema-reference-pit4/webframe.html",
 				"description": "SOAP Schema Reference PIT Next Version",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
@@ -357,11 +357,11 @@
 			}]
 	},
 	"rest": {
-		"title": "PAYE Web Service Specifications (REST/JSON)",
+		"title": "PAYE Web Service Specifications PIT Current Version (REST/JSON)",
 		"anchor": "rest",
 		"cards": [{
 			"link": "rest/paye-employers-rest-api-pit3.json",
-			"description": "REST Open API Specification PIT Current Version",
+			"description": "REST Open API Specification",
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"version": "1.0 Release Candidate 2",
@@ -369,17 +369,8 @@
 			"category": "download"
 		},
 			{
-				"link": "rest/paye-employers-rest-api-pit4.json",
-				"description": "REST Open API Specification PIT Next Version",
-				"anchor": "REST_API_Spec",
-				"type": "API File",
-				"version": "1.0 Release Candidate 2",
-				"dateLastUpdated": "14/11/2018",
-				"category": "download"
-			},
-			{
 				"link": "rest/paye-employers-rest-api-pit3.html",
-				"description": "REST API Reference PIT Current Version",
+				"description": "REST API Reference PIT",
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
@@ -387,8 +378,47 @@
 				"category": "navigation"
 			},
 			{
+				"link": "rest/REST_Web_Service_Integration_Guide.pdf",
+				"description": "REST Web Service Integration Guide",
+				"anchor": "REST_Integration_Guide",
+				"type": "PDF",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "09/04/2019",
+				"category": "download"
+			},
+			{
+				"link": "rest/REST_Web_Service_Integration_Guide_Sample_Http_Messages.zip",
+				"description": "REST Web Service Integration Guide Sample Messages",
+				"anchor": "REST_Integration_Guide_Sample_Messages",
+				"type": "ZIP",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "14/12/2018",
+				"category": "download"
+			},
+			{
+				"link": "rest/REST_Connectivity_Handshake_Guide.pdf",
+				"description": "REST Connectivity Handshake Guide",
+				"anchor": "REST_Handshake_Guide",
+				"type": "PDF",
+				"version": "1.0 Release Candidate 2",
+				"dateLastUpdated": "08/01/2019",
+				"category": "download"
+			}],
+
+		"title": "PAYE Web Service Specifications PIT Next Version (REST/JSON)",
+		"anchor": "rest",
+		"cards": [{
+			"link": "rest/paye-employers-rest-api-pit4.json",
+			"description": "REST Open API Specification",
+			"anchor": "REST_API_Spec",
+			"type": "API File",
+			"version": "1.0 Release Candidate 2",
+			"dateLastUpdated": "26/08/2019",
+			"category": "download"
+			},
+			{
 				"link": "rest/paye-employers-rest-api-pit4.html",
-				"description": "REST API Reference PIT Next Version",
+				"description": "REST API Reference PIT",
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"version": "1.0 Release Candidate 2",
@@ -423,6 +453,8 @@
 				"category": "download"
 			}]
 	},
+
+
 	"support": {
 		"title": "Supporting Documentation",
 		"anchor": "support",
