@@ -5,7 +5,7 @@ Document History:
 i. Document Created 23/10/2018
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pr="http://www.ros.ie/schemas/paye-employers/v1/handshake/" xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/handshake/" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="0.9">
-	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types.xsd"/>
+	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types-pit4.xsd"/>
 	<!-- Handshake (Revenue Payroll Notification) Request and Response Schema Elements -->
 	<xs:element name="HandshakeRequest" type="pr:HandshakeRequest">
 		<xs:annotation>

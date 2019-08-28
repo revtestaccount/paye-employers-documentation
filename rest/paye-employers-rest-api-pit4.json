@@ -467,6 +467,17 @@
               "type": "string"
             },
             "collectionFormat": "multi"
+          },
+          {
+            "name": "ppsns",
+            "in": "query",
+            "description": "Look up RPN by PPSN. Optional parameter",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "collectionFormat": "multi"
           }],
         "responses": {
           "200": {
@@ -1696,6 +1707,7 @@
       "type": "object",
       "required": ["effectiveDate",
         "employeeID",
+        "employmentCessationDate",
         "endDate",
         "incomeTaxCalculationBasis",
         "incomeTaxDeductedToDate",
@@ -1748,6 +1760,11 @@
           "type": "string",
           "format": "date",
           "description": "Data Item Ref: 115. Last date on which the RPN specified will apply. After this date a new RPN should be requested."
+        },
+        "employmentCessationDate": {
+          "type": "string",
+          "format": "date",
+          "description": "Data Item Ref: 136. The date an employee left this employment (date contract terminated) – See Data items document for more details"
         },
         "incomeTaxCalculationBasis": {
           "type": "string",

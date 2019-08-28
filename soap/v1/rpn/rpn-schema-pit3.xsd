@@ -30,7 +30,7 @@ vi.  Document updated on 12/11/2018:
 		Updated description of "PreviousEmployeePPSN" to show it's conditional
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pr="http://www.ros.ie/schemas/paye-employers/v1/rpn/" xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/rpn/" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="0.9">
-	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types.xsd"/>
+	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types-pit3.xsd"/>
 	<!-- RPN (Revenue Payroll Notification) Request and Response Schema Elements -->
 	<xs:element name="LookupRPNRequest" type="pr:LookupRPNRequest">
 		<xs:annotation>

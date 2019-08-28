@@ -17,7 +17,7 @@ v.  'schemaLocation' updated to 'returns_reconciliation/returns_reconciliation-s
 
 	<wsdl:types>
 		<xs:schema>
-			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" schemaLocation="returns_reconciliation/returns_reconciliation-schema.xsd"/>
+			<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" schemaLocation="returns_reconciliation/returns_reconciliation-schema-pit4.xsd"/>
 		</xs:schema>
 	</wsdl:types>
 

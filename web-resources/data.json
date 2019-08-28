@@ -194,7 +194,7 @@
 		"title": "PAYE Web Service Specifications (SOAP/XML)",
 		"anchor": "soap",
 		"cards": [{
-			"link": "soap/v1/payroll.wsdl",
+			"link": "soap/v1/payroll_pit3.wsdl",
 			"description": "Payroll Web Service Definition",
 			"anchor": "Payroll_WSDL",
 			"type": "WSDL File",
@@ -221,7 +221,7 @@
 				"category": "download"
 			},
 			{
-				"link": "soap/v1/returns_reconciliation.wsdl",
+				"link": "soap/v1/returns_reconciliation_pit3.wsdl",
 				"description": "Returns Reconciliation Web Service Definition",
 				"anchor": "Returns_Reconciliation_WSDL",
 				"type": "WSDL File",
@@ -230,7 +230,7 @@
 				"category": "download"
 			},
 			{
-				"link": "soap/v1/handshake.wsdl",
+				"link": "soap/v1/handshake_pit3.wsdl",
 				"description": "Handshake Web Service Definition",
 				"anchor": "Handshake_WSDL",
 				"type": "WSDL File",

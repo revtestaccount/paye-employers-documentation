@@ -8,7 +8,7 @@ ii. Document updated 18/05/2018
 
 -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:rr="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/" xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" targetNamespace="http://www.ros.ie/schemas/paye-employers/v1/returns_reconciliation/" elementFormDefault="qualified" attributeFormDefault="unqualified" vc:minVersion="0.9">
-	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types.xsd"/>
+	<xs:import namespace="http://www.ros.ie/schemas/paye-employers/v1/common/" schemaLocation="../common/paye-types-pit3.xsd"/>
 	<!--Payroll Return by Period Request and Response Operations -->
 	<xs:element name="LookupPayrollDetailsByReturnPeriodRequest" type="rr:LookupPayrollDetailsByReturnPeriodRequest">
 		<xs:annotation>
