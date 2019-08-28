@@ -8,7 +8,7 @@
 			"description": "Conformance Test Scenarios - Connectivity Testing",
 			"anchor": "Conformance_Test_Scenarios",
 			"type": "PDF",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Current Version",
 			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
@@ -17,7 +17,7 @@
 				"description": "PAYE PIT Help Desk User Guide",
 				"anchor": "Help_Desk_User_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
@@ -26,7 +26,7 @@
 				"description": "Help Desk Registration",
 				"anchor": "Help_Desk_Registration",
 				"type": "LINK",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "LINK"
 			},
@@ -35,7 +35,7 @@
 				"description": "Help Desk Login",
 				"anchor": "Help_Desk_Login",
 				"type": "LINK",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "LINK"
 			},
@@ -44,7 +44,7 @@
 				"description": "PIT Next Version Features",
 				"anchor": "PIT_Next_Version_Features",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			}]
@@ -59,7 +59,7 @@
 			"explainerIndex": "1",
 			"anchor": "Portal_Link",
 			"type": "LINK",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Current Version",
 			"dateLastUpdated": "26/08/2018",
 			"category": "LINK"
 		},
@@ -70,7 +70,7 @@
 				"explainerIndex": "2",
 				"anchor": "Portal_Link",
 				"type": "LINK",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2018",
 				"category": "LINK"
 			},
@@ -79,7 +79,7 @@
 				"description": "PIT Self Service Application Guide",
 				"anchor": "PITSelfServiceGuide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -88,7 +88,7 @@
 				"description": "ROS Payroll Reporting Application Guide",
 				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -97,7 +97,7 @@
 				"description": "ROS Payroll Reporting Message Guide",
 				"anchor": "ROS_Payroll_Reporting_Message_guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -106,7 +106,7 @@
 				"description": "Payroll Screen Upload JSON Examples",
 				"anchor": "OPA_Upload_Examples",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -115,7 +115,7 @@
 				"description": "ROS Payroll Reporting JSON Envelope schema PIT Current Version",
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -124,7 +124,7 @@
 				"description": "ROS Payroll Reporting JSON Envelope schema PIT Next Version",
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -133,7 +133,7 @@
 				"description": "RPN Request CSV File Response",
 				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -142,7 +142,7 @@
 				"description": "RPN CSV Format",
 				"anchor": "RPN_Format_CSV",
 				"type": "CSV",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -153,7 +153,7 @@
 				"explainerIndex": "3",
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			}
@@ -167,7 +167,7 @@
 			"description": "Documentation Guide",
 			"anchor": "Documentation_Guide",
 			"type": "PDF",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Current Version",
 			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
@@ -176,7 +176,7 @@
 				"description": "Schema Publication Changelog",
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -185,7 +185,7 @@
 				"description": "Guide to web service compression",
 				"anchor": "CompressionGuide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "14/12/2018",
 				"category": "download"
 			}]
@@ -198,7 +198,7 @@
 			"description": "Payroll Web Service Definition",
 			"anchor": "Payroll_WSDL",
 			"type": "WSDL File",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Current Version",
 			"dateLastUpdated": "24/05/2018",
 			"category": "download"
 		},
@@ -207,7 +207,7 @@
 				"description": "RPN Web Service Definition PIT Current Version",
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
@@ -216,7 +216,7 @@
 				"description": "RPN Web Service Definition PIT Next Version",
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -225,7 +225,7 @@
 				"description": "Returns Reconciliation Web Service Definition",
 				"anchor": "Returns_Reconciliation_WSDL",
 				"type": "WSDL File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -234,7 +234,7 @@
 				"description": "Handshake Web Service Definition",
 				"anchor": "Handshake_WSDL",
 				"type": "WSDL File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "22/11/2018",
 				"category": "download"
 			},
@@ -243,7 +243,7 @@
 				"description": "Payroll Schema",
 				"anchor": "Payroll_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "19/06/2018",
 				"category": "download"
 			},
@@ -252,7 +252,7 @@
 				"description": "RPN Schema PIT Current Version",
 				"anchor": "RPN_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
@@ -261,7 +261,7 @@
 				"description": "RPN Schema PIT Next Version",
 				"anchor": "RPN_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -270,7 +270,7 @@
 				"description": "Returns Reconciliation Schema",
 				"anchor": "Returns_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -279,7 +279,7 @@
 				"description": "Handshake Schema",
 				"anchor": "Handshake_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "22/11/2018",
 				"category": "download"
 			},
@@ -288,7 +288,7 @@
 				"description": "Common PAYE Types Schema",
 				"anchor": "PAYE_Types_Schema",
 				"type": "Schema",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			},
@@ -297,7 +297,7 @@
 				"description": "SOAP Schema Reference PIT Current Version",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
@@ -306,7 +306,7 @@
 				"description": "SOAP Schema Reference PIT Next Version",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
@@ -315,7 +315,7 @@
 				"description": "SOAP Web Service Integration Guide",
 				"anchor": "SOAP_integration_guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			},
@@ -324,7 +324,7 @@
 				"description": "SOAP Lookup RPNs by Range Guide",
 				"anchor": "SOAP_Lookup_RPNs_by_Range",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "20/07/2018",
 				"category": "download"
 			},
@@ -333,7 +333,7 @@
 				"description": "SOAP Web Service Integration Guide Examples",
 				"anchor": "SOAP_integration_guide_Examples",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "17/05/2018",
 				"category": "download"
 			},
@@ -342,7 +342,7 @@
 				"description": "SOAP Workshop Presentation",
 				"anchor": "SOAP_Request_Authentication_V1",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "17/05/2018",
 				"category": "download"
 			},
@@ -351,29 +351,30 @@
 				"description": "SOAP Connectivity Handshake Guide",
 				"anchor": "SOAP_Handshake_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			}]
 	},
-	"rest": {
+	"rest pit current version": {
 		"title": "PAYE Web Service Specifications PIT Current Version (REST/JSON)",
 		"anchor": "rest",
-		"cards": [{
-			"link": "rest/paye-employers-rest-api-pit3.json",
-			"description": "REST Open API Specification",
-			"anchor": "REST_API_Spec",
-			"type": "API File",
-			"version": "1.0 Release Candidate 2",
-			"dateLastUpdated": "26/08/2019",
-			"category": "download"
-		},
+		"cards": [
+			{
+				"link": "rest/paye-employers-rest-api-pit3.json",
+				"description": "REST Open API Specification",
+				"anchor": "REST_API_Spec",
+				"type": "API File",
+				"environment": "PIT Current Version",
+				"dateLastUpdated": "26/08/2019",
+				"category": "download"
+			},
 			{
 				"link": "rest/paye-employers-rest-api-pit3.html",
 				"description": "REST API Reference PIT",
 				"anchor": "REST_API_Ref",
 				"type": "Link",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
@@ -382,7 +383,7 @@
 				"description": "REST Web Service Integration Guide",
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "09/04/2019",
 				"category": "download"
 			},
@@ -391,7 +392,7 @@
 				"description": "REST Web Service Integration Guide Sample Messages",
 				"anchor": "REST_Integration_Guide_Sample_Messages",
 				"type": "ZIP",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "14/12/2018",
 				"category": "download"
 			},
@@ -400,10 +401,13 @@
 				"description": "REST Connectivity Handshake Guide",
 				"anchor": "REST_Handshake_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
-			}],
+			}
+		]
+	},
+	"rest pit next version": {
 
 		"title": "PAYE Web Service Specifications PIT Next Version (REST/JSON)",
 		"anchor": "rest",
@@ -412,7 +416,7 @@
 			"description": "REST Open API Specification",
 			"anchor": "REST_API_Spec",
 			"type": "API File",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Next Version",
 			"dateLastUpdated": "26/08/2019",
 			"category": "download"
 			},
@@ -421,7 +425,7 @@
 				"description": "REST API Reference PIT",
 				"anchor": "REST_API_Ref",
 				"type": "Link",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Next Version",
 				"dateLastUpdated": "27/08/2019",
 				"category": "navigation"
 			},
@@ -430,7 +434,7 @@
 				"description": "REST Web Service Integration Guide",
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Next Version",
 				"dateLastUpdated": "09/04/2019",
 				"category": "download"
 			},
@@ -439,7 +443,7 @@
 				"description": "REST Web Service Integration Guide Sample Messages",
 				"anchor": "REST_Integration_Guide_Sample_Messages",
 				"type": "ZIP",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Next Version",
 				"dateLastUpdated": "14/12/2018",
 				"category": "download"
 			},
@@ -448,7 +452,7 @@
 				"description": "REST Connectivity Handshake Guide",
 				"anchor": "REST_Handshake_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Next Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			}]
@@ -463,7 +467,7 @@
 			"description": "PAYE Modernisation Overview",
 			"anchor": "PAYE_Overview",
 			"type": "LINK",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Next Version",
 			"dateLastUpdated": "14/12/2018",
 			"category": "LINK"
 		},
@@ -472,7 +476,7 @@
 				"description": "Payroll Submission Request: Data Items",
 				"anchor": "Payroll_Submission_Data_Items",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "17/06/2019",
 				"category": "download"
 			},
@@ -481,7 +485,7 @@
 				"description": "RPN : Data Items",
 				"anchor": "RPN_Data_Items",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
@@ -490,7 +494,7 @@
 				"description": "Returns Reconciliation Service: Data Items",
 				"anchor": "Returns_Data_Items",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -499,7 +503,7 @@
 				"description": "Validation Rules: Employer Submission, RPN, and Returns Reconciliation",
 				"anchor": "Validation_Rules",
 				"type": "Excel File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "18/06/2019",
 				"category": "download"
 			},
@@ -508,7 +512,7 @@
 				"description": "Error Message Guide",
 				"anchor": "Error_Structure",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "09/08/2018",
 				"category": "download"
 			},
@@ -517,7 +521,7 @@
 				"description": "Line Item Correction Rules",
 				"anchor": "Error_Structure",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "28/05/2019",
 				"category": "download"
 			},
@@ -526,7 +530,7 @@
 				"description": "Employment ID Guide",
 				"anchor": "Employment_ID_Guide",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "09/08/2018",
 				"category": "download"
 			},
@@ -535,7 +539,7 @@
 				"description": "PAYE Regulations 20180629 Consultation",
 				"anchor": "PAYE Regulations Consultation",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "29/06/2018",
 				"category": "download"
 			},
@@ -544,7 +548,7 @@
 				"description": "USC Regulations 20180724 Consultation",
 				"anchor": "USC Regulations Consultation",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/07/2018",
 				"category": "download"
 			}]
@@ -557,7 +561,7 @@
 			"description": "PAYE Modernisation Description Of Web Service Examples",
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
-			"version": "1.0 Release Candidate 2",
+			"environment": "PIT Current Version",
 			"dateLastUpdated": "26/08/2019",
 			"category": "download"
 		},
@@ -566,7 +570,7 @@
 				"description": "Example 1: Full PAYE Modernisation Life Cycle",
 				"anchor": "Example_1",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -575,7 +579,7 @@
 				"description": "Example 2: Overpayment To Employee   ",
 				"anchor": "Example_2",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "25/06/2019",
 				"category": "download"
 			},
@@ -584,7 +588,7 @@
 				"description": "Example 3: Underpayment To Employee  ",
 				"anchor": "Example_3",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -593,7 +597,7 @@
 				"description": "Example 4: Amendment Of Invalid Payroll Submission    ",
 				"anchor": "Example_4",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "29/04/2019",
 				"category": "download"
 			},
@@ -602,7 +606,7 @@
 				"description": "Example 5: Employer With Multiple Employees",
 				"anchor": "Example_5",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -611,7 +615,7 @@
 				"description": "Example 6: Check Payroll Run Response",
 				"anchor": "Example_6",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -620,7 +624,7 @@
 				"description": "Example 7: Payroll Submission with Invalid Payslips",
 				"anchor": "Example_7",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -629,7 +633,7 @@
 				"description": "Example 8: Batched Submissions",
 				"anchor": "Example_8",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -638,7 +642,7 @@
 				"description": "Example 9: Deletion Of Incorrect Payslip From Submission",
 				"anchor": "Example_9",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"sub_heading" : "Additional Payroll Scenarios",
 				"category": "download"
@@ -648,7 +652,7 @@
 				"description": "Example 10: Lookup Payroll Return By Period",
 				"anchor": "Example_10",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"sub_heading" : "Additional Payroll Scenarios",
 				"category": "download"
@@ -658,7 +662,7 @@
 				"description": "Payroll Scenarios",
 				"anchor": "Scenarios_Document",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "19/06/2018",
 				"category": "download"
 			},
@@ -669,7 +673,7 @@
 				"explainerIndex": "2",
 				"anchor": "Scenarios",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -680,7 +684,7 @@
 				"explainerIndex": "3",
 				"anchor": "Scenarios",
 				"type": "ZIP File",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
@@ -689,7 +693,7 @@
 				"description": "Sample Code Gists",
 				"anchor": "Gists",
 				"type": "LINK",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "14/06/2018",
 				"category": "LINK"
 			},
@@ -698,7 +702,7 @@
 				"description": "REST Request Authentication Presentation",
 				"anchor": "REST_Presentation",
 				"type": "PDF",
-				"version": "1.0 Release Candidate 2",
+				"environment": "PIT Current Version",
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			}]
