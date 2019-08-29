@@ -8,7 +8,7 @@
 			"description": "Conformance Test Scenarios - Connectivity Testing",
 			"anchor": "Conformance_Test_Scenarios",
 			"type": "PDF",
-			"environment": "All",
+			"environment": "All Versions",
 			"dateLastUpdated": "19/06/2018",
 			"category": "download"
 		},
@@ -17,7 +17,7 @@
 				"description": "PAYE PIT Help Desk User Guide",
 				"anchor": "Help_Desk_User_Guide",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			},
@@ -26,7 +26,7 @@
 				"description": "Help Desk Registration",
 				"anchor": "Help_Desk_Registration",
 				"type": "LINK",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "24/05/2018",
 				"category": "LINK"
 			},
@@ -35,7 +35,7 @@
 				"description": "Help Desk Login",
 				"anchor": "Help_Desk_Login",
 				"type": "LINK",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "24/05/2018",
 				"category": "LINK"
 			},
@@ -44,7 +44,7 @@
 				"description": "PIT Next Version Features",
 				"anchor": "PIT_Next_Version_Features",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "26/08/2018",
 				"category": "download"
 			}]
@@ -687,7 +687,7 @@
 			"description": "PAYE Modernisation Overview",
 			"anchor": "PAYE_Overview",
 			"type": "LINK",
-			"environment": "All",
+			"environment": "All Versions",
 			"dateLastUpdated": "14/12/2018",
 			"category": "LINK"
 		},
@@ -759,7 +759,7 @@
 				"description": "PAYE Regulations 20180629 Consultation",
 				"anchor": "PAYE Regulations Consultation",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "29/06/2018",
 				"category": "download"
 			},
@@ -768,7 +768,7 @@
 				"description": "USC Regulations 20180724 Consultation",
 				"anchor": "USC Regulations Consultation",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "24/07/2018",
 				"category": "download"
 			}]
@@ -782,7 +782,7 @@
 			"description": "PAYE Modernisation Overview",
 			"anchor": "PAYE_Overview",
 			"type": "LINK",
-			"environment": "All",
+			"environment": "All Versions",
 			"dateLastUpdated": "14/12/2018",
 			"category": "LINK"
 		},
@@ -854,7 +854,7 @@
 				"description": "PAYE Regulations 20180629 Consultation",
 				"anchor": "PAYE Regulations Consultation",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "29/06/2018",
 				"category": "download"
 			},
@@ -863,7 +863,7 @@
 				"description": "USC Regulations 20180724 Consultation",
 				"anchor": "USC Regulations Consultation",
 				"type": "PDF",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "24/07/2018",
 				"category": "download"
 			}]
@@ -1009,7 +1009,7 @@
 				"description": "Sample Code Gists",
 				"anchor": "Gists",
 				"type": "LINK",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "14/06/2018",
 				"category": "LINK"
 			},
@@ -1164,7 +1164,7 @@
 				"description": "Sample Code Gists",
 				"anchor": "Gists",
 				"type": "LINK",
-				"environment": "All",
+				"environment": "All Versions",
 				"dateLastUpdated": "14/06/2018",
 				"category": "LINK"
 			},
