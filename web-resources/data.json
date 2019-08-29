@@ -4,7 +4,7 @@
 		"anchor": "PIT",
 		"cardText": "<p>This section provides documentation which advises users on:</p><ul><li>How to register for access to the Public Interface Testing (PIT) environment for the new PAYE Modernisation services</li><li>How to raise queries or issues arising from either PIT or in relation to our published technical documentation.</li><li>Supported conformance test scenarios which can be executed in the PIT environment.</li></ul>",
 		"cards": [{
-			"link": "PIT/Conformance Test Scenarios - Connectivity Testing.pdf",
+			"link": "PIT3/PIT/Conformance Test Scenarios - Connectivity Testing.pdf",
 			"description": "Conformance Test Scenarios - Connectivity Testing",
 			"anchor": "Conformance_Test_Scenarios",
 			"type": "PDF",
@@ -13,7 +13,7 @@
 			"category": "download"
 		},
 			{
-				"link": "PIT/PAYE PIT Help Desk User Guide.pdf",
+				"link": "PIT3/PIT/PAYE PIT Help Desk User Guide.pdf",
 				"description": "PAYE PIT Help Desk User Guide",
 				"anchor": "Help_Desk_User_Guide",
 				"type": "PDF",
@@ -40,7 +40,7 @@
 				"category": "LINK"
 			},
 			{
-				"link": "PIT/PIT Next Version Features.pdf",
+				"link": "PIT3/PIT/PIT Next Version Features.pdf",
 				"description": "PIT Next Version Features",
 				"anchor": "PIT_Next_Version_Features",
 				"type": "PDF",
