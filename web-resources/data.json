@@ -18,7 +18,7 @@
 				"anchor": "Help_Desk_User_Guide",
 				"type": "PDF",
 				"environment": "All Versions",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -27,7 +27,7 @@
 				"anchor": "Help_Desk_Registration",
 				"type": "LINK",
 				"environment": "All Versions",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "30/08/2018",
 				"category": "LINK"
 			},
 			{
@@ -45,7 +45,7 @@
 				"anchor": "PIT_Next_Version_Features",
 				"type": "PDF",
 				"environment": "All Versions",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			}]
 	},
@@ -60,7 +60,7 @@
 			"anchor": "Portal_Link",
 			"type": "LINK",
 			"environment": "PIT Current Version",
-			"dateLastUpdated": "26/08/2019",
+			"dateLastUpdated": "24/05/2018",
 			"category": "LINK"
 			},
 			{
@@ -105,7 +105,7 @@
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -114,7 +114,7 @@
 				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -151,7 +151,7 @@
 				"anchor": "Portal_Link",
 				"type": "LINK",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "LINK"
 			},
 			{
@@ -160,7 +160,7 @@
 				"anchor": "PITSelfServiceGuide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -169,7 +169,7 @@
 				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -192,11 +192,11 @@
 			},
 			{
 				"link": "PIT4/Screens/ROS_Payroll_Reporting_JSON_Envelope_schema_pit4.json",
-				"description": "ROS Payroll Reporting JSON Envelope schema PIT Next Version",
+				"description": "ROS Payroll Reporting JSON Envelope schema",
 				"anchor": "ROS_Payroll_Reporting_JSON_Envelope_schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -205,7 +205,7 @@
 				"anchor": "RPN_Request_CSV_File_Response",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -225,7 +225,7 @@
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			}
 		]
@@ -249,7 +249,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "09/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -281,7 +281,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -381,11 +381,11 @@
 			},
 			{
 				"link": "PIT3/soap/soap-schema-reference/webframe.html",
-				"description": "SOAP Schema Reference PIT",
+				"description": "SOAP Schema Reference",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "navigation"
 			},
 			{
@@ -449,11 +449,11 @@
 		},
 			{
 				"link": "PIT4/soap/v1/rpn_pit4.wsdl",
-				"description": "RPN Web Service Definition PIT",
+				"description": "RPN Web Service Definition",
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -485,11 +485,11 @@
 			},
 			{
 				"link": "PIT4/soap/v1/rpn/rpn-schema-pit4.xsd",
-				"description": "RPN Schema PIT",
+				"description": "RPN Schema",
 				"anchor": "RPN_Schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -521,11 +521,11 @@
 			},
 			{
 				"link": "PIT4/soap/soap-schema-reference/webframe.html",
-				"description": "SOAP Schema Reference PIT",
+				"description": "SOAP Schema Reference",
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "navigation"
 			},
 			{
@@ -637,7 +637,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"environment": "PIT Next Version",
-			"dateLastUpdated": "26/08/2019",
+			"dateLastUpdated": "30/08/2019",
 			"category": "download"
 			},
 			{
@@ -646,7 +646,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "navigation"
 			},
 			{
@@ -801,7 +801,7 @@
 				"anchor": "RPN_Data_Items",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -819,7 +819,7 @@
 				"anchor": "Validation_Rules",
 				"type": "Excel File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "18/06/2019",
+				"dateLastUpdated": "30/08/2019",
 				"category": "download"
 			},
 			{
@@ -878,7 +878,7 @@
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
 			"environment": "PIT Current Version",
-			"dateLastUpdated": "26/08/2019",
+			"dateLastUpdated": "28/05/2019",
 			"category": "download"
 		},
 			{
@@ -1033,7 +1033,7 @@
 			"anchor": "Overview_Of_Web_Service_Examples",
 			"type": "PDF",
 			"environment": "PIT Next Version",
-			"dateLastUpdated": "26/08/2019",
+			"dateLastUpdated": "30/08/2019",
 			"category": "download"
 		},
 			{
