@@ -739,6 +739,9 @@ ga('send', 'pageview');
         <li class="i-filtered-content-XML">
 			<a href="#i-tab-content-a92c214f-c3ac-44fd-95a0-1983bc5e531d">XML</a>
 		</li>
+        <li class="i-filtered-content-XML">
+			<a href="#i-tab-content-45e11e85-afca-44fa-9da6-9746bb835825">XML</a>
+		</li>
 
     </ul>
 	<div id="i-tab-content-a92c214f-c3ac-44fd-95a0-1983bc5e531d" class="i-filtered-content-XML">
@@ -772,6 +775,90 @@ v. Document updated on 24/05/2018
         <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmploymentID</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmploymentID</span><span style="color: #0000FF; ">&gt;</span>
     <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmployeeID</span><span style="color: #0000FF; ">&gt;</span>
 <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:LookupRPNRequest</span><span style="color: #0000FF; ">&gt;</span>
+</pre>
+	</div>
+	<div id="i-tab-content-45e11e85-afca-44fa-9da6-9746bb835825" class="i-filtered-content-XML">
+		<pre><span style="color: #0000FF; ">&lt;?</span><span style="color: #FF00FF; ">xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;</span><span style="color: #0000FF; ">?&gt;</span>
+<span style="color: #008000; ">&lt;!--Document History:
+======== Version 0.9 ====================================
+i. Document Created 30/06/2017
+======== Version 0.10 ====================================
+ii. Document updated on 07/09/2017: 
+        Revenue Payroll Instruction changed to Revenue Payroll Notification and RPI changed to RPN
+======== Version 1.0 Milestone 1 ====================================
+iii. Document updated on 17/11/2017: 
+        Renamed the element: &quot;employeePPSN&quot; to &quot;EmployeePPSN&quot;
+        Renamed the element: &quot;calculationBasis&quot; to &quot;IncomeTaxCalculationBasis&quot;
+        Renamed the element: &quot;DateLastUpdated&quot; to &quot;RPNIssueDate&quot;    
+        Renamed the element: &quot;YearlyUSCCutOff&quot; to &quot;YearlyUSCRateCutOff&quot;    
+        Renamed the element: &quot;PayToDate&quot; to &quot;PayForIncomeTaxToDate&quot;    
+        Renamed the element: &quot;TaxToDate&quot; to &quot;IncomeTaxDeductedToDate&quot;
+        Renamed the element: &quot;USCPaidToDate&quot; to &quot;USCDeductedToDate&quot;    
+======== Version 1.0 Milestone 2 ====================================
+iv. Document updated on 09/02/2018:
+        Date/Time re-formatted
+
+======== Version 1.0 Release Candidate 2 ===========
+v. Document updated on 24/05/2018
+     Updated ENUM Values to reflect schematic changes
+--&gt;</span>
+<span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:LookupRPNResponse </span><span style="color: #FF0000; ">xmlns:rat</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/rpn/&quot;</span><span style="color: #FF0000; "> xmlns</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/rpn/&quot;</span><span style="color: #FF0000; "> xmlns:xsi</span><span style="color: #0000FF; ">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><span style="color: #FF0000; "> xsi:schemaLocation</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/rpn/rpn-schema-pit3.xsd&quot;</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmployerName</span><span style="color: #0000FF; ">&gt;</span>Employer1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmployerName</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>3980609P<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TaxYear</span><span style="color: #0000FF; ">&gt;</span>2019<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TaxYear</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TotalRPNCount</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TotalRPNCount</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:DateTimeEffective</span><span style="color: #0000FF; ">&gt;</span>2019-01-29T11:58:02.000+00:00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:DateTimeEffective</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:RPN</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:RPNNumber</span><span style="color: #0000FF; ">&gt;</span>5<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:RPNNumber</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmployeeID</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmployeePPSN</span><span style="color: #0000FF; ">&gt;</span>00000008P<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmployeePPSN</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EmploymentID</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmploymentID</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EmployeeID</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:RPNIssueDate</span><span style="color: #0000FF; ">&gt;</span>2019-01-10<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:RPNIssueDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Name</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:FirstName</span><span style="color: #0000FF; ">&gt;</span>Ann<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:FirstName</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:FamilyName</span><span style="color: #0000FF; ">&gt;</span>Doe<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:FamilyName</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Name</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EffectiveDate</span><span style="color: #0000FF; ">&gt;</span>2019-01-01<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EffectiveDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:EndDate</span><span style="color: #0000FF; ">&gt;</span>2019-12-31<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:EndDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:IncomeTaxCalculationBasis</span><span style="color: #0000FF; ">&gt;</span>CUMULATIVE<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:IncomeTaxCalculationBasis</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:YearlyTaxCredits</span><span style="color: #0000FF; ">&gt;</span>3300.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:YearlyTaxCredits</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TaxRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TaxRatePercent</span><span style="color: #0000FF; ">&gt;</span>20<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TaxRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:YearlyRateCutOff</span><span style="color: #0000FF; ">&gt;</span>33800.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:YearlyRateCutOff</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TaxRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TaxRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>2<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:TaxRatePercent</span><span style="color: #0000FF; ">&gt;</span>40<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TaxRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:TaxRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:PayForIncomeTaxToDate</span><span style="color: #0000FF; ">&gt;</span>1230.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:PayForIncomeTaxToDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:IncomeTaxDeductedToDate</span><span style="color: #0000FF; ">&gt;</span>0.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:IncomeTaxDeductedToDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCStatus</span><span style="color: #0000FF; ">&gt;</span>ORDINARY<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCStatus</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>.5<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>12012.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>2<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>2.5<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>18772.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>3<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>5<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>70044.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:YearlyUSCRateCutOff</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>4<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:Index</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>8<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRatePercent</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCRate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:PayForUSCToDate</span><span style="color: #0000FF; ">&gt;</span>1230.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:PayForUSCToDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:USCDeductedToDate</span><span style="color: #0000FF; ">&gt;</span>12.28<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:USCDeductedToDate</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">rat:LPTToDeduct</span><span style="color: #0000FF; ">&gt;</span>191.00<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:LPTToDeduct</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:RPN</span><span style="color: #0000FF; ">&gt;</span>
+<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">rat:LookupRPNResponse</span><span style="color: #0000FF; ">&gt;</span>
 </pre>
 	</div>
 	

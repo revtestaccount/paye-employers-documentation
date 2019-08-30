@@ -616,7 +616,92 @@ ga('send', 'pageview');
 <!--DXMETADATA end -->
 			
 			<!--DXMETADATA start type="TaggedComment" source="Item" id="##EXAMPLEINTRO" format="%%replaceinquotes:value=false%%%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=""$$Example$$%%designlist:tagidentifier=##EXAMPLECODE,itemtype=Example%%""%%%%comment%%" --><!--DXMETADATA end -->
-            <!--DXMETADATA start type="FilteredItemList" scrap="EXAMPLEGROUP_LIST" namespace="ExampleGroup" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""="",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
+            <!--DXMETADATA start type="FilteredItemList" scrap="EXAMPLEGROUP_LIST" namespace="ExampleGroup" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""="",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><div class="i-section-heading" id="i-example-section-heading"><span class="i-section-heading-icon"><!-- --></span><span class="i-section-heading-text">Example</span></div><div id="i-example-section-content" class="i-section-content">
+<div class="i-tab-container">
+    <ul>
+        <li class="i-filtered-content-XML">
+			<a href="#i-tab-content-5e8a011e-eb49-4bda-9c65-40e2ed2b727d">XML</a>
+		</li>
+        <li class="i-filtered-content-XML">
+			<a href="#i-tab-content-8433d6b0-5377-49aa-b22a-6f0c8043224b">XML</a>
+		</li>
+
+    </ul>
+	<div id="i-tab-content-5e8a011e-eb49-4bda-9c65-40e2ed2b727d" class="i-filtered-content-XML">
+		<pre><span style="color: #0000FF; ">&lt;?</span><span style="color: #FF00FF; ">xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;</span><span style="color: #0000FF; ">?&gt;</span>
+<span style="color: #008000; ">&lt;!--Document History:
+======== Version 0.9 ====================================
+i. Document Created 30/06/2017
+======== Version 0.10 ====================================
+ii. Document updated on 07/09/2017: 
+        The element &quot;TaxYear&quot; was added to the &quot;CheckPayrollSubmissionRequest&quot; 
+        The element &quot;RunReference was added to the CheckPayrollSubmissionRequest&quot;
+======== Version 1.0 Milestone 1 ====================================
+iii. Document updated on 17/11/2017: 
+        Renamed the element: &quot;RunReference&quot; to &quot;PayrollRunReference&quot;
+======== Version 1.0 Milestone 2 ====================================
+iv. Document updated on 09/02/2018:
+        Date re-formatted
+======== Version 1.0 Release Candidate 2 ===========
+v. Document updated on 24/05/2018
+     Updated ENUM Values to reflect schematic changes
+--&gt;</span>
+
+<span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:CheckPayrollSubmissionRequest </span><span style="color: #FF0000; ">xmlns:pay</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/&quot;</span><span style="color: #FF0000; "> xmlns</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/&quot;</span><span style="color: #FF0000; "> xmlns:xsi</span><span style="color: #0000FF; ">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><span style="color: #FF0000; "> xsi:schemaLocation</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/payroll-schema.xsd&quot;</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>4587256A<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:AgentTain</span><span style="color: #0000FF; ">&gt;</span>45879C<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:AgentTain</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:TaxYear</span><span style="color: #0000FF; ">&gt;</span>2019<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:TaxYear</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SoftwareUsed</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Name</span><span style="color: #0000FF; ">&gt;</span>The Software<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Name</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Version</span><span style="color: #0000FF; ">&gt;</span>Version 10.0<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Version</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SoftwareUsed</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:PayrollRunReference</span><span style="color: #0000FF; ">&gt;</span>0000001<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:PayrollRunReference</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SubmissionID</span><span style="color: #0000FF; ">&gt;</span>05<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SubmissionID</span><span style="color: #0000FF; ">&gt;</span>
+<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:CheckPayrollSubmissionRequest</span><span style="color: #0000FF; ">&gt;</span></pre>
+	</div>
+	<div id="i-tab-content-8433d6b0-5377-49aa-b22a-6f0c8043224b" class="i-filtered-content-XML">
+		<pre><span style="color: #0000FF; ">&lt;?</span><span style="color: #FF00FF; ">xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;</span><span style="color: #0000FF; ">?&gt;</span>
+<span style="color: #008000; ">&lt;!--Document History:
+======== Version 0.9 ====================================
+i. Document Created 30/06/2017
+======== Version 1.0 Milestone 1 ====================================
+iii. Document updated on 17/11/2017: 
+        Renamed the element: &quot;RunReference&quot; to &quot;PayrollRunReference&quot;
+        Removed the element: &quot;SubmissionType&quot;
+======== Version 1.0 Release Candidate 2 ===========
+v. Document updated on 24/05/2018
+     Updated ENUM Values to reflect schematic changes
+--&gt;</span>
+<span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:CheckPayrollSubmissionResponse </span><span style="color: #FF0000; ">xmlns:pay</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/&quot;</span><span style="color: #FF0000; "> xmlns</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/&quot;</span><span style="color: #FF0000; "> xmlns:xsi</span><span style="color: #0000FF; ">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><span style="color: #FF0000; "> xsi:schemaLocation</span><span style="color: #0000FF; ">=&quot;http://www.ros.ie/schemas/paye-employers/v1/payroll/payroll-schema.xsd&quot;</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SubmissionID</span><span style="color: #0000FF; ">&gt;</span>05<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SubmissionID</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Status</span><span style="color: #0000FF; ">&gt;</span>COMPLETED<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Status</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:BatchCount</span><span style="color: #0000FF; ">&gt;</span>6<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:BatchCount</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:BatchStatus</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Index</span><span style="color: #0000FF; ">&gt;</span>1<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Index</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Status</span><span style="color: #0000FF; ">&gt;</span>COMPLETED<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Status</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:BatchStatus</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SubmissionHeader</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>4587256A<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:EmployerRegistrationNumber</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:PayrollRunReference</span><span style="color: #0000FF; ">&gt;</span>0000001<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:PayrollRunReference</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:TaxYear</span><span style="color: #0000FF; ">&gt;</span>2019<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:TaxYear</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SoftwareUsed</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Name</span><span style="color: #0000FF; ">&gt;</span>The Software<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Name</span><span style="color: #0000FF; ">&gt;</span>
+            <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:Version</span><span style="color: #0000FF; ">&gt;</span>Version10.0<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:Version</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SoftwareUsed</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SubmissionHeader</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:SubmissionSummary</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:TaxOnIncome</span><span style="color: #0000FF; ">&gt;</span>1334.48<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:TaxOnIncome</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:PRSI</span><span style="color: #0000FF; ">&gt;</span>1535.55<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:PRSI</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:USC</span><span style="color: #0000FF; ">&gt;</span>333.94<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:USC</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:LPT</span><span style="color: #0000FF; ">&gt;</span>48.75<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:LPT</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:PayslipCount</span><span style="color: #0000FF; ">&gt;</span>6<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:PayslipCount</span><span style="color: #0000FF; ">&gt;</span>
+        <span style="color: #0000FF; ">&lt;</span><span style="color: #800000; ">pay:PayslipToDeleteCount</span><span style="color: #0000FF; ">&gt;</span>0<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:PayslipToDeleteCount</span><span style="color: #0000FF; ">&gt;</span>
+    <span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:SubmissionSummary</span><span style="color: #0000FF; ">&gt;</span>
+<span style="color: #0000FF; ">&lt;/</span><span style="color: #800000; ">pay:CheckPayrollSubmissionResponse</span><span style="color: #0000FF; ">&gt;</span></pre>
+	</div>
+	
+</div>
+</div><!--DXMETADATA end -->
             <!--DXMETADATA start type="FilteredItemList" scrap="INLINE_EXAMPLE" namespace="Example" source="Item" filter="type=inline" condition="content:content=""%%GroupExamples%%"",operator=""<>"",value=""True""" NoHeader="True" NoFooter="True" format="%%replaceinquotes:value=false%%%%taggedcomment:source=item,id=##EXAMPLEINTRO,blankformat=""%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%"",format= %%%%filtereditemlist%%</div>" blankformat="%%taggedcomment:source=item,id=##EXAMPLEINTRO,format=</div>%%" --><!--DXMETADATA end -->
             <!--DXMETADATA start type="FilteredItemList" scrap="MENU_LINK" namespace="example" source="Item" filter="" NoHeader="True" NoFooter="True" format="%%scrap:name=_COLLAPSIBLE_HEADER,idprefix=example,caption=$$Example$$%%%%filtereditemlist%%</div>" --><!--DXMETADATA end -->
 			

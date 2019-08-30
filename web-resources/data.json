@@ -18,7 +18,7 @@
 				"anchor": "Help_Desk_User_Guide",
 				"type": "PDF",
 				"environment": "All Versions",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
 			{
@@ -45,7 +45,7 @@
 				"anchor": "PIT_Next_Version_Features",
 				"type": "PDF",
 				"environment": "All Versions",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			}]
 	},
@@ -60,7 +60,7 @@
 			"anchor": "Portal_Link",
 			"type": "LINK",
 			"environment": "PIT Current Version",
-			"dateLastUpdated": "26/08/2018",
+			"dateLastUpdated": "26/08/2019",
 			"category": "LINK"
 			},
 			{
@@ -69,7 +69,7 @@
 				"anchor": "PITSelfServiceGuide",
 				"type": "PDF",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "09/08/2019",
 				"category": "download"
 			},
 			{
@@ -78,7 +78,7 @@
 				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "29/04/2019",
 				"category": "download"
 			},
 			{
@@ -145,13 +145,13 @@
 		"anchor": "Screens",
 		"cards": [{
 				"link": "https://softwaretestnextversion.ros.ie/paye-employers-self-service/intro",
-				"description": "Portal Next",
+				"description": "Portal Login",
 				"explainer": "This portal page provides access to both the PIT Self Service and ROS Payroll Reporting applications for the PIT next version environment. The portal page will determine which application to direct a user to based on the provided digital certificate. The same TDM cert can be used for this environment as the one for the PIT current version, but employer certs differ between environments.",
 				"explainerIndex": "1",
 				"anchor": "Portal_Link",
 				"type": "LINK",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "LINK"
 			},
 			{
@@ -225,7 +225,7 @@
 				"anchor": "RPN_CSV_Example",
 				"type": "CSV",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			}
 		]
@@ -249,7 +249,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "09/08/2019",
 				"category": "download"
 			},
 			{
@@ -313,7 +313,7 @@
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -349,7 +349,7 @@
 				"anchor": "RPN_Schema",
 				"type": "Schema",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "24/05/2018",
 				"category": "download"
 			},
 			{
@@ -453,7 +453,7 @@
 				"anchor": "RPN_WSDL",
 				"type": "WSDL File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
 			{
@@ -489,7 +489,7 @@
 				"anchor": "RPN_Schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "26/08/2018",
+				"dateLastUpdated": "26/08/2019",
 				"category": "download"
 			},
 			{
@@ -586,7 +586,7 @@
 				"anchor": "REST_API_Spec",
 				"type": "API File",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "14/11/2018",
 				"category": "download"
 			},
 			{
@@ -595,7 +595,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "08/01/2019",
 				"category": "navigation"
 			},
 			{
@@ -632,7 +632,7 @@
 		"title": "PAYE Web Service Specifications PIT Next Version (REST/JSON)",
 		"anchor": "rest",
 		"cards": [{
-			"link": "rest/paye-employers-rest-api-pit4.json",
+			"link": "PIT4/rest/paye-employers-rest-api-pit4.json",
 			"description": "REST Open API Specification",
 			"anchor": "REST_API_Spec",
 			"type": "API File",
@@ -641,16 +641,16 @@
 			"category": "download"
 			},
 			{
-				"link": "rest/paye-employers-rest-api-pit4.html",
+				"link": "PIT4/rest/paye-employers-rest-api-pit4.html",
 				"description": "REST API Reference PIT",
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "27/08/2019",
+				"dateLastUpdated": "26/08/2019",
 				"category": "navigation"
 			},
 			{
-				"link": "rest/REST_Web_Service_Integration_Guide.pdf",
+				"link": "PIT4/rest/REST_Web_Service_Integration_Guide.pdf",
 				"description": "REST Web Service Integration Guide",
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
@@ -659,7 +659,7 @@
 				"category": "download"
 			},
 			{
-				"link": "rest/REST_Web_Service_Integration_Guide_Sample_Http_Messages.zip",
+				"link": "PIT4/rest/REST_Web_Service_Integration_Guide_Sample_Http_Messages.zip",
 				"description": "REST Web Service Integration Guide Sample Messages",
 				"anchor": "REST_Integration_Guide_Sample_Messages",
 				"type": "ZIP",
@@ -668,7 +668,7 @@
 				"category": "download"
 			},
 			{
-				"link": "rest/REST_Connectivity_Handshake_Guide.pdf",
+				"link": "PIT4/rest/REST_Connectivity_Handshake_Guide.pdf",
 				"description": "REST Connectivity Handshake Guide",
 				"anchor": "REST_Handshake_Guide",
 				"type": "PDF",
@@ -706,7 +706,7 @@
 				"anchor": "RPN_Data_Items",
 				"type": "PDF",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "26/08/2019",
+				"dateLastUpdated": "08/04/2019",
 				"category": "download"
 			},
 			{
