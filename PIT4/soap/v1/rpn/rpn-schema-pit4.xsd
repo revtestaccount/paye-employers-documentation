@@ -331,9 +331,9 @@ vii. Document updated on 26/08/2019
 					<xs:documentation>Data Item Ref: 115. Last date on which the RPN specified will apply. After this date a new RPN should be requested.</xs:documentation>
 				</xs:annotation>
 			</xs:element>
-			<xs:element name="EmploymentCessationDate" type="xs:date">
+			<xs:element name="EmploymentCessationDate" type="xs:date" minOccurs="0">
 				<xs:annotation>
-					<xs:documentation>Data Item Ref: 136. Employment Cessation Date</xs:documentation>
+					<xs:documentation>Data Item Ref: 136. Conditionally returned if present for the employment. Employment Cessation Date</xs:documentation>
 				</xs:annotation>
 			</xs:element>
 			<xs:element name="IncomeTaxCalculationBasis" type="pc:IncomeTaxCalculationBasis">

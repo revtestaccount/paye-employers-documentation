@@ -1707,7 +1707,6 @@
       "type": "object",
       "required": ["effectiveDate",
         "employeeID",
-        "employmentCessationDate",
         "endDate",
         "incomeTaxCalculationBasis",
         "incomeTaxDeductedToDate",
@@ -1764,7 +1763,7 @@
         "employmentCessationDate": {
           "type": "string",
           "format": "date",
-          "description": "Data Item Ref: 136. The date an employee left this employment (date contract terminated) – See Data items document for more details"
+          "description": "Data Item Ref: 136. Conditionally returned if present for the employment. The date an employee left this employment (date contract terminated) – See Data items document for more details."
         },
         "incomeTaxCalculationBasis": {
           "type": "string",
