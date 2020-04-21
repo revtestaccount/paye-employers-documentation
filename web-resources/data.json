@@ -169,7 +169,7 @@
 				"anchor": "ROS_Payroll_Reporting_Application",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "01/11/2019",
+				"dateLastUpdated": "22/04/2020",
 				"category": "download"
 			},
 			{
@@ -226,6 +226,24 @@
 				"type": "CSV",
 				"environment": "PIT Next Version",
 				"dateLastUpdated": "24/05/2018",
+				"category": "download"
+			},
+			{
+				"link": "PIT3/Screens/TWSS_Operational_Phase_CSV_Description.pdf",
+				"description": "Temporary Wage Subsidy Scheme Operational Phase Description",
+				"anchor": "TWSS_Scheme3_Description",
+				"type": "PDF",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "22/04/2020",
+				"category": "download"
+			},
+			{
+				"link": "PIT3/Screens/TWSS_CSV_Example.csv",
+				"description": "Temporary Wage Subsidy Scheme CSV Example",
+				"anchor": "TWSS_CSV_Example",
+				"type": "CSV",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "22/04/2020",
 				"category": "download"
 			}
 		]
