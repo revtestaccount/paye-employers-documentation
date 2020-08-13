@@ -1083,7 +1083,7 @@
       "properties": {
         "paymentCode": {
           "type": "string",
-          "description": "Data Item Ref: 57. Description of other payment. Options allowed are COVID19.",
+          "description": "Data Item Ref: 57. Description of other payment. Options allowed are COVID19 and EWSS.",
           "enum": ["COVID19","EWSS"]
         },
         "paymentValue": {
