@@ -4,6 +4,15 @@
 		"anchor": "PIT",
 		"cardText": "<p>This section provides documentation which advises users on:</p><ul><li>How to register for access to the Public Interface Testing (PIT) environment for the new PAYE Modernisation services</li><li>How to raise queries or issues arising from either PIT or in relation to our published technical documentation.</li><li>Supported conformance test scenarios which can be executed in the PIT environment.</li></ul>",
 		"cards": [{
+			"link": "PIT/TDM_Employer_Cert_FAQ.pdf",
+			"description": "TDM / Employers Certificates FAQ",
+			"anchor": "TDM_Employer_Cert_FAQ",
+			"type": "PDF",
+			"environment": "All Versions",
+			"dateLastUpdated": "05/07/2021",
+			"category": "download"
+		},
+			{
 			"link": "PIT/Conformance Test Scenarios - Connectivity Testing.pdf",
 			"description": "Conformance Test Scenarios - Connectivity Testing",
 			"anchor": "Conformance_Test_Scenarios",
