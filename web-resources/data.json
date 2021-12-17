@@ -31,6 +31,15 @@
 				"category": "download"
 			},
 			{
+				"link": "https://revtestaccount.github.io/paye-employers-pit-faq/",
+				"description": "PAYE Modernisation Web Services - FAQ",
+				"anchor": "PAYE Modernisation Web Services - FAQ",
+				"type": "LINK",
+				"environment": "All Versions",
+				"dateLastUpdated": "17/12/2021",
+				"category": "Link"
+			},
+			{
 				"link": "https://revenuehelpdesk.canfigure.net/portal/revenueie/register.html",
 				"description": "Help Desk Registration",
 				"anchor": "Help_Desk_Registration",
