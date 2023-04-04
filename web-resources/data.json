@@ -71,7 +71,7 @@
 			"environment": "PIT Current Version",
 			"dateLastUpdated": "24/05/2018",
 			"category": "LINK"
-			},
+		},
 			{
 				"link": "PIT3/Screens/PITSelfServiceGuide.pdf",
 				"description": "PIT Self Service Application Guide",
@@ -153,16 +153,16 @@
 		"title": "PIT Self Service and ROS Payroll Reporting PIT Next Version",
 		"anchor": "Screens",
 		"cards": [{
-				"link": "https://softwaretestnextversion.ros.ie/paye-employers-self-service/intro",
-				"description": "Portal Login",
-				"explainer": "This portal page provides access to both the PIT Self Service and ROS Payroll Reporting applications for the PIT next version environment. The portal page will determine which application to direct a user to based on the provided digital certificate. The same TDM cert can be used for this environment as the one for the PIT current version, but employer certs differ between environments.",
-				"explainerIndex": "1",
-				"anchor": "Portal_Link",
-				"type": "LINK",
-				"environment": "PIT Next Version",
-				"dateLastUpdated": "13/09/2019",
-				"category": "LINK"
-			},
+			"link": "https://softwaretestnextversion.ros.ie/paye-employers-self-service/intro",
+			"description": "Portal Login",
+			"explainer": "This portal page provides access to both the PIT Self Service and ROS Payroll Reporting applications for the PIT next version environment. The portal page will determine which application to direct a user to based on the provided digital certificate. The same TDM cert can be used for this environment as the one for the PIT current version, but employer certs differ between environments.",
+			"explainerIndex": "1",
+			"anchor": "Portal_Link",
+			"type": "LINK",
+			"environment": "PIT Next Version",
+			"dateLastUpdated": "13/09/2019",
+			"category": "LINK"
+		},
 			{
 				"link": "PIT4/Screens/PITSelfServiceGuide.pdf",
 				"description": "PIT Self Service Application Guide",
@@ -730,7 +730,7 @@
 			"environment": "PIT Next Version",
 			"dateLastUpdated": "18/02/2022",
 			"category": "download"
-			},
+		},
 			{
 				"link": "PIT4/rest/paye-employers-rest-api-pit4.html",
 				"description": "REST API Reference",
@@ -1268,7 +1268,83 @@
 				"dateLastUpdated": "08/01/2019",
 				"category": "download"
 			}]
+	},
+	"ERR Technical Support Documentation": {
+		"title": "ERR Technical Support Documentation",
+		"anchor": "ERR Guide PIT Next Version",
+		"cards": [
+			{
+				"link": "PIT4/soap/v1/handshake_pit4.wsdl",
+				"description": "Handshake Web Service Definition",
+				"anchor": "Handshake_WSDL",
+				"type": "WSDL File",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "22/11/2018",
+				"category": "download"
+			},
+			{
+				"link": "PIT4/soap/v1/handshake/handshake-schema-pit4.xsd",
+				"description": "Handshake Schema",
+				"anchor": "Handshake_Schema",
+				"type": "Schema",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "22/11/2018",
+				"category": "download"
+			},
+			{
+				"link": "PIT4/soap/SOAP_Connectivity_Handshake_Guide.pdf",
+				"description": "SOAP Connectivity Handshake Guide",
+				"anchor": "ERR SOAP Connectivity Handshake Guide",
+				"type": "PDF",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "02/03/2020",
+				"category": "download"
+			},
+			{
+				"link": "PIT4/rest/REST_Connectivity_Handshake_Guide.pdf",
+				"description": "REST Connectivity Handshake Guide",
+				"anchor": "REST_Handshake_Guide",
+				"type": "PDF",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "08/01/2019",
+				"category": "download"
+			},
+			{
+				"link":"",
+				"description":"REST Web Service Integration Guide",
+				"anchor":"REST Web Service Integration Guide",
+				"type": "PDF",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "04/04/2023",
+				"category": "download"
+			},
+			{
+				"link": "",
+				"description": "Payroll Submission Request: Data Items",
+				"anchor": "ERR Payroll Submission Request: Data Items",
+				"type": "PDF",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "25/06/2019",
+				"category": "download"
+			},
+			{
+				"link": "",
+				"description": "REST Open API Specifcation",
+				"anchor": "ERR REST Open API Specification",
+				"type": "API File",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "24/05/2018",
+				"category": "download"
+			},
+			{
+				"link": "",
+				"description": "REST API Reference",
+				"anchor": "ERR REST API Ref",
+				"type": "LINK",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "25/06/2019",
+				"category": "LINK"
+			}
+		]
 	}
-
-
 }
