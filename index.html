@@ -1,26 +1,26 @@
 <html lang="en">
 <head>
 
-    <title>PAYE Modernisation</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="format-detection" content="telephone=no">
+<title>PAYE Modernisation</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="format-detection" content="telephone=no">
 
-    <!-- <link href="web-resources/fonts/Fira/fira.css" rel="stylesheet"> -->
-    <link href="web-resources/css/foundation.min.css" rel="stylesheet">
-    <link href="web-resources/css/vendor.min.css" rel="stylesheet">
-    <link href="web-resources/css/site.css" rel="stylesheet">
-    <link href="web-resources/css/myDocs.css" rel="stylesheet">
-    <link href="web-resources/css/angular-cookie-law.min.css" rel="stylesheet">
+<!-- <link href="web-resources/fonts/Fira/fira.css" rel="stylesheet"> -->
+<link href="web-resources/css/foundation.min.css" rel="stylesheet">
+<link href="web-resources/css/vendor.min.css" rel="stylesheet">
+<link href="web-resources/css/site.css" rel="stylesheet">
+<link href="web-resources/css/myDocs.css" rel="stylesheet">
+<link href="web-resources/css/angular-cookie-law.min.css" rel="stylesheet">
 
-    <script
-            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
-    <script
-            src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
-    <script src="web-resources/angular-cookie-law.min.js"></script>
+<script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular-sanitize.min.js"></script>
+<script src="web-resources/angular-cookie-law.min.js"></script>
 
-    <script>
+<script>
         angular.module('documentation', ['angular-cookie-law', 'ngSanitize']);
         angular.module('documentation').controller('DocumentationController', ['$http', '$sce', function($http, $sce) {
             var vm = this;
@@ -44,7 +44,7 @@
             gtag('event', category, {'event_category': category,   'event_label': event_label });
         }
     </script>
-    <style>
+<style>
 .grade {
     background: -webkit-linear-gradient(135deg, #333, #eee, #333, #eee, #333, #eee, #333
         , #eee);
@@ -58,136 +58,135 @@ ul {
 
 </head>
 <body data-ng-app="documentation" class="revenue">
-<cookie-law-banner message="By using this website, you consent to the use of cookies in accordance with our privacy policy." policy-url="https://www.revenue.ie/en/online-services/support/data-and-security/privacy/use-of-cookies.aspx" policy-button="true" policy-text="Find out more about cookies." accept-text="Close"></cookie-law-banner>
-<div class="revenue">
-    <header id="top-bar">
-        <div class="row">
-            <div class="small-6 medium-5 large-7 columns logo">
-                <a class="revenueLogo float-left" title="Home" href="http://www.revenue.ie">
-                    <img alt="revenue-Logo" height="209" width="437" src="web-resources/revenue-Logo-white.png">
-                </a>
+    <cookie-law-banner message="By using this website, you consent to the use of cookies in accordance with our privacy policy." policy-url="https://www.revenue.ie/en/online-services/support/data-and-security/privacy/use-of-cookies.aspx" policy-button="true" policy-text="Find out more about cookies." accept-text="Close"></cookie-law-banner>
+    <div class="revenue">
+        <div id="top-bar">
+            <div class="row">
+                <div class="small-6 medium-5 large-7 columns logo">
+                    <a class="revenueLogo float-left" title="Home" href="http://www.revenue.ie">
+                        <img alt="revenue-Logo" height="209" width="437" src="web-resources/revenue-Logo-white.png">
+                    </a>    
+                </div>
             </div>
         </div>
-    </header>
-    <main class="hub-destination-row">
-        <div class="content row">
-            <div class="col-lg-12 col-md-12" id="overview-page">
-                <div id="overview">
-                    <h1>PAYE Modernisation Web Services</h1>
-                    <div>
-                        <p style="line-height: 180%">As part of PAYE Modernisation, a number of web services
-                            will be provided in the future to allow reporting to Revenue to
-                            be integrated into an employers payroll run. An overview of the
-                            web services to be provided can be viewed on the PAYE
-                            Modernisation technical overview page. The technical
-                            documentation, specifications and web services examples below
-                            are provided as support for these future live web services. They
-                            will enable payroll software developers to update their software
-                            packages to be compatible with PAYE reporting obligations from
-                            2019 onwards. Prior to this (in 2018) a List of Employees can be
-                            submitted by each employer. The aim of this is to align Revenue
-                            employee records and Employers employee records in advance of
-                            the changes to reporting obligations. The technical
-                            documentation is detailed below.</p>
+        <div class="hub-destination-row">
+            <div class="content row">
+                <div class="col-lg-12 col-md-12" id="overview-page">
+                    <div id="overview">
+                        <h2>PAYE Modernisation Web Services</h2>
+                        <div>
+                            <p style="line-height: 180%">As part of PAYE Modernisation, a number of web services
+                                will be provided in the future to allow reporting to Revenue to
+                                be integrated into an employers payroll run. An overview of the
+                                web services to be provided can be viewed on the PAYE
+                                Modernisation technical overview page. The technical
+                                documentation, specifications and web services examples below
+                                are provided as support for these future live web services. They
+                                will enable payroll software developers to update their software
+                                packages to be compatible with PAYE reporting obligations from
+                                2019 onwards. Prior to this (in 2018) a List of Employees can be
+                                submitted by each employer. The aim of this is to align Revenue
+                                employee records and Employers employee records in advance of
+                                the changes to reporting obligations. The technical
+                                documentation is detailed below.</p>
 
-                        <p>
-                            There are two PIT Environments available to software developers, the first PIT
-                            environment is a representation of the live environment with functionality kept
-                            up to date with the functionality currently available in the live environment.
-                            The second PIT environment is the PIT Next Version environment, which will contain
-                            upcoming functionality that is pertinent for developers to test their software
-                            ahead of the live release.
-                        </p>
+                            <p>
+                                There are two PIT Environments available to software developers, the first PIT
+                                environment is a representation of the live environment with functionality kept
+                                up to date with the functionality currently available in the live environment.
+                                The second PIT environment is the PIT Next Version environment, which will contain
+                                upcoming functionality that is pertinent for developers to test their software
+                                ahead of the live release.
+                            </p>
 
+                        </div>
+                        <h2>ERR Web Services</h2>
+                        <div>
+                            <p style="line-height: 180%">
+                                As part of Enhanced Reporting Requirements, a number of web services will be provided in the future to allow for reporting of this information to Revenue. An overview of the web services to be provided can be viewed in the ERR Technical Support Documentation section on this page. The technical documentation, specifications, and web services examples are provided to support integration of future live web services for ERR.
+
+                                This page is under construction, with more documents and further updates to come as the project progresses
+
+                            </p>
+                        </div>
                     </div>
-
-                    <h2>ERR Web Services</h2>
-                    <div>
-                        <p style="line-height: 180%">
-                            As part of Enhanced Reporting Requirements, a number of web services will be provided in the future to allow for reporting of this information to Revenue. An overview of the web services to be provided can be viewed in the ERR Technical Support Documentation section on this page. The technical documentation, specifications, and web services examples are provided to support integration of future live web services for ERR.
-
-                            This page is under construction, with more documents and further updates to come as the project progresses
-
-                        </p>
-                    </div>
-                </div>
-                <div data-ng-controller="DocumentationController as vm">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12">
-                            <div id="show-data">
-                                <!-- Container  -->
-                                <div data-ng-repeat="(header, data) in vm.data">
-                                    <div class="section-header" style= "margin-bottom: 1rem;">
-                                        <a name="{{data.anchor}}" style="text-decoration:none"><h2>{{data.title}}</h2></a>
-                                    </div>
-                                    <i><div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="data.cardText" ng-bind-html="data.cardText"></div></i><br/><br/>
-                                    <div class="col-xs-12" style="padding: 0.3rem !important;">
-                                        <div class="bold">
-                                            <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 col-xxs-4">
-                                                <strong>Document Description</strong>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2">
-                                                <strong>Type</strong>
-                                            </div>
-                                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xxs-3"style="padding: 0rem !important;">
-                                                <strong>Environment</strong>
-                                            </div>
-                                            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 col-xxs-3"style="padding-left: 1.25rem !important;">
-                                                <strong>Date Last Updated</strong>
+                    <div data-ng-controller="DocumentationController as vm">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div id="show-data">
+                                    <!-- Container  -->
+                                    <div data-ng-repeat="(header, data) in vm.data">
+                                        <div class="section-header">
+                                            <a name="{{data.anchor}}" style="text-decoration:none"><h3 class="{{data.class}}">{{data.title}}</h3></a>
+                                        </div>
+											<i><div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="data.cardText" ng-bind-html="data.cardText"></div></i>
+                                        <div class="col-xs-12" style="padding: 0.3rem !important;">
+                                            <div class="bold">
+                                                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 col-xxs-4">
+                                                    <strong>Document Description</strong>
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2">
+                                                    <strong>Type</strong>
+                                                </div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xxs-3"style="padding: 0rem !important;">
+                                                    <strong>Environment</strong>
+                                                </div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 col-xxs-3"style="padding-left: 1.25rem !important;">
+                                                    <strong>Date Last Updated</strong>
+                                                </div>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="card"
-                                         data-ng-repeat="document in data.cards track by $index" style="font-size: 1.2rem; margin-bottom: 1rem;">
-                                        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 col-xxs-4">
-                                            <a data-ng-href="{{document.link}}" target="_blank" data-ng-click="vm.sendData([document.category, document.description])">{{document.description}}</a>
-                                            <sup data-ng-if="document.explainer">
-                                                {{document.explainerIndex}}
-                                            </sup>
-                                        </div>
-                                        <a name="{{document.anchor}}"> </a>
-                                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2">{{document.type}}</div>
-                                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xxs-3"style="padding: 0rem !important;">{{document.environment}}</div>
-                                        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 col-xxs-3"style="padding left: 0rem !important;">{{document.dateLastUpdated}}</div>
-                                    </div>
-                                    <div
-                                            data-ng-repeat="document in data.cards track by $index">
-                                        <div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="document.sub_hedaing" ng-bind-html="vm.generateHTML(document)"></div>
-                                        <i>
-                                            <div class="col-sm-12 pull-left" style = "padding-left: 0rem !important"; data-ng-if="document.explainer" ng-bind-html="vm.generateHTML(document)"></div>
-                                        </i>
-                                        <br/><br/>
+											<div class="card"
+                                                data-ng-repeat="document in data.cards track by $index" style="font-size: 1.2rem; margin-bottom: 1rem;">
+												<div class="col-lg-5 col-md-5 col-sm-5 col-xs-4 col-xxs-4">
+                                                    <a data-ng-href="{{document.link}}" target="_blank" data-ng-click="vm.sendData([document.category, document.description])">{{document.description}}</a>
+													<sup data-ng-if="document.explainer">
+														{{document.explainerIndex}}
+													</sup>
+                                                </div>
+												<a name="{{document.anchor}}"> </a>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xxs-2">{{document.type}}</div>
+                                                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 col-xxs-3"style="padding: 0rem !important;">{{document.environment}}</div>
+                                                <div class="col-lg-2 col-md-2 col-sm-2 col-xs-3 col-xxs-3"style="padding left: 0rem !important;">{{document.dateLastUpdated}}</div>
+                                            </div>
+											<div
+                                                data-ng-repeat="document in data.cards track by $index">
+                                                <div class="col-sm-12" style = "padding-left: 0rem !important"; data-ng-if="document.sub_hedaing" ng-bind-html="vm.generateHTML(document)"></div>
+												<i>
+													<div class="col-sm-12 pull-left" style = "padding-left: 0rem !important"; data-ng-if="document.explainer" ng-bind-html="vm.generateHTML(document)"></div>
+												</i>
+												<br/><br/>
+											</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <h2>Support Facilities</h2>
-                    <p>
-                        Revenue provides a <a
-                            href="https://revenuehelpdesk.canfigure.net/login.php">Help Desk</a> facility for software
-                        developers. To register for this facility go <a
-                            href="https://revenuehelpdesk.canfigure.net/portal/revenueie/register.html">here</a>.
-                        <br/><br/>
-                        Once registered with the Help Desk you can:<br/>
-                    <ul>
-
-                        <li>Get access to the Public Interface Testing facility for PAYE Modernisation</li>
-                        <li>Raise technical issues encountered while validating your files using the PIT facility</li>
-                        <li>Raise queries in relation to the PAYE Web Service Specifications, Supporting Documentation or PAYE Web Service Examples</li>
-
-                    </ul>
-
-                    This documentation is served from Revenue's GitHub PAYE Modernisation repository, which
-                    can be found <a href="https://github.com/revenue-ie/paye-employers-documentation">here</a>.
-                    </p>
+                    <div class="row support">
+                        <h2>Support Facilities</h2>
+                        <p>
+                            Revenue provides a <a
+                                href="https://revenuehelpdesk.supatools.com/login.php">Help Desk</a> facility for software
+                            developers. To register for this facility go <a
+                                href="https://revenuehelpdesk.supatools.com/portal/revenueie/register.html">here</a>.
+                            <br/><br/>
+							Once registered with the Help Desk you can:<br/>
+                        <ul>
+                            
+                            <li>Get access to the Public Interface Testing facility for PAYE Modernisation</li>
+							<li>Raise technical issues encountered while validating your files using the PIT facility</li>
+							<li>Raise queries in relation to the PAYE Web Service Specifications, Supporting Documentation or PAYE Web Service Examples</li>
+                           
+                        </ul>
+						
+                                This documentation is served from Revenue's GitHub PAYE Modernisation repository, which
+                                can be found <a href="https://github.com/revenue-ie/paye-employers-documentation">here</a>.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </main>
-</div>
+    </div>
 </body>
 </html>
 	

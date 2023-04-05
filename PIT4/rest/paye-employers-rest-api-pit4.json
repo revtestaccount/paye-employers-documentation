@@ -1,14 +1,14 @@
 {
   "swagger": "2.0",
   "info": {
-    "description": "REST API to enable employers to request Revenue Payroll Notification (RPN) details and to submit details of payroll runs.",
+    "description": "REST API to enable employers to request Revenue Payroll Notification (RPN) details, submit details of Payroll runs, and submit details of Enhanced Reporting runs.",
     "version": "0.10",
     "title": "PAYE Employers REST API",
     "termsOfService": "",
     "contact": {
       "name": "PAYE Modernisation Schema Support",
       "url": "https://revenue-ie.github.io/paye-employers-documentation/",
-      "email": ""
+      "email": "payemodschemas_support@revenue.ie"
     }
   },
   "host": "softwaretestnextversion.ros.ie",
@@ -22,11 +22,101 @@
     {
       "name": "PAYE Employers RPN REST API"
     },
+	{
+    "name" : "PAYE Enhanced Reporting REST API"
+	},
     {
       "name": "Period Return REST API"
     }],
   "schemes": ["https"],
   "paths": {
+	"/enhanced_reporting" : {
+      "post" : {
+        "tags" : [ "PAYE Enhanced Reporting REST API" ],
+        "summary" : "Enhanced Reporting Submission Request",
+        "description" : "Employer's PAYE Enhanced Reporting Submission Request.",
+        "operationId" : "submitEmployerReportingSubmission",
+        "parameters" : [ {
+          "name" : "employerRegistrationNumber",
+          "in" : "path",
+          "description" : "Data Item Ref: 1. Employer's PAYE Registration Number.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "taxYear",
+          "in" : "path",
+          "description" : "Data Item Ref: 6. Used to identify the tax year to which the submission relates (YYYY).",
+          "required" : true,
+          "type" : "integer",
+          "format" : "int32"
+        }, {
+          "name" : "enhancedReportingRunReference",
+          "in" : "path",
+          "description" : "Data Item Ref: 4. Used to identify the Enhanced Reporting event to which the submission refers.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "submissionID",
+          "in" : "path",
+          "description" : "Data Item Ref: 3. Unique submission identifier. Must be unique for submissions under a given employer's PAYE registration number.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "agentTain",
+          "in" : "query",
+          "description" : "Data Item Ref: 2. Tax Advisor Identification Number. Required if submission filed by agent on behalf of employer.",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "name" : "softwareUsed",
+          "in" : "query",
+          "description" : "Name of third party software product.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "softwareVersion",
+          "in" : "query",
+          "description" : "Version of third party software product.",
+          "required" : true,
+          "type" : "string"
+        }, {
+          "name" : "",
+          "in" : "header",
+          "required" : false,
+          "type" : "string"
+        }, {
+          "in" : "body",
+          "name" : "body",
+          "required" : false,
+          "schema" : {
+            "$ref" : "#/definitions/EnhancedReportingSubmission"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "successful operation",
+            "schema" : {
+              "$ref" : "#/definitions/Enhanced ReportingSubmissionResult"
+            }
+          },
+          "400" : {
+            "description" : "Bad request. Invalid path, parameter or value supplied"
+          },
+          "401" : {
+            "description" : "Authentication is required or has failed"
+          },
+          "403" : {
+            "description" : "Insufficient permissions to process request"
+          },
+          "404" : {
+            "description" : "Resource not found"
+          },
+          "405" : {
+            "description" : "Request method is not supported for the requested resource"
+          }
+        }
+      }
+    },
     "/handshake": {
       "get": {
         "tags": ["PAYE Employers Handshake (Connection Test) REST API"],
@@ -818,6 +908,311 @@
       },
       "description": "Return the current status of an Employer's PAYE Payroll Submission. If processed, includes summary totals of valid payslips and validation errors for invalid payslips."
     },
+    "EnhancedReportingAddress" : {
+      "type" : "object",
+      "properties" : {
+        "addressLines" : {
+          "type" : "array",
+          "description" : "Data Item Ref: 12. The address will be Mandatory if the PPSN isn’t available. Line 1 of the employee's address is required.",
+          "items" : {
+            "$ref" : "#/definitions/AddressLine"
+          },
+          "maxItems" : 3,
+          "minItems" : 1
+        },
+        "county" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 12. County element of the employee's address (required).",
+          "minLength" : 0,
+          "maxLength" : 35
+        },
+        "eircode" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 12. Employee's Eircode (if known). Used for Irish addresses only.",
+          "minLength" : 7,
+          "maxLength" : 8,
+          "pattern" : "[A-Za-z0-9 ]*"
+        },
+        "countryCode" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 12. Country code element. Codes used at the International Standard for country codes ISO 3166 Alpha-3.",
+          "pattern" : "[A-Za-z]{3}"
+        }
+      },
+      "description" : "The address of the employee. This will be mandatory if the PPSN isn’t available."
+    },
+    "EnhancedReportingEmployeeID" : {
+      "type" : "object",
+      "required" : [ "employeePpsn", "employmentID" ],
+      "properties" : {
+        "employeePpsn" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 9. Employee's PPS Number.",
+          "minLength" : 8,
+          "maxLength" : 10,
+          "pattern" : "[0-9A-Za-z]*"
+        },
+        "employmentID" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 15. Employment ID. Unique identifier for each distinct employment for an employee. To be set by the employer.",
+          "minLength" : 0,
+          "maxLength" : 20,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        }
+      },
+      "description" : "Unique references to an employment for an employee. Includes PPSN and Employment ID."
+    },
+    "EnhancedReportingError" : {
+      "type" : "object",
+      "required" : [ "code", "description" ],
+      "properties" : {
+        "code" : {
+          "type" : "string",
+          "description" : "Technical Error Code - to be used for mapping to error messages.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "path" : {
+          "type" : "string",
+          "description" : "Path to error in schema, if available.",
+          "minLength" : 0,
+          "maxLength" : 500,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        },
+        "description" : {
+          "type" : "string",
+          "description" : "Technical description of error.",
+          "minLength" : 0,
+          "maxLength" : 500,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        }
+      },
+      "description" : "Details of validation check failure."
+    },
+    "EnhancedReportingName" : {
+      "type" : "object",
+      "required" : [ "familyName", "firstName" ],
+      "properties" : {
+        "firstName" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 10. The first name of the employee.",
+          "minLength" : 0,
+          "maxLength" : 100,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        },
+        "familyName" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 11. The surname/family name of the employee.",
+          "minLength" : 0,
+          "maxLength" : 100,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        }
+      },
+      "description" : "Employee Name."
+    },
+    "EnhancedReportingSubmission" : {
+      "type" : "object",
+      "properties" : {
+        "expensesBenefits" : {
+          "type" : "array",
+          "description" : "List of Expense Benefits that make up the Employer Enhanced Reporting Submission.",
+          "items" : {
+            "$ref" : "#/definitions/ExpenseBenefit"
+          }
+        },
+        "lineItemIDsToDelete" : {
+          "type" : "array",
+          "description" : "For correction submissions, this should include any line item IDs across the run to be deleted.",
+          "items" : {
+            "$ref" : "#/definitions/LineItemID"
+          }
+        }
+      },
+      "description" : "Employer's PAYE Enhanced Reporting Submission Request."
+    },
+    "EnhancedReportingSubmissionResult" : {
+      "type" : "object",
+      "required" : [ "acknowledgementStatus" ],
+      "properties" : {
+        "acknowledgementStatus" : {
+          "type" : "string",
+          "description" : "Acknowledgement status for Employer's PAYE Enhanced Reporting Submission Request. Possible values are Acknowledged or Rejected.",
+          "enum" : [ "ACKNOWLEDGED", "REJECTED" ]
+        },
+        "acknowledgementID" : {
+          "type" : "string",
+          "description" : "Unique ID for acknowledged requests - to be used for technical support if required.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "validationErrors" : {
+          "type" : "array",
+          "description" : "List of Submission Validation Errors (if any).",
+          "items" : {
+            "$ref" : "#/definitions/EnhancedReportingError"
+          }
+        },
+        "validationWarnings" : {
+          "type" : "array",
+          "description" : "List of Submission Validation Warnings (if any).",
+          "items" : {
+            "$ref" : "#/definitions/Warning"
+          }
+        }
+      },
+      "description" : "Acknowledges the receipt of an Employer's PAYE Enhanced Reporting Submission Request, or Validation Errors if validation failed."
+    },
+    "ExpenseBenefit" : {
+      "type" : "object",
+      "required" : [ "amount", "category", "lineItemID", "name", "paymentDate" ],
+      "properties" : {
+        "lineItemID" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 5. Used to uniquely identify individual line items.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "previousLineItemID" : {
+          "type" : "string",
+          "description" : "Data Item Ref: N/A. Used to identify a previous version of this line item when corrections are made. Can only reference line items within the same Enhanced Reporting Run.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "employeeID" : {
+          "$ref" : "#/definitions/EnhancedReportingEmployeeID"
+        },
+        "employerReference" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 14. Employee's internal staff identifier/reference. This will be mandatory if the PPSN isn’t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        },
+        "name" : {
+          "$ref" : "#/definitions/EnhancedReportingName"
+        },
+        "address" : {
+          "$ref" : "#/definitions/EnhancedReportingAddress"
+        },
+        "dateOfBirth" : {
+          "type" : "string",
+          "format" : "date",
+          "description" : "Data Item Ref: 13. Employee's Date of Birth - format DD/MM/YYYY. This will be Mandatory if the PPSN isn’t available."
+        },
+        "category" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 18. Category of Expense Benefit. Possible values are Travel and Subsistence, Remote Working Daily Allowance, Small Benefits Exemption.",
+          "enum" : [ "TRAVEL_AND_SUBSISTENCE", "REMOTE_WORKING_DAILY_ALLOWANCE", "SMALL_BENEFITS_EXEMPTION" ]
+        },
+        "subCategory" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 19. Subcategory of Expense Benefit. Will be mandatory if relevant category is selected. Possible values for Travel and Subsistence category are Travel Vouched, Travel Unvouched, Subsistence Vouched, Subsistence Unvouched, Site Based Employees, Emergency Travel, Eating on Site.",
+          "enum" : [ "TRAVEL_VOUCHED", "TRAVEL_UNVOUCHED", "SUBSISTENCE_VOUCHED", "SUBSISTENCE_UNVOUCHED", "SITE_BASED_EMPLOYEES", "EMERGENCY_TRAVEL", "EATING_ON_SITE" ]
+        },
+        "paymentDate" : {
+          "type" : "string",
+          "format" : "date",
+          "description" : "Data Item Ref: 16. Date employee is paid Expense Benefit (YYYY-MM-DD)."
+        },
+        "numberOfDays" : {
+          "type" : "integer",
+          "format" : "int32",
+          "description" : "Data Item Ref: 20. Number of Days. The total number of days for the Expense Benefit."
+        },
+        "amount" : {
+          "type" : "number",
+          "description" : "Data Item Ref: 17. Expense Benefit Amount. The total amount of the Expense Benefit.",
+          "minimum" : -9.99999999E8,
+          "maximum" : 9.9999999999E8
+        }
+      },
+      "description" : "Individual Expense Benefit details for Enhanced Reporting submission."
+    },
+    "ExpenseBenefitSubmissionStatus" : {
+      "type" : "object",
+      "required" : [ "status", "submissionID" ],
+      "properties" : {
+        "submissionID" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 3. Unique Submission ID of the Employer Enhanced Reporting Submission. Used to identify individual submissions.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "status" : {
+          "type" : "string",
+          "description" : "Data Item Ref: N/A. Current Status of Enhanced Reporting Submission. Possible values are Pending or Completed.",
+          "enum" : [ "PENDING", "PROCESSED", "COMPLETED", "DELETED", "INTERNALLY_DELETED" ]
+        },
+        "expenseBenefitSubmissionSummary" : {
+          "$ref" : "#/definitions/ExpenseBenefitSubmissionSummary"
+        }
+      },
+      "description" : "High Level details of the Expense Benefit Submissions that make up the Run."
+    },
+    "ExpenseBenefitSubmissionSummary" : {
+      "type" : "object",
+      "required" : [ "amount", "expensesBenefitsCount", "expensesBenefitsToDeleteCount" ],
+      "properties" : {
+        "amount" : {
+          "type" : "number",
+          "description" : "Data Item Ref: N/A. Total amount across valid line items on submission."
+        },
+        "expensesBenefitsCount" : {
+          "type" : "integer",
+          "format" : "int64",
+          "description" : "Data Item Ref: N/A. Total number of line items included on submission."
+        },
+        "expensesBenefitsToDeleteCount" : {
+          "type" : "integer",
+          "format" : "int64",
+          "description" : "Data Item Ref: N/A. Total number of Expense Benefit line item IDs for deletion included on submission."
+        }
+      },
+      "description" : "Summary totals for submission. Included when submission has completed processing."
+    },
+    "ExpenseBenefitSummary" : {
+      "type" : "object",
+      "required" : [ "amount", "category", "lineItemID" ],
+      "properties" : {
+        "lineItemID" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 5. Used to uniquely identify individual line items.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "employeeID" : {
+          "$ref" : "#/definitions/EnhancedReportingEmployeeID"
+        },
+        "employerReference" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 14. Employee's internal staff identifier/reference. This will be Mandatory if the PPSN isn’t available and must remain unchanged in all submissions received until the PPSN is available. Optional if PPSN is available.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
+        },
+        "category" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 18. Category of Expense Benefit. Possible values are Travel and Subsistence, Remote Working Daily Allowance, Small Benefits Exemption.",
+          "enum" : [ "TRAVEL_AND_SUBSISTENCE", "REMOTE_WORKING_DAILY_ALLOWANCE", "SMALL_BENEFITS_EXEMPTION" ]
+        },
+        "subCategory" : {
+          "type" : "string",
+          "description" : "Data Item Ref: 19. Subcategory of Expense Benefit. Will be mandatory if relevant category is selected. Possible values for Travel and Subsistence category are Travel Vouched, Travel Unvouched, Subsistence Vouched, Subsistence Unvouched, Site Based Employees, Emergency Travel, Eating on Site.",
+          "enum" : [ "TRAVEL_VOUCHED", "TRAVEL_UNVOUCHED", "SUBSISTENCE_VOUCHED", "SUBSISTENCE_UNVOUCHED", "SITE_BASED_EMPLOYEES", "EMERGENCY_TRAVEL", "EATING_ON_SITE" ]
+        },
+        "amount" : {
+          "type" : "number",
+          "description" : "Data Item Ref: 17. Total amount for this Expense Benefit on submission."
+        }
+      },
+      "description" : "Summary totals for an individual Expense Benefit in an Enhanced Reporting Submission or Run."
+    },
     "HandshakeResponse": {
       "type": "object",
       "required": ["connectionStatus"],
@@ -828,6 +1223,27 @@
         }
       },
       "description": "Acknowledges the receipt of an Employer's PAYE Handshake Request."
+    },
+	"InvalidExpenseBenefit" : {
+      "type" : "object",
+      "required" : [ "errors", "lineItemID" ],
+      "properties" : {
+        "lineItemID" : {
+          "type" : "string",
+          "description" : "LineItemID of the Expenses Benefits containing validation errors.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "errors" : {
+          "type" : "array",
+          "description" : "List of validation errors related to the Expenses Benefits.",
+          "items" : {
+            "$ref" : "#/definitions/EnhancedReportingError"
+          }
+        }
+      },
+      "description" : "List of Invalid Expenses Benefits (if any). Any in this list will not have been saved."
     },
     "InvalidPayslip": {
       "type": "object",
@@ -1077,7 +1493,7 @@
       },
       "description": "Employer's New RPN Response. Will either return RPN detail or details of validation errors."
     },
-    "OtherPayments": {
+	"OtherPayments": {
       "type": "object",
       "required": ["paymentCode"],
       "properties": {
@@ -2114,7 +2530,27 @@
           "pattern": "[A-Za-z0-9áéíóúÁÉÍÓÚ =_^,~!/'@:;£€$#%&\"'<>\\\\.*()\\[\\]{}+-?|]*"
         }
       },
-      "description": "List of validation warnings related to the payslip."
+      "description": "Details of validation check warning."
+    },
+	"WarningExpenseBenefit" : {
+      "type" : "object",
+      "required" : [ "lineItemID", "warnings" ],
+      "properties" : {
+        "lineItemID" : {
+          "type" : "string",
+          "description" : "LineItemID of the Expense Benefit containing validation warnings.",
+          "minLength" : 0,
+          "maxLength" : 50,
+          "pattern" : "[A-Za-z0-9_\\-]*"
+        },
+        "warnings" : {
+          "type" : "array",
+          "items" : {
+            "$ref" : "#/definitions/Warning"
+          }
+        }
+      },
+      "description" : "Validation warning identified at Expense Benefit/Line Item Level."
     }
   }
 }
