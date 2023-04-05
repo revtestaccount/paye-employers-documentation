@@ -1031,7 +1031,7 @@
       },
       "description" : "Employer's PAYE Enhanced Reporting Submission Request."
     },
-    "EnhancedReportingSubmissionResult" : {
+    "Enhanced ReportingSubmissionResult" : {
       "type" : "object",
       "required" : [ "acknowledgementStatus" ],
       "properties" : {

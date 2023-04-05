@@ -1347,16 +1347,16 @@
 				"anchor": "ERR REST Open API Specification",
 				"type": "API File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "5/04/2023",
 				"category": "download"
 			},
 			{
 				"link": "PIT4/rest/paye-employers-rest-api-pit4.html",
 				"description": "REST API Reference",
-				"anchor": "ERR REST API Ref",
+				"anchor": "REST_API_Ref",
 				"type": "LINK",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "25/06/2019",
+				"dateLastUpdated": "05/04/2023",
 				"category": "LINK"
 			}
 		]
