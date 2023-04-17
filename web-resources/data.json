@@ -614,7 +614,7 @@
 				"anchor": "PAYE_Types_Schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "08/01/2019",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
@@ -623,7 +623,7 @@
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "25/01/2022",
+				"dateLastUpdated": "20/04/2023",
 				"category": "navigation"
 			},
 			{
@@ -632,7 +632,7 @@
 				"anchor": "SOAP_integration_guide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "18/02/2022",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
@@ -737,7 +737,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"environment": "PIT Next Version",
-			"dateLastUpdated": "18/02/2022",
+			"dateLastUpdated": "06/04/2023",
 			"category": "download"
 		},
 			{
@@ -746,7 +746,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "25/01/2022",
+				"dateLastUpdated": "06/04/2023",
 				"category": "navigation"
 			},
 			{
@@ -755,7 +755,7 @@
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "09/04/2019",
+				"dateLastUpdated": "06/04/2023",
 				"category": "download"
 			},
 			{
@@ -1365,25 +1365,25 @@
 				"anchor": "SOAP_integration_guide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "18/02/2022",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
-				"link": "PIT4/soap/v1/PIT4/soap/v1/payroll_pit4.wsdl",
+				"link": "PIT4/soap/v1/enhanced_reporting_pit4.wsdl",
 				"description": "ERR Web Service Definition",
 				"anchor": "ERR_Web_Service_Definition",
 				"type": "WSDL File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "24/05/2018",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
-				"link": "PIT4/soap/v1/common/paye-types-pit4.xsd",
+				"link": "PIT4/soap/v1/enhanced_reporting/enhanced_reporting-schema-pit4.xsd",
 				"description": "Enhanced Reporting Schema",
 				"anchor": "Enhanced_Reporting_Schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "08/01/2019",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
@@ -1392,7 +1392,7 @@
 				"anchor": "PAYE_Types_Schema",
 				"type": "Schema",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "08/01/2019",
+				"dateLastUpdated": "20/04/2023",
 				"category": "download"
 			},
 			{
@@ -1401,7 +1401,7 @@
 				"anchor": "SOAP_Schema_Reference",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "25/01/2022",
+				"dateLastUpdated": "20/04/2023",
 				"category": "navigation"
 			}
 		]
