@@ -1288,6 +1288,15 @@
 		"class": "section-title",
 		"cards": [
 			{
+				"link": "https://www.revenue.ie/en/employing-people/becoming-an-employer-and-ongoing-obligations/reporting-jan-2024/index.aspx",
+				"description": "Enhanced Reporting Requirements Overview",
+				"anchor": "Enhanced Reporting Requirements Overview",
+				"type": "Link",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "12/04/2023",
+				"category": "link"
+			},
+			{
 				"link": "PIT4/soap/v1/handshake_pit4.wsdl",
 				"description": "Handshake Web Service Definition",
 				"anchor": "Handshake_WSDL",
