@@ -2,8 +2,8 @@
 <!--Document History:
 ======== Version 0.1 ====================================
 i. Document Created 22/02/2023
--->
 
+-->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:pp="http://www.ros.ie/schemas/paye-employers/err/v1/enhanced_reporting/"
 		   xmlns:pc="http://www.ros.ie/schemas/paye-employers/v1/common/"
 		   xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning"

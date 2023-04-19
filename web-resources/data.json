@@ -1403,15 +1403,6 @@
 				"environment": "PIT Next Version",
 				"dateLastUpdated": "20/04/2023",
 				"category": "download"
-			},
-			{
-				"link": "PIT4/soap/soap-schema-reference/webframe.html",
-				"description": "SOAP Schema Reference",
-				"anchor": "SOAP_Schema_Reference",
-				"type": "Link",
-				"environment": "PIT Next Version",
-				"dateLastUpdated": "20/04/2023",
-				"category": "navigation"
 			}
 		]
 	}

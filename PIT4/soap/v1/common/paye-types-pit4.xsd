@@ -104,6 +104,7 @@ vi. Document updated on 22/02/2023:
 	</xs:simpleType>
 
 
+
 	<!-- PMOD Specific - Simple Types -->
 	<xs:simpleType name="requestID">
 		<xs:restriction base="pc:IDString"/>
@@ -179,6 +180,7 @@ vi. Document updated on 22/02/2023:
 	</xs:simpleType>
 
 
+
 	<!-- ERR PAYE Specific Simple Types-->
 	<xs:simpleType name="enhancedReportingRunReference">
 		<xs:restriction base="pc:IDString">
@@ -228,6 +230,9 @@ vi. Document updated on 22/02/2023:
 	</xs:simpleType>
 
 
+
+
+
 	<!--Validation - Simple Types -->
 	<xs:simpleType name="errorCode">
 		<xs:restriction base="pc:IDString"/>
@@ -248,7 +253,9 @@ vi. Document updated on 22/02/2023:
 		<xs:restriction base="pc:longString"/>
 	</xs:simpleType>
 
-	
+
+
+
 	<!-- Common Default - Simple Types -->
 	<xs:simpleType name="defaultString">
 		<xs:restriction base="pc:longString">
