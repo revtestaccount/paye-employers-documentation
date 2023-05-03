@@ -377,7 +377,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "25/01/2022",
+				"dateLastUpdated": "04/05/2023",
 				"category": "download"
 			},
 			{
@@ -632,7 +632,7 @@
 				"anchor": "SOAP_integration_guide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "20/04/2023",
+				"dateLastUpdated": "04/05/2023",
 				"category": "download"
 			},
 			{
@@ -737,7 +737,7 @@
 			"anchor": "REST_API_Spec",
 			"type": "API File",
 			"environment": "PIT Next Version",
-			"dateLastUpdated": "06/04/2023",
+			"dateLastUpdated": "04/05/2023",
 			"category": "download"
 		},
 			{
@@ -746,7 +746,7 @@
 				"anchor": "REST_API_Ref",
 				"type": "Link",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "06/04/2023",
+				"dateLastUpdated": "04/05/2023",
 				"category": "navigation"
 			},
 			{
@@ -755,7 +755,7 @@
 				"anchor": "REST_Integration_Guide",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "06/04/2023",
+				"dateLastUpdated": "04/05/2023",
 				"category": "download"
 			},
 			{
@@ -764,7 +764,7 @@
 				"anchor": "REST_Integration_Guide_Sample_Messages",
 				"type": "ZIP",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "14/12/2018",
+				"dateLastUpdated": "04/05/2018",
 				"category": "download"
 			},
 			{
