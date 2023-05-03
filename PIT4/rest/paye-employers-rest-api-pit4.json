@@ -291,8 +291,8 @@
 "/ern/{employerRegistrationNumber}/{taxYear}":{
 "get" : {
 "tags" : [ "PAYE Enhanced Reporting Notification REST API" ],
-"summary" : "Look Up ERN and optionally filter by date last updated and/or employeeIDs or PPSNs",
-"description" : "Request to get an ERN Registration Number.",
+"summary" : "Look Up ERN Request",
+"description" : "Request to get an ERN by PPSN.",
 "operationId" : "lookUpERN",
 "parameters" : [ {
 "name" : "employerRegistrationNumber",
@@ -303,7 +303,7 @@
 }, {
 "name" : "taxYear",
 "in" : "path",
-"description" : "The tax year to which the RPN lookup relates (YYYY).",
+"description" : "The tax year to which the ERN lookup relates (YYYY).",
 "required" : true,
 "type" : "integer",
 "format" : "int32"
@@ -328,7 +328,7 @@
 }, {
 "name" : "ppsns",
 "in" : "query",
-"description" : "Look up RPN by PPSN. Required parameter",
+"description" : "Look up ERN by PPSN. Required parameter",
 "required" : true,
 "type" : "array",
 "items" : {
