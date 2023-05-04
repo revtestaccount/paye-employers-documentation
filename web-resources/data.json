@@ -1342,6 +1342,15 @@
 				"category": "download"
 			},
 			{
+				"link": "PIT4/data-items/Enhanced Reporting Validation Rules.xlsx",
+				"description": "Enhanced Reporting Validation Rules",
+				"anchor": "PAYE_Types_Schema",
+				"type": "Excel File",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "04/05/2023",
+				"category": "download"
+			},
+			{
 				"link":"PIT4/rest/REST_Web_Service_Integration_Guide.pdf",
 				"description":"REST Web Service Integration Guide",
 				"anchor":"REST Web Service Integration Guide",
