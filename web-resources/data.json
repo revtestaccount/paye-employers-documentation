@@ -1475,7 +1475,7 @@
 		"class": "section-title",
 		"cards": [
 			{
-				"link": "PIT4/ERR-examples/Enhanced Reporting Requirements - Overview of Web Service Examples.pdf",
+				"link": "PIT4/examples/Enhanced Reporting Requirements - Overview of Web Service Examples.pdf",
 				"description": "Enhanced Reporting Requirements - Overview of Web Service Examples",
 				"anchor": "Overview_Of_Web_Service_Examples",
 				"type": "PDF",
@@ -1484,7 +1484,7 @@
 				"category": "download"
 			},
 			{
-				"link": "PIT4/ERR-examples/Example 1_Full_ERR_Life_Cycle.zip",
+				"link": "PIT4/examples/Example 1_Full_ERR_Life_Cycle.zip",
 				"description": "Example 1: Full ERR Life Cycle",
 				"anchor": "Example_1",
 				"type": "ZIP File",
@@ -1493,7 +1493,7 @@
 				"category": "download"
 			},
 			{
-				"link": "PIT4/ERR-examples/Example 2_Overpayment_Correction.zip",
+				"link": "PIT4/examples/Example 2_Overpayment_Correction.zip",
 				"description": "Example 2: Overpayment Correction",
 				"anchor": "Example_2",
 				"type": "ZIP File",
@@ -1502,7 +1502,7 @@
 				"category": "download"
 			},
 			{
-				"link": "PIT4/ERR-examples/Example 3_Underpayment_Correction.zip",
+				"link": "PIT4/examples/Example 3_Underpayment_Correction.zip",
 				"description": "Example 3: Underpayment Correction",
 				"anchor": "Example_3",
 				"type": "ZIP File",
@@ -1511,7 +1511,7 @@
 				"category": "download"
 			},
 			{
-				"link": "PIT4/ERR-examples/Example 4_Amendment_of_Incorrect_ERR_Submission.zip",
+				"link": "PIT4/examples/Example 4_Amendment_of_Incorrect_ERR_Submission.zip",
 				"description": "Example 4: Amendment of Incorrect ERR Submission",
 				"anchor": "Example_4",
 				"type": "ZIP File",
@@ -1520,7 +1520,7 @@
 				"category": "download"
 			},
 			{
-				"link": "PIT4/ERR-examples/Screen_Upload_Examples.zip",
+				"link": "PIT4/examples/Screen_Upload_Examples.zip",
 				"description": "ERR Screen Upload Examples",
 				"anchor": "Screen_Upload_Examples",
 				"type": "ZIP File",
