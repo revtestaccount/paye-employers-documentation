@@ -1473,7 +1473,8 @@
 		"title": "ERR Examples PIT Next Version",
 		"anchor": "examples",
 		"class": "section-title",
-		"cards": [{
+		"cards": [
+			{
 				"link": "PIT4/ERR-examples/Enhanced Reporting Requirements - Overview of Web Service Examples.pdf",
 				"description": "Enhanced Reporting Requirements - Overview of Web Service Examples",
 				"anchor": "Overview_Of_Web_Service_Examples",
