@@ -377,7 +377,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "06/09/2023",
+				"dateLastUpdated": "20/09/2023",
 				"category": "download"
 			},
 			{
@@ -1520,12 +1520,21 @@
 				"category": "download"
 			},
 			{
+				"link": "PIT4/examples/ERR_Scenarios.zip",
+				"description": "ERR Example Scenarios",
+				"anchor": "ERR_Scenarios",
+				"type": "ZIP File",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "20/09/2023",
+				"category": "download"
+			},
+			{
 				"link": "PIT4/examples/Screen_Upload_Examples.zip",
 				"description": "ERR Screen Upload Examples",
 				"anchor": "Screen_Upload_Examples",
 				"type": "ZIP File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "16/08/2023",
+				"dateLastUpdated": "20/09/2023",
 				"category": "download"
 			}
 
