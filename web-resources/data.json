@@ -344,7 +344,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "27/02/2024",
+				"dateLastUpdated": "28/02/2024",
 				"category": "download"
 			},
 			{
@@ -377,7 +377,7 @@
 				"anchor": "Schema_Publication_Changelog",
 				"type": "XLSX",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "10/01/2024",
+				"dateLastUpdated": "29/02/2024",
 				"category": "download"
 			},
 			{
@@ -1498,7 +1498,7 @@
 				"anchor": "ERR Enhanced Reporting Submission Request: Data Items",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "19/07/2023",
+				"dateLastUpdated": "29/02/2024",
 				"category": "download"
 			},
 			{
@@ -1516,7 +1516,7 @@
 				"anchor": "ERR Enhanced Reporting Request Monthly Report: Data Items",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "19/07/2023",
+				"dateLastUpdated": "28/02/2024",
 				"category": "download"
 			},
 			{
@@ -1525,7 +1525,7 @@
 				"anchor": "Enhanced Reporting Validation Rules",
 				"type": "Excel File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "10/01/2024",
+				"dateLastUpdated": "28/02/2024",
 				"category": "download"
 			},
 			{
@@ -1703,7 +1703,7 @@
 				"anchor": "Screen_Upload_Examples",
 				"type": "ZIP File",
 				"environment": "PIT Current Version",
-				"dateLastUpdated": "27/02/2024",
+				"dateLastUpdated": "28/02/2024",
 				"category": "download"
 			},
 			{
@@ -1784,7 +1784,7 @@
 				"anchor": "Screen_Upload_Examples",
 				"type": "ZIP File",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "10/01/2024",
+				"dateLastUpdated": "28/02/2024",
 				"category": "download"
 			},
 			{
