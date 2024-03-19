@@ -1730,7 +1730,7 @@
 				"anchor": "Overview_Of_Web_Service_Examples",
 				"type": "PDF",
 				"environment": "PIT Next Version",
-				"dateLastUpdated": "17/08/2023",
+				"dateLastUpdated": "14/03/2024",
 				"category": "download"
 			},
 			{
@@ -1767,6 +1767,14 @@
 				"type": "ZIP File",
 				"environment": "PIT Next Version",
 				"dateLastUpdated": "17/08/2023",
+				"category": "download"
+			},{
+				"link": "PIT4/examples/Example 5_New Sub_Category_ADVANCE_PAYMENT.zip",
+				"description": "Example 5 : New Sub Category - ADVANCE PAYMENT",
+				"anchor": "Example_5",
+				"type": "ZIP File",
+				"environment": "PIT Next Version",
+				"dateLastUpdated": "14/03/2024",
 				"category": "download"
 			},
 			{
