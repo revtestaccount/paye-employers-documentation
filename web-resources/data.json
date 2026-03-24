@@ -58,6 +58,15 @@
         "environment": "PIT Next Version",
         "dateLastUpdated": "29/05/2020",
         "category": "download"
+      },
+      {
+        "link": "PIT/PIT Cert Permissions.pdf",
+        "description": "Certificate Types in PIT",
+        "anchor": "CertTypes",
+        "type": "PDF",
+        "environment": "All Versions",
+        "dateLastUpdated": "24/03/2026",
+        "category": "download"
       }
     ]
   },
@@ -357,15 +366,6 @@
         "environment": "PIT Current Version",
         "dateLastUpdated": "14/12/2018",
         "category": "download"
-      },
-      {
-        "link": "PIT/PIT Cert Permissions.pdf",
-        "description": "Certificate Types in PIT",
-        "anchor": "CertTypes",
-        "type": "PDF",
-        "environment": "PIT Current Version",
-        "dateLastUpdated": "06/03/2026",
-        "category": "download"
       }
     ]
   },
@@ -399,15 +399,6 @@
         "type": "PDF",
         "environment": "PIT Next Version",
         "dateLastUpdated": "14/12/2018",
-        "category": "download"
-      },
-      {
-        "link": "PIT/PIT Cert Permissions.pdf",
-        "description": "Certificate Types in PIT",
-        "anchor": "CertTypes",
-        "type": "PDF",
-        "environment": "PIT Next Version",
-        "dateLastUpdated": "06/03/2026",
         "category": "download"
       }
     ]
